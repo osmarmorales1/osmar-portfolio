@@ -78,9 +78,11 @@ export const publicCareer = [
 
 export const publicStack = [
   {
-    context: 'Enterprise experience',
+    context: 'AI and platform engineering',
     themes: [
-      'AI platform enablement',
+      'AI-native team enablement',
+      'Agent orchestration and reusable workflows',
+      'Shared context and collective learning',
       'Public cloud, private cloud and on-premises delivery',
       'MLOps',
       'Governed tools',
@@ -93,7 +95,7 @@ export const publicStack = [
       'Virtual machines',
       'Storage services',
       'Load balancing and DNS',
-      'Day-2 operations',
+      'Agent evaluation and tracing',
       'Docker',
       'MCP',
       'RAG',
@@ -180,10 +182,10 @@ export const machineProfile = {
       publicShowcase: 'https://github.com/osmarmorales1/ai-platform-showcase',
     },
     education: profile.education,
-    languages: ['English', 'Spanish'],
+    languages: profile.languages,
   },
   story:
-    'Osmar builds AI-native teams. At Visa, he created Agent Factory to turn business workflows, collective knowledge and distributed compute into shared capability, enabling 3× delivery pace with the same resources. V Agent simplifies delegation; VCA Brain preserves business memory; the AI Loop grows reusable skills from collective learning. Elygent is his separate independent platform.',
+    'Osmar creates AI-native teams and agent platforms that scale productivity and efficiency. His work connects reusable workflows, shared knowledge and distributed execution behind interfaces people can use. Professional case studies demonstrate team transformation, adoption and measurable delivery results. Elygent is his independent platform for building and testing these capabilities.',
   aspirations: ['Principal AI Platform Engineer', 'Senior Director', 'VP'],
   experience: publicCareer,
   milestones: [

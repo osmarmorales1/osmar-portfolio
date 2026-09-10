@@ -13,6 +13,13 @@ import {
 } from '../lib/infrastructure-data.ts';
 const records = [
   {
+    id: 'languages',
+    title: 'Languages',
+    text: profile.languages.join('; '),
+    source:
+      'Candidate correction, September 10, 2026. Portuguese is beginner level; no CEFR rating was supplied.',
+  },
+  {
     id: 'visa-ai-native-transformation',
     title: 'Agent Factory transformation and corrected role dates',
     text: visaPlatformEvidence,
@@ -103,7 +110,7 @@ await writeFile(
 await writeFile(
   new URL('../public/portfolio-evidence.json', import.meta.url),
   JSON.stringify(
-    { version: '2026-09-10-v13', records, limits: records.at(-1).text },
+    { version: '2026-09-10-v16', records, limits: records.at(-1).text },
     null,
     2,
   ) + '\n',

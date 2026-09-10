@@ -59,23 +59,23 @@ const career = [
 const groups = {
   visa: [
     [
-      'Agent platforms',
-      'Python · Docker · MCP · APIs · RAG · Model routing',
+      'Agent engineering',
+      'Multi-agent systems · Long-running execution · Model routing · Evaluation',
       Network,
     ],
     [
-      'Data & MLOps',
-      'Spark · Hadoop / Hive · MLflow · Feast · Deequ',
+      'Context & skills',
+      'Shared memory · RAG · Reusable workflows · MCP',
       Database,
     ],
     [
-      'Cloud and on-premises delivery',
-      'Kubernetes · Containers · VMs · Storage · Load balancing · DNS',
+      'Distributed AI',
+      'Cloud · On-premises · Windows VDI · Kubernetes · Docker',
       Server,
     ],
     [
-      'Delivery & operations',
-      'GitHub · Jenkins · Azure DevOps · Unix · Day 2',
+      'Data & MLOps',
+      'Python · SQL · Spark · MLflow · Feature management · CI/CD',
       Workflow,
     ],
     [
@@ -208,7 +208,7 @@ export default function CareerStack() {
                 <strong>Experience connected to outcomes.</strong>
               </p>
               <TabsList aria-label="Technology context">
-                <TabsTrigger value="visa">Visa</TabsTrigger>
+                <TabsTrigger value="visa">AI engineering</TabsTrigger>
                 <TabsTrigger value="elygent">Elygent</TabsTrigger>
                 <TabsTrigger value="sandbox">This sandbox</TabsTrigger>
               </TabsList>

@@ -6,7 +6,7 @@
       "id": "factory",
       "name": "Agent Factory",
       "context": "VISA · ENTERPRISE AI",
-      "ownership": "Created and operate Agent Factory: V Agent provides one orchestration interface, VCA Brain shares business memory, and an AI Loop turns recurring work into reusable skills and runtime recommendations. Connect Buzz, Paperclip, the OpenClaw assistant and cloud agents through on-premises orchestration across local, remote, cloud and Windows VDI execution.",
+      "ownership": "Created and operate Agent Factory: V Agent, Visa’s super agent, packages agents and connects platforms, surfaces and tools behind one simple interface. VCA Brain shares business memory, and an AI Loop turns recurring work into reusable skills and runtime recommendations. Connect Buzz, Paperclip, the OpenClaw assistant and cloud agents through on-premises orchestration across local, remote, cloud and Windows VDI execution.",
       "decisions": [
         "Capture business workflows as skills; learn from recurring patterns and recommend relevant skills at runtime.",
         "Use VCA Brain to share project context and observations so teams build on collective knowledge.",

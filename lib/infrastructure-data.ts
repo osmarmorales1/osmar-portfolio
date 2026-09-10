@@ -38,9 +38,9 @@ export const privateCloudPillars = [
     name: 'Operations',
     short: 'Operate + improve',
     title: 'Plan for the work after deployment.',
-    technologies: ['Monitoring', 'Upgrades', 'Recovery / Day 2'],
+    technologies: ['Observability', 'Recovery', 'Continuous improvement'],
     description:
-      'Day-2 operations means running and improving a deployed platform: monitoring, upgrades, recovery, backups and capacity.',
+      'Make execution observable, recover from failures, and use feedback to improve reliability as the platform grows.',
     consideration: 'Reliability, recovery and lifecycle decisions.',
   },
 ] as const;

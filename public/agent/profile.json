@@ -17,10 +17,11 @@
     "education": "BBA, Finance; Mathematics minor, Florida International University, 2015. AA, Mathematics, Miami Dade College, 2008. Harvard Extension School professional development, 2018–2020.",
     "languages": [
       "English",
-      "Spanish"
+      "Spanish",
+      "Portuguese (beginner)"
     ]
   },
-  "story": "Osmar builds AI-native teams. At Visa, he created Agent Factory to turn business workflows, collective knowledge and distributed compute into shared capability, enabling 3× delivery pace with the same resources. V Agent simplifies delegation; VCA Brain preserves business memory; the AI Loop grows reusable skills from collective learning. Elygent is his separate independent platform.",
+  "story": "Osmar creates AI-native teams and agent platforms that scale productivity and efficiency. His work connects reusable workflows, shared knowledge and distributed execution behind interfaces people can use. Professional case studies demonstrate team transformation, adoption and measurable delivery results. Elygent is his independent platform for building and testing these capabilities.",
   "aspirations": [
     "Principal AI Platform Engineer",
     "Senior Director",
@@ -125,7 +126,7 @@
       "id": "factory",
       "name": "Agent Factory",
       "context": "VISA · ENTERPRISE AI",
-      "ownership": "Created and operate Agent Factory: V Agent provides one orchestration interface, VCA Brain shares business memory, and an AI Loop turns recurring work into reusable skills and runtime recommendations. Connect Buzz, Paperclip, the OpenClaw assistant and cloud agents through on-premises orchestration across local, remote, cloud and Windows VDI execution.",
+      "ownership": "Created and operate Agent Factory: V Agent, Visa’s super agent, packages agents and connects platforms, surfaces and tools behind one simple interface. VCA Brain shares business memory, and an AI Loop turns recurring work into reusable skills and runtime recommendations. Connect Buzz, Paperclip, the OpenClaw assistant and cloud agents through on-premises orchestration across local, remote, cloud and Windows VDI execution.",
       "decisions": [
         "Capture business workflows as skills; learn from recurring patterns and recommend relevant skills at runtime.",
         "Use VCA Brain to share project context and observations so teams build on collective knowledge.",
@@ -167,9 +168,11 @@
   ],
   "stack": [
     {
-      "context": "Enterprise experience",
+      "context": "AI and platform engineering",
       "themes": [
-        "AI platform enablement",
+        "AI-native team enablement",
+        "Agent orchestration and reusable workflows",
+        "Shared context and collective learning",
         "Public cloud, private cloud and on-premises delivery",
         "MLOps",
         "Governed tools",
@@ -182,7 +185,7 @@
         "Virtual machines",
         "Storage services",
         "Load balancing and DNS",
-        "Day-2 operations",
+        "Agent evaluation and tracing",
         "Docker",
         "MCP",
         "RAG",
@@ -296,11 +299,11 @@
         "short": "Operate + improve",
         "title": "Plan for the work after deployment.",
         "technologies": [
-          "Monitoring",
-          "Upgrades",
-          "Recovery / Day 2"
+          "Observability",
+          "Recovery",
+          "Continuous improvement"
         ],
-        "description": "Day-2 operations means running and improving a deployed platform: monitoring, upgrades, recovery, backups and capacity.",
+        "description": "Make execution observable, recover from failures, and use feedback to improve reliability as the platform grows.",
         "consideration": "Reliability, recovery and lifecycle decisions."
       }
     ],
@@ -327,7 +330,7 @@
       {
         "id": "v-agent",
         "title": "V Agent: one way to delegate",
-        "text": "Built V Agent (Visa Agents) as a super-agent orchestration and simplification layer across the deployed Buzz collaboration workspace, Paperclip, cloud agents and OpenClaw assistant instances. Business users can delegate through a familiar interface without managing the underlying runtimes."
+        "text": "Built V Agent, Visa’s super agent; V stands for Visa. It packages agents and connects deployed platforms, surfaces and tools through one simplification layer. It orchestrates across Buzz, Paperclip, cloud agents and OpenClaw assistant instances, giving business users one simple way to delegate without managing the underlying systems. This definition was explicitly corrected by Osmar on September 10, 2026."
       },
       {
         "id": "vca-brain",

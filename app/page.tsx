@@ -369,7 +369,7 @@ export default function Home() {
               </span>
               <span className="hero-identity-text">
                 <strong>Osmar Morales</strong>
-                <span>Director at Visa</span>
+                <span>AI platform leader</span>
               </span>
               <ChevronDown size={13} />
             </a>
@@ -379,7 +379,7 @@ export default function Home() {
               AI-native teams.
             </h1>
             <p className="hero-lead">
-              Agent Factory at Visa. 3× delivery pace. Same resources.
+              Agents that scale productivity. Platforms people can use.
             </p>
             <div className="hero-actions">
               <a
@@ -403,13 +403,12 @@ export default function Home() {
             </a>
             <div>
               <p>
-                <strong>One platform. A shared advantage.</strong> Agent
-                Factory combines reusable skills, business memory, and
-                distributed agents.
+                <strong>One platform. A shared advantage.</strong> I connect
+                reusable skills, shared business memory, and distributed agents.
               </p>
               <p>
-                <strong>Built for people to use.</strong> V Agent makes
-                delegation simple. Elygent is my independent proving ground.
+                <strong>Built for people to use.</strong> One simple way to
+                delegate work. Elygent is my independent proving ground.
               </p>
               <button
                 className="black-pill intro-cloud-action"

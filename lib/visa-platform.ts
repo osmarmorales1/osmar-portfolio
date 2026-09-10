@@ -23,7 +23,7 @@ export const visaPlatform = {
     {
       id: 'v-agent',
       title: 'V Agent: one way to delegate',
-      text: 'Built V Agent (Visa Agents) as a super-agent orchestration and simplification layer across the deployed Buzz collaboration workspace, Paperclip, cloud agents and OpenClaw assistant instances. Business users can delegate through a familiar interface without managing the underlying runtimes.',
+      text: 'Built V Agent, Visa’s super agent; V stands for Visa. It packages agents and connects deployed platforms, surfaces and tools through one simplification layer. It orchestrates across Buzz, Paperclip, cloud agents and OpenClaw assistant instances, giving business users one simple way to delegate without managing the underlying systems. This definition was explicitly corrected by Osmar on September 10, 2026.',
     },
     {
       id: 'vca-brain',
