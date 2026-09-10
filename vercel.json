@@ -1,0 +1,19 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "framework": null,
+  "rewrites": [
+    {
+      "source": "/api/portfolio",
+      "destination": "/agent/profile.json"
+    },
+    {
+      "source": "/api/portfolio/projects",
+      "destination": "/agent/projects.json"
+    },
+    {
+      "source": "/api/portfolio/experience",
+      "destination": "/agent/experience.json"
+    }
+  ]
+}

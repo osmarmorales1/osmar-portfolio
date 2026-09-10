@@ -1,0 +1,33 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "dateModified": "2026-09-10",
+  "mainEntity": {
+    "@type": "Person",
+    "@id": "https://osmarmorales.io/#osmar",
+    "name": "Osmar Morales",
+    "image": "https://osmarmorales.io/v8/osmar-morales.png",
+    "url": "https://osmarmorales.io/",
+    "jobTitle": "Director, AI Agent Platform at Visa",
+    "description": "From finance and executive analytics to data engineering and AI platforms. Osmar connects enterprise AI, public/private cloud and on-premises foundations, technical judgment and frontier learning so entire teams can use new capabilities. Elygent is one independent project demonstrating that approach.",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Visa"
+    },
+    "sameAs": [
+      "https://www.linkedin.com/in/osmarmorales/",
+      "https://github.com/osmarmorales1"
+    ],
+    "knowsAbout": [
+      "AI platforms",
+      "Private cloud",
+      "AI factory architecture",
+      "Kubernetes and container workloads",
+      "Data engineering",
+      "MLOps",
+      "Agent orchestration",
+      "Technical leadership",
+      "Human-agent collaboration"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+# Osmar Morales
+
+> AI platform leader at Visa. I bring teams to the AI frontier.
+
+Public professional evidence, current September 2026. Career claims are candidate-provided. Elygent is an independent project, not the subject of this personal portfolio.
+
+## Structured interfaces
+- [Complete profile](https://osmarmorales.io/api/portfolio): identity, career, ownership, outcomes, stack and provenance.
+- [Projects](https://osmarmorales.io/api/portfolio/projects): enterprise and independent work, clearly distinguished.
+- [Experience](https://osmarmorales.io/api/portfolio/experience): formal dates and separate initiative milestones.
+- [OpenAPI](https://osmarmorales.io/openapi.json): read-only API contract.
+- [Documentation](https://osmarmorales.io/agents.html)
+
+## Human-readable evidence
+- [Resume](https://osmarmorales.io/Osmar_Morales_Mastercard_Resume.pdf)
+- [Public evidence](https://osmarmorales.io/portfolio-evidence.txt)
+- [LinkedIn](https://www.linkedin.com/in/osmarmorales/)
+- [GitHub](https://github.com/osmarmorales1)
+
+## Evidence boundaries
+- Career outcomes are candidate-provided, not an independent employer audit.
+- Elygent is an independent development pilot; Visa adoption figures do not apply to it.
+- Private-cloud evidence supports service use and application delivery, not ownership of every catalog service. Shared Buzz compute remains exploration.
+- The supplied record does not establish GPU-fleet, facilities, RFP or infrastructure-budget ownership.
+- Education is Finance with a Mathematics minor; no engineering degree is claimed.
+- Capacity controls are hypothetical design exercises, not production telemetry.
+- The public sandbox cannot access private accounts, gateways, knowledge or payment credentials.
+
+## Browser tools
+WebMCP is exposed through document.modelContext when supported: portfolio_get_profile, portfolio_get_evidence, portfolio_estimate_capacity. Capacity results are hypothetical lower bounds. The native guest sandbox is separate, browser-session scoped and resource limited; the API above does not provide private tools or model credentials.

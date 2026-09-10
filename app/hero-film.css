@@ -1,0 +1,348 @@
+/* Isolated app-film styles. Import after the portfolio's other style sheets. */
+.hero-film {
+  position: relative;
+  width: 100%;
+  min-width: 0;
+  margin: 0;
+  color: #25272a;
+}
+.hero-film-viewport {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1416 / 1111;
+  overflow: hidden;
+  isolation: isolate;
+  border-radius: 22px;
+  background: #fff;
+  contain: paint;
+}
+.hero-film-camera {
+  position: absolute;
+  inset: 0;
+  transform: translate3d(var(--hf-x, 0%), var(--hf-y, 0%), 0)
+    scale(var(--hf-scale, 1));
+  transform-origin: 50% 50%;
+}
+.hero-film[data-playing='true'] .hero-film-camera {
+  will-change: transform;
+}
+.hero-film-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  object-fit: contain;
+  user-select: none;
+  pointer-events: none;
+}
+.hero-film-chat {
+  position: absolute;
+  left: 25.9%;
+  right: 5.15%;
+  top: 9.45%;
+  bottom: 7.25%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border: 1px solid #e2e6e9;
+  border-radius: 12px;
+  background: linear-gradient(145deg, #ffffff 58%, #f9fafb);
+  opacity: var(--hf-chat-opacity, 0);
+  transform: translateY(var(--hf-chat-y, 0px));
+  pointer-events: none;
+}
+.hero-film-chat-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 20px 24px;
+  border-bottom: 1px solid #edf0f2;
+  font-size: clamp(11px, 1.4vw, 17px);
+  font-weight: 550;
+  color: #26292d;
+}
+.hero-film-agent-mark,
+.hero-film-response-mark {
+  display: grid;
+  place-items: center;
+  flex: 0 0 auto;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #e2e6e9;
+  border-radius: 9px;
+  background: #f6f7f8;
+  font-size: 13px;
+  font-weight: 600;
+}
+.hero-film-chat-header small {
+  display: block;
+  margin-top: 3px;
+  font-size: 0.66em;
+  font-weight: 400;
+  color: #7a7f84;
+}
+.hero-film-conversation {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  gap: 24px;
+  min-height: 0;
+  padding: 8% 8%;
+}
+.hero-film-greeting {
+  margin: 0 0 16px;
+  font-size: clamp(18px, 3vw, 39px);
+  line-height: 1.16;
+  letter-spacing: -0.04em;
+  font-weight: 500;
+  color: #222528;
+}
+.hero-film-request {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  min-height: 76px;
+  padding: 18px 20px;
+  border: 1px solid #dce1e5;
+  border-radius: 15px;
+  background: #fff;
+  box-shadow:
+    0 6px 24px #252e3910,
+    inset 0 1px 0 #fff;
+  font-size: clamp(12px, 1.6vw, 19px);
+  line-height: 1.5;
+  color: #35393d;
+}
+.hero-film-send {
+  display: grid;
+  place-items: center;
+  flex: 0 0 auto;
+  width: 29px;
+  height: 29px;
+  border-radius: 50%;
+  background: #25292c;
+  color: white;
+}
+.hero-film-caret {
+  display: inline-block;
+  width: 1px;
+  height: 1em;
+  margin-left: 2px;
+  vertical-align: -0.12em;
+  background: currentColor;
+  animation: hero-film-cursor 1s steps(1) infinite;
+  animation-play-state: paused;
+}
+.hero-film[data-playing='true'] .hero-film-caret {
+  animation-play-state: running;
+}
+.hero-film-response {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 42px;
+  opacity: var(--hf-response-opacity, 0);
+}
+.hero-film-response-mark {
+  width: 25px;
+  height: 25px;
+  border-radius: 8px;
+}
+.hero-film-response p {
+  margin: 0;
+  font-size: clamp(10px, 1.3vw, 15px);
+  line-height: 1.5;
+  color: #6d747a;
+}
+.hero-film-thinking {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #8c969d;
+}
+.hero-film-chat-note {
+  padding: 0 24px 18px;
+  font-size: clamp(8px, 1vw, 11px);
+  color: #94999e;
+  text-align: center;
+}
+.hero-film-caption {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  margin: 10px 4.1% 0;
+  color: #7b7f83;
+}
+.hero-film-caption-copy {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 11px;
+  line-height: 1.5;
+}
+.hero-film-chapter {
+  color: #41464b;
+  font-weight: 500;
+}
+.hero-film-controls {
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  gap: 4px;
+}
+.hero-film-controls button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  min-height: 40px;
+  min-width: 40px;
+  padding: 8px;
+  border: 0;
+  border-radius: 8px;
+  background: transparent;
+  color: #51565b;
+  font: inherit;
+  font-size: 11px;
+  cursor: pointer;
+}
+.hero-film-controls button:hover {
+  background: #f0f2f3;
+  color: #171a1d;
+}
+.hero-film-controls button:focus-visible {
+  outline: 2px solid #536574;
+  outline-offset: 2px;
+}
+.hero-film-controls button:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+.hero-film-progress {
+  height: 1px;
+  margin: 5px 4.1% 0;
+  overflow: hidden;
+  background: #e8ebed;
+}
+.hero-film-progress > span {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #727b83;
+  transform: scaleX(var(--hf-progress, 1));
+  transform-origin: left;
+}
+.hero-film-description {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+@keyframes hero-film-cursor {
+  0%,
+  49% {
+    opacity: 1;
+  }
+  50%,
+  100% {
+    opacity: 0;
+  }
+}
+@media (max-width: 639px) {
+  .hero-film-viewport {
+    border-radius: 12px;
+  }
+  .hero-film-camera {
+    transform: translate3d(var(--hf-mobile-x, 0%), var(--hf-mobile-y, 0%), 0)
+      scale(var(--hf-mobile-scale, 1));
+  }
+  .hero-film-chat {
+    border-radius: 6px;
+  }
+  .hero-film-chat-header {
+    gap: 6px;
+    padding: 9px 11px;
+    font-size: 10px;
+  }
+  .hero-film-agent-mark {
+    width: 21px;
+    height: 21px;
+    border-radius: 6px;
+    font-size: 10px;
+  }
+  .hero-film-conversation {
+    gap: 10px;
+    padding: 6% 7%;
+  }
+  .hero-film-greeting {
+    margin-bottom: 3px;
+    font-size: clamp(14px, 4.2vw, 24px);
+  }
+  .hero-film-request {
+    min-height: 51px;
+    gap: 6px;
+    padding: 9px;
+    border-radius: 9px;
+    font-size: 12px;
+  }
+  .hero-film-send {
+    width: 21px;
+    height: 21px;
+  }
+  .hero-film-send svg {
+    width: 12px;
+    height: 12px;
+  }
+  .hero-film-response {
+    gap: 6px;
+    min-height: 28px;
+  }
+  .hero-film-response-mark {
+    width: 18px;
+    height: 18px;
+    border-radius: 5px;
+  }
+  .hero-film-response p {
+    font-size: 10px;
+  }
+  .hero-film-chat-note {
+    padding: 0 8px 9px;
+    font-size: 6px;
+  }
+  .hero-film-caption {
+    margin-top: 8px;
+    gap: 8px;
+  }
+  .hero-film-caption-copy {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+    font-size: 9px;
+  }
+  .hero-film-controls button {
+    min-width: 44px;
+    min-height: 44px;
+    padding: 7px;
+    font-size: 10px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .hero-film-camera {
+    transform: none;
+    will-change: auto;
+  }
+  .hero-film-chat {
+    display: none;
+  }
+  .hero-film-caret {
+    animation: none;
+  }
+}

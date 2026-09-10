@@ -1,0 +1,3 @@
+/api/portfolio /agent/profile.json 200
+/api/portfolio/projects /agent/projects.json 200
+/api/portfolio/experience /agent/experience.json 200

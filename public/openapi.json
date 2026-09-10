@@ -1,0 +1,152 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Osmar Morales — Public Portfolio API",
+    "version": "1.0.0",
+    "description": "Public read-only career evidence. No authentication, model calls, private data or write operations. Dates and evidence boundaries are included in the responses."
+  },
+  "servers": [
+    {
+      "url": "https://osmarmorales.io"
+    }
+  ],
+  "paths": {
+    "/api/portfolio": {
+      "get": {
+        "operationId": "getPortfolio",
+        "summary": "Read the complete public profile",
+        "security": [],
+        "responses": {
+          "200": {
+            "description": "Public record with provenance and evidence boundaries.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Profile"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/portfolio/projects": {
+      "get": {
+        "operationId": "getProjects",
+        "summary": "Read public project ownership and outcomes",
+        "security": [],
+        "responses": {
+          "200": {
+            "description": "Public record with provenance and evidence boundaries.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Projects"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/portfolio/experience": {
+      "get": {
+        "operationId": "getExperience",
+        "summary": "Read career dates and separate AI milestones",
+        "security": [],
+        "responses": {
+          "200": {
+            "description": "Public record with provenance and evidence boundaries.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Experience"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Profile": {
+        "type": "object",
+        "required": [
+          "schemaVersion",
+          "updatedAt",
+          "person",
+          "experience",
+          "projects",
+          "outcomes",
+          "evidenceBoundaries"
+        ],
+        "properties": {
+          "schemaVersion": {
+            "type": "string"
+          },
+          "updatedAt": {
+            "type": "string",
+            "format": "date"
+          },
+          "person": {
+            "type": "object"
+          },
+          "experience": {
+            "type": "array",
+            "items": {
+              "type": "object"
+            }
+          },
+          "projects": {
+            "type": "array",
+            "items": {
+              "type": "object"
+            }
+          },
+          "outcomes": {
+            "type": "array",
+            "items": {
+              "type": "object"
+            }
+          },
+          "evidenceBoundaries": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "Projects": {
+        "type": "object",
+        "required": [
+          "projects"
+        ],
+        "properties": {
+          "projects": {
+            "type": "array",
+            "items": {
+              "type": "object"
+            }
+          }
+        }
+      },
+      "Experience": {
+        "type": "object",
+        "required": [
+          "experience"
+        ],
+        "properties": {
+          "experience": {
+            "type": "array",
+            "items": {
+              "type": "object"
+            }
+          }
+        }
+      }
+    }
+  }
+}

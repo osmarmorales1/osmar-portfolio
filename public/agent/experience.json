@@ -1,0 +1,76 @@
+{
+  "schemaVersion": "1.0",
+  "updatedAt": "2026-09-10",
+  "experience": [
+    {
+      "employer": "Visa",
+      "title": "Director, AI Agent Platform",
+      "start": "2025-10",
+      "end": null,
+      "summary": "Platform architecture, governed capabilities and organic adoption across 500+ total users."
+    },
+    {
+      "employer": "Visa",
+      "title": "Director, Data Engineering",
+      "start": "2020-11",
+      "end": "2025-09",
+      "summary": "Data engineering and AI workstream leadership; MLOps modernization across 1k+ repositories and 500+ pipelines."
+    },
+    {
+      "employer": "Visa",
+      "title": "Manager, Data Analytics",
+      "start": "2018-11",
+      "end": "2020-11",
+      "summary": "Self-service analytics, data foundations and automation for 40+ colleagues."
+    },
+    {
+      "employer": "FedEx Express",
+      "title": "Data Scientist",
+      "start": "2016-08",
+      "end": "2018-11",
+      "summary": "Executive finance reporting, dashboards and distributed BI delivery."
+    },
+    {
+      "employer": "TracFone Wireless",
+      "title": "Revenue Systems Analyst",
+      "start": "2013-02",
+      "end": "2016-08",
+      "summary": "Revenue systems, ETL and decision support."
+    },
+    {
+      "employer": "FedEx Express",
+      "title": "Process Automation Developer",
+      "start": "2012-03",
+      "end": "2013-02",
+      "summary": "Financial reporting and reconciliation automation."
+    },
+    {
+      "employer": "Davis Quality",
+      "title": "Systems Accountant",
+      "start": "2007-01",
+      "end": "2012-01",
+      "summary": "Accounting systems and financial visibility."
+    }
+  ],
+  "milestones": [
+    {
+      "year": 2022,
+      "subject": "Early ChatGPT and Copilot adoption",
+      "provenance": "Candidate reported; initiative milestone, not a job-title date"
+    },
+    {
+      "year": 2024,
+      "subject": "Agentic workflows",
+      "provenance": "Candidate reported; initiative milestone, not a job-title date"
+    }
+  ],
+  "evidenceBoundaries": [
+    "Career outcomes are candidate-provided, not an independent employer audit.",
+    "Elygent is an independent development pilot; Visa adoption figures do not apply to it.",
+    "Private-cloud evidence supports service use and application delivery, not ownership of every catalog service. Shared Buzz compute remains exploration.",
+    "The supplied record does not establish GPU-fleet, facilities, RFP or infrastructure-budget ownership.",
+    "Education is Finance with a Mathematics minor; no engineering degree is claimed.",
+    "Capacity controls are hypothetical design exercises, not production telemetry.",
+    "The public sandbox cannot access private accounts, gateways, knowledge or payment credentials."
+  ]
+}

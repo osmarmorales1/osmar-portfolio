@@ -1,0 +1,60 @@
+{
+  "version": "2026-09-10-v11",
+  "records": [
+    {
+      "id": "infra-private-cloud",
+      "title": "Visa private-cloud application delivery",
+      "text": "Osmar confirms experience across public cloud, private cloud and on-premises infrastructure, choosing platforms and providers to fit the workload. Scope clarified directly on September 10, 2026. His Visa private-cloud example includes Kubernetes/container and VM services, storage, networking, relational databases and Day-2 operations. New contextual photos supplied September 10, 2026. This supports service-use and application-delivery context; it does not establish ownership of every catalog service, GPU fleets, facilities or procurement.",
+      "source": "Candidate statement and private contextual photographs supplied 2026-09-10; photographs are not public assets."
+    },
+    {
+      "id": "ai-factory-approach",
+      "title": "AI factory and shared compute approach",
+      "text": "An AI factory connects compute, data and knowledge, governed tools, agents and people into useful, repeatable execution. This describes Osmar’s platform approach, not a claim of NVIDIA-scale hardware ownership. Community-shared compute means hosting an open-weight model on contributed hardware and making inference available to authorized community members through Buzz. This is Osmar’s target for his community. Open-source agent software and locally hosted model weights are separate layers. A Grok-backed cloud demo must be labeled Grok; it is not evidence of self-hosted GLM, Kimi or another local model. A deployed Elygent local compute pool has not been established. Elygent Buzz deployment source includes PostgreSQL and Redis. Scoped GBrain recall supplies provenance-bearing knowledge to agents. Knowledge graphs are a design focus; no deployed GraphRAG engine is asserted.",
+      "source": "Candidate platform approach; NVIDIA and official Buzz research plus local Elygent source review, 2026-09-10."
+    },
+    {
+      "id": "agent-factory",
+      "title": "Visa Agent Factory",
+      "text": "I architect and operate the platform around an existing agent engine, connecting governed tools, reusable skills, knowledge, model routing, and human review. My delivery work spans self-service private-cloud compute, storage and network services. 500+ users, with organic growth. Container, macOS desktop, and private-cloud delivery support different ways of working. Adoption confirmed September 2026. No daily-active or concurrent-user claim.",
+      "source": "Candidate confirmed 500+ users and organic growth on 2026-09-09; supplied career record."
+    },
+    {
+      "id": "mlops",
+      "title": "Visa MLOps modernization",
+      "text": "I led data engineering and an AI workstream, built an end-to-end MLOps foundation, and coordinated migration of repositories and pipelines. 1k+ repositories and 500+ pipelines migrated without disrupting delivery. Team scope: seven data engineers and a six-person AI workstream. Benchmarking turnaround moved from 1–3 days to 1–3 hours.",
+      "source": "Candidate-provided career record; migration counts updated by Osmar to 1k+ repositories and 500+ pipelines on 2026-09-09."
+    },
+    {
+      "id": "elygent",
+      "title": "Independent Elygent platform",
+      "text": "I am building the integration and governance layer around established runtimes: identity-scoped MCP access, curated knowledge, accountable execution, and recovery. Built an independent platform for people and AI agents to collaborate through connected tools, shared knowledge, accountable work, and recovery. The public portfolio sandbox demonstrates two specialists working in parallel and handing evidence to an editor. The platform combines OpenClaw for conversation/runtime UX, Paperclip for accountable work, Hermes for selected persistent workers, GBrain for curated knowledge, GStack for the separate Software Factory delivery method, and Buzz for collaboration. Elygent owns identity, policy, capability routing and evidence. It uses model-agnostic integration, choosing existing components for their strengths.",
+      "source": "Candidate project; current development source reviewed 2026-09-09."
+    },
+    {
+      "id": "career",
+      "title": "Career progression",
+      "text": "AI experience milestones reported by Osmar on September 9, 2026: early ChatGPT and Copilot adoption in 2022, followed by agentic workflows in 2024. These are work milestones, not official job-title dates. Visa Director, AI Agent Platform began October 2025 per the supplied career record. Earlier career: Visa Director Data Engineering November 2020–September 2025; Manager Data Analytics November 2018–November 2020; FedEx Express Data Scientist August 2016–November 2018; TracFone Wireless Revenue Systems Analyst February 2013–August 2016; FedEx Express Process Automation Developer March 2012–February 2013; Davis Quality Systems Accountant January 2007–January 2012. Visa work used Python, Docker, MCP, knowledge retrieval, Spark, Hadoop/Hive, MLflow, Feast, Deequ, GitHub, Jenkins, Azure DevOps, Tableau, Power BI and SQL. Elygent integrates OpenClaw, Hermes, Paperclip, Buzz, GBrain and GStack through Node.js/Python, identity-scoped MCP, Composio, and OAuth. Cloud operations include VPS, Linux, Docker, systemd, Caddy, PostgreSQL and Redis. This public sandbox uses React, TypeScript, Vite and Vercel with a bounded Linux VPS agent service. Public GitHub profile: https://github.com/osmarmorales1. Native guest sessions offer GPT-5.6 Sol and GPT-5.5; specialists inherit the selected model for their run. The native Buzz community separately uses xAI-hosted Grok 4.6. Locally hosted shared-model inference remains planned.",
+      "source": "Candidate-provided career record."
+    },
+    {
+      "id": "education",
+      "title": "Education",
+      "text": "BBA, Finance; Mathematics minor, Florida International University, 2015. AA, Mathematics, Miami Dade College, 2008. Harvard Extension School professional development, 2018–2020.",
+      "source": "Candidate-provided career record."
+    },
+    {
+      "id": "approach",
+      "title": "Frontier learning and team enablement",
+      "text": "I bring teams to the AI frontier. I stay close to what is changing in AI, evaluate what is useful, and turn it into shared platforms so colleagues can focus on their work.",
+      "source": "Candidate positioning updated 2026-09-10."
+    },
+    {
+      "id": "limits",
+      "title": "Evidence boundaries",
+      "text": "GPU-fleet ownership, RFPs, facilities and infrastructure budgets are unverified here. No engineering degree is claimed. 500+ is total users, not DAU or concurrency. Elygent is an independent development pilot. The website capacity lab is hypothetical, not measured production performance.",
+      "source": "Scope assessment from supplied evidence, 2026-09-09."
+    }
+  ],
+  "limits": "GPU-fleet ownership, RFPs, facilities and infrastructure budgets are unverified here. No engineering degree is claimed. 500+ is total users, not DAU or concurrency. Elygent is an independent development pilot. The website capacity lab is hypothetical, not measured production performance."
+}

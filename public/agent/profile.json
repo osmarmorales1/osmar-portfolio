@@ -1,0 +1,393 @@
+{
+  "schemaVersion": "1.0",
+  "updatedAt": "2026-09-10",
+  "canonicalUrl": "https://osmarmorales.io/",
+  "person": {
+    "name": "Osmar Morales",
+    "headline": "I bring teams to the AI frontier.",
+    "currentTitle": "Director, AI Agent Platform at Visa",
+    "image": "https://osmarmorales.io/v8/osmar-morales.png",
+    "location": "Miami, Florida",
+    "contact": {
+      "email": "osmarmorales1@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/osmarmorales/",
+      "github": "https://github.com/osmarmorales1",
+      "publicShowcase": "https://github.com/osmarmorales1/ai-platform-showcase"
+    },
+    "education": "BBA, Finance; Mathematics minor, Florida International University, 2015. AA, Mathematics, Miami Dade College, 2008. Harvard Extension School professional development, 2018–2020.",
+    "languages": [
+      "English",
+      "Spanish"
+    ]
+  },
+  "story": "From finance and executive analytics to data engineering and AI platforms. Osmar connects enterprise AI, public/private cloud and on-premises foundations, technical judgment and frontier learning so entire teams can use new capabilities. Elygent is one independent project demonstrating that approach.",
+  "aspirations": [
+    "Principal AI Platform Engineer",
+    "Senior Director",
+    "VP"
+  ],
+  "experience": [
+    {
+      "employer": "Visa",
+      "title": "Director, AI Agent Platform",
+      "start": "2025-10",
+      "end": null,
+      "summary": "Platform architecture, governed capabilities and organic adoption across 500+ total users."
+    },
+    {
+      "employer": "Visa",
+      "title": "Director, Data Engineering",
+      "start": "2020-11",
+      "end": "2025-09",
+      "summary": "Data engineering and AI workstream leadership; MLOps modernization across 1k+ repositories and 500+ pipelines."
+    },
+    {
+      "employer": "Visa",
+      "title": "Manager, Data Analytics",
+      "start": "2018-11",
+      "end": "2020-11",
+      "summary": "Self-service analytics, data foundations and automation for 40+ colleagues."
+    },
+    {
+      "employer": "FedEx Express",
+      "title": "Data Scientist",
+      "start": "2016-08",
+      "end": "2018-11",
+      "summary": "Executive finance reporting, dashboards and distributed BI delivery."
+    },
+    {
+      "employer": "TracFone Wireless",
+      "title": "Revenue Systems Analyst",
+      "start": "2013-02",
+      "end": "2016-08",
+      "summary": "Revenue systems, ETL and decision support."
+    },
+    {
+      "employer": "FedEx Express",
+      "title": "Process Automation Developer",
+      "start": "2012-03",
+      "end": "2013-02",
+      "summary": "Financial reporting and reconciliation automation."
+    },
+    {
+      "employer": "Davis Quality",
+      "title": "Systems Accountant",
+      "start": "2007-01",
+      "end": "2012-01",
+      "summary": "Accounting systems and financial visibility."
+    }
+  ],
+  "milestones": [
+    {
+      "year": 2022,
+      "subject": "Early ChatGPT and Copilot adoption",
+      "provenance": "Candidate reported; initiative milestone, not a job-title date"
+    },
+    {
+      "year": 2024,
+      "subject": "Agentic workflows",
+      "provenance": "Candidate reported; initiative milestone, not a job-title date"
+    }
+  ],
+  "outcomes": [
+    {
+      "initiative": "Visa Agent Factory",
+      "metric": "total users",
+      "lowerBound": 500,
+      "display": "500+",
+      "qualifier": "Organic adoption; not DAU or concurrency",
+      "provenance": "Candidate-confirmed September 2026"
+    },
+    {
+      "initiative": "Visa MLOps modernization",
+      "metric": "repositories migrated",
+      "lowerBound": 1000,
+      "display": "1k+",
+      "provenance": "Candidate-confirmed September 2026"
+    },
+    {
+      "initiative": "Visa MLOps modernization",
+      "metric": "pipelines migrated",
+      "lowerBound": 500,
+      "display": "500+",
+      "provenance": "Candidate-confirmed September 2026"
+    }
+  ],
+  "projects": [
+    {
+      "id": "factory",
+      "name": "Agent Factory",
+      "context": "VISA · ENTERPRISE AI",
+      "ownership": "I architect and operate the platform around an existing agent engine, connecting governed tools, reusable skills, knowledge, model routing, and human review. My delivery work spans self-service private-cloud compute, storage and network services.",
+      "decisions": [
+        "Package new capabilities behind a familiar experience.",
+        "Keep identity, budgets, and approvals at the platform boundary.",
+        "Use independent validation and feedback to improve delivery."
+      ],
+      "outcome": "500+ users, with organic growth. Container, macOS desktop, and private-cloud delivery support different ways of working.",
+      "stage": "Adoption confirmed September 2026. No daily-active or concurrent-user claim.",
+      "evidenceUrl": "https://osmarmorales.io/Osmar_Morales_Mastercard_Resume.pdf"
+    },
+    {
+      "id": "mlops",
+      "name": "MLOps modernization",
+      "context": "VISA · DATA & ML PLATFORMS",
+      "ownership": "I led data engineering and an AI workstream, built an end-to-end MLOps foundation, and coordinated migration of repositories and pipelines.",
+      "decisions": [
+        "Make pipelines reproducible and models discoverable.",
+        "Bring model registry, feature-store, and data-quality practices together.",
+        "Sequence migration around continuity of delivery."
+      ],
+      "outcome": "1k+ repositories and 500+ pipelines migrated without disrupting delivery. Team scope: seven data engineers and a six-person AI workstream.",
+      "stage": "Career results from candidate-provided professional record.",
+      "evidenceUrl": "https://osmarmorales.io/Osmar_Morales_Mastercard_Resume.pdf"
+    },
+    {
+      "id": "elygent",
+      "name": "Elygent",
+      "context": "INDEPENDENT · DEVELOPMENT PILOT",
+      "ownership": "I am building the integration and governance layer around established runtimes: identity-scoped MCP access, curated knowledge, accountable execution, and recovery.",
+      "decisions": [
+        "Choose the right runtime for the work.",
+        "Preserve person and business boundaries across surfaces.",
+        "Prove the real model-to-tool path, then keep the reusable lesson."
+      ],
+      "outcome": "Built an independent platform for people and AI agents to collaborate through connected tools, shared knowledge, accountable work, and recovery. The public portfolio sandbox demonstrates two specialists working in parallel and handing evidence to an editor.",
+      "stage": "Independent development pilot; separate from Visa and its adoption metrics.",
+      "evidenceUrl": "https://osmarmorales.io/Osmar_Morales_Elygent_Technical_Brief.pdf"
+    }
+  ],
+  "stack": [
+    {
+      "context": "Enterprise experience",
+      "themes": [
+        "AI platform enablement",
+        "Public cloud, private cloud and on-premises delivery",
+        "MLOps",
+        "Governed tools",
+        "Data storytelling"
+      ],
+      "technologies": [
+        "Python",
+        "SQL",
+        "Kubernetes",
+        "Virtual machines",
+        "Storage services",
+        "Load balancing and DNS",
+        "Day-2 operations",
+        "Docker",
+        "MCP",
+        "RAG",
+        "Spark",
+        "MLflow",
+        "Feast",
+        "Deequ",
+        "GitHub",
+        "Jenkins",
+        "Azure DevOps",
+        "Tableau",
+        "Power BI"
+      ],
+      "evidence": "Candidate-provided professional record, private-cloud service context and broader cloud/on-premises scope confirmed September 10, 2026"
+    },
+    {
+      "context": "Independent Elygent platform",
+      "themes": [
+        "Cloud agents",
+        "Human-agent collaboration",
+        "Shared knowledge",
+        "Model-agnostic integration"
+      ],
+      "technologies": [
+        "OpenClaw",
+        "Hermes",
+        "Paperclip",
+        "Buzz",
+        "GBrain",
+        "GStack",
+        "Node.js",
+        "Python",
+        "MCP",
+        "Composio",
+        "OAuth",
+        "PostgreSQL",
+        "Redis",
+        "Agent-guided retrieval",
+        "Linux",
+        "Docker",
+        "systemd",
+        "Caddy"
+      ],
+      "evidence": "Independent development pilot and reviewed implementation"
+    },
+    {
+      "context": "This public portfolio",
+      "themes": [
+        "Native guest agents",
+        "Visible specialist handoffs",
+        "Agent-readable interfaces"
+      ],
+      "technologies": [
+        "React",
+        "TypeScript",
+        "Vite",
+        "Vercel",
+        "Linux VPS",
+        "OpenClaw",
+        "JSON-LD",
+        "OpenAPI",
+        "WebMCP"
+      ],
+      "evidence": "Implemented public demonstration; bounded and separate from private accounts"
+    }
+  ],
+  "infrastructure": {
+    "pillars": [
+      {
+        "id": "compute",
+        "name": "Compute",
+        "short": "Containers + VMs",
+        "title": "Choose the environment for the workload.",
+        "technologies": [
+          "Kubernetes",
+          "Docker",
+          "Virtual machines"
+        ],
+        "description": "I match application and AI workloads to public cloud, private cloud and on-premises environments. At Visa, this includes self-service containers, namespaces and VMs.",
+        "consideration": "Isolation, workload fit and capacity."
+      },
+      {
+        "id": "data",
+        "name": "Data",
+        "short": "Storage + databases",
+        "title": "Give the workload a dependable data foundation.",
+        "technologies": [
+          "Relational databases",
+          "NAS / file",
+          "Object / block storage"
+        ],
+        "description": "Connect database and storage services to the needs of the application—from durable records to the data behind AI workflows.",
+        "consideration": "Access, durability and the right storage pattern."
+      },
+      {
+        "id": "network",
+        "name": "Networking",
+        "short": "Traffic + access",
+        "title": "Make the service reachable—and controlled.",
+        "technologies": [
+          "Load balancing",
+          "DNS",
+          "Access controls"
+        ],
+        "description": "Work across network services and application boundaries so platforms can be reached, integrated and operated within enterprise controls.",
+        "consideration": "Availability, routing and governed access."
+      },
+      {
+        "id": "operate",
+        "name": "Operations",
+        "short": "Operate + improve",
+        "title": "Plan for the work after deployment.",
+        "technologies": [
+          "Monitoring",
+          "Upgrades",
+          "Recovery / Day 2"
+        ],
+        "description": "Day-2 operations means running and improving a deployed platform: monitoring, upgrades, recovery, backups and capacity.",
+        "consideration": "Reliability, recovery and lifecycle decisions."
+      }
+    ],
+    "provenance": "Osmar confirms experience across public cloud, private cloud and on-premises infrastructure, choosing platforms and providers to fit the workload. Scope clarified directly on September 10, 2026. His Visa private-cloud example includes Kubernetes/container and VM services, storage, networking, relational databases and Day-2 operations. New contextual photos supplied September 10, 2026. This supports service-use and application-delivery context; it does not establish ownership of every catalog service, GPU fleets, facilities or procurement."
+  },
+  "aiFactoryApproach": "An AI factory connects compute, data and knowledge, governed tools, agents and people into useful, repeatable execution. This describes Osmar’s platform approach, not a claim of NVIDIA-scale hardware ownership.",
+  "approach": [
+    {
+      "label": "Explore",
+      "verb": "Stay at the frontier.",
+      "body": "I follow new models, tools, and interaction patterns closely, looking for a concrete problem they can solve for the team."
+    },
+    {
+      "label": "Evaluate",
+      "verb": "Separate novelty from value.",
+      "body": "Compare quality, reliability, latency, resource use and cost per useful result. The strongest tool depends on the workload and operating constraints."
+    },
+    {
+      "label": "Package",
+      "verb": "Turn discovery into capability.",
+      "body": "Bring the useful part into a reusable skill, tool, workflow, or platform feature with an owner and a clear boundary."
+    },
+    {
+      "label": "Enable",
+      "verb": "Raise the team’s baseline.",
+      "body": "Make the capability accessible through familiar interfaces, hands-on guidance, and examples people can apply immediately."
+    },
+    {
+      "label": "Improve",
+      "verb": "Let real use teach us.",
+      "body": "Use feedback and operational evidence to refine the workflow, retain a reusable lesson, or retire what no longer helps."
+    }
+  ],
+  "frontierAgenda": [
+    {
+      "topic": "AI factories and shared compute",
+      "status": "Community-shared compute means hosting an open-weight model on contributed hardware and making inference available to authorized community members through Buzz. This is Osmar’s target for his community. Open-source agent software and locally hosted model weights are separate layers. A Grok-backed cloud demo must be labeled Grok; it is not evidence of self-hosted GLM, Kimi or another local model. A deployed Elygent local compute pool has not been established."
+    },
+    {
+      "topic": "Knowledge graphs and agentic RAG",
+      "status": "Knowledge relationships and scoped agent-guided retrieval are part of the platform approach. A deployed GraphRAG engine or quality benchmark is not claimed."
+    },
+    {
+      "topic": "Cloud agents and human-agent collaboration",
+      "status": "Working independent platform and bounded public demonstration"
+    },
+    {
+      "topic": "Computer use and agentic commerce",
+      "status": "Experimental public lab; no payment-network integration or production commerce claim"
+    },
+    {
+      "topic": "Agent-quality evaluation",
+      "status": "Continued evaluation work; integration/security checks are not a statistical quality benchmark"
+    }
+  ],
+  "evidenceBoundaries": [
+    "Career outcomes are candidate-provided, not an independent employer audit.",
+    "Elygent is an independent development pilot; Visa adoption figures do not apply to it.",
+    "Private-cloud evidence supports service use and application delivery, not ownership of every catalog service. Shared Buzz compute remains exploration.",
+    "The supplied record does not establish GPU-fleet, facilities, RFP or infrastructure-budget ownership.",
+    "Education is Finance with a Mathematics minor; no engineering degree is claimed.",
+    "Capacity controls are hypothetical design exercises, not production telemetry.",
+    "The public sandbox cannot access private accounts, gateways, knowledge or payment credentials."
+  ],
+  "interfaces": {
+    "guestLab": "https://osmarmorales.io/#lab",
+    "guestComputer": "https://agent.osmarmorales.io/guest/computer/",
+    "guestCommunity": "https://osmarmorales.io/#community",
+    "communityClient": "Native Buzz desktop application",
+    "communityDownload": "https://github.com/block/buzz/releases/latest",
+    "communityIphone": "https://apps.apple.com/us/app/buzz-chat-with-your-hive/id6779728271",
+    "communityAndroid": "https://play.google.com/store/apps/details?id=xyz.block.buzz.mobile",
+    "communityInvite": "https://osmarmorales.io/#community",
+    "communityChannels": 3,
+    "communityAgents": 2,
+    "communityChannelNames": [
+      "00-welcome",
+      "01-platform-lab",
+      "02-shared-compute"
+    ],
+    "communityAgentNames": [
+      "Platform Analyst",
+      "Review Lead"
+    ],
+    "communityVisibility": "Public demo community; participant posts are visible to all participants",
+    "communityInference": "Grok 4.6 in xAI cloud; local open-weight shared compute is planned",
+    "profile": "https://osmarmorales.io/api/portfolio",
+    "projects": "https://osmarmorales.io/api/portfolio/projects",
+    "experience": "https://osmarmorales.io/api/portfolio/experience",
+    "openapi": "https://osmarmorales.io/openapi.json",
+    "llms": "https://osmarmorales.io/llms.txt",
+    "browserTools": [
+      "portfolio_get_profile",
+      "portfolio_get_evidence",
+      "portfolio_estimate_capacity"
+    ]
+  }
+}

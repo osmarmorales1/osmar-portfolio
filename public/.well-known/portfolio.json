@@ -1,0 +1,37 @@
+{
+  "name": "Osmar Morales public portfolio",
+  "version": "1.0",
+  "access": "public, read-only",
+  "documentation": "https://osmarmorales.io/agents.html",
+  "guestLab": "https://osmarmorales.io/#lab",
+  "guestComputer": "https://agent.osmarmorales.io/guest/computer/",
+  "guestCommunity": "https://osmarmorales.io/#community",
+  "communityClient": "Native Buzz desktop application",
+  "communityDownload": "https://github.com/block/buzz/releases/latest",
+  "communityIphone": "https://apps.apple.com/us/app/buzz-chat-with-your-hive/id6779728271",
+  "communityAndroid": "https://play.google.com/store/apps/details?id=xyz.block.buzz.mobile",
+  "communityInvite": "https://osmarmorales.io/#community",
+  "communityChannels": 3,
+  "communityAgents": 2,
+  "communityChannelNames": [
+    "00-welcome",
+    "01-platform-lab",
+    "02-shared-compute"
+  ],
+  "communityAgentNames": [
+    "Platform Analyst",
+    "Review Lead"
+  ],
+  "communityVisibility": "Public demo community; participant posts are visible to all participants",
+  "communityInference": "Grok 4.6 in xAI cloud; local open-weight shared compute is planned",
+  "profile": "https://osmarmorales.io/api/portfolio",
+  "projects": "https://osmarmorales.io/api/portfolio/projects",
+  "experience": "https://osmarmorales.io/api/portfolio/experience",
+  "openapi": "https://osmarmorales.io/openapi.json",
+  "llms": "https://osmarmorales.io/llms.txt",
+  "browserTools": [
+    "portfolio_get_profile",
+    "portfolio_get_evidence",
+    "portfolio_estimate_capacity"
+  ]
+}

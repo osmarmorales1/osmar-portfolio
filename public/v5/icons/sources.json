@@ -1,0 +1,151 @@
+{
+  "observed": "2026-09-09",
+  "assets": [
+    {
+      "file": "hermes.png",
+      "name": "Hermes Agent",
+      "source": "https://raw.githubusercontent.com/NousResearch/hermes-agent/main/website/static/img/apple-touch-icon.png",
+      "license": "MIT",
+      "license_file": "hermes-LICENSE.txt",
+      "note": "Official website apple-touch icon. Black-and-white Hermes character; 180x180.",
+      "modified": false,
+      "sha256": "5847654a3b7c692a8edcf3a2138bc2b5c1072362fe99c2dae033d2672d2a075a"
+    },
+    {
+      "file": "buzz.png",
+      "name": "Buzz",
+      "source": "https://raw.githubusercontent.com/block/buzz/main/desktop/src-tauri/icons/128x128.png",
+      "license": "Apache-2.0",
+      "license_file": "buzz-LICENSE.txt",
+      "note": "Official desktop application icon; 128x128.",
+      "modified": false,
+      "sha256": "9545632791fe39fb822083fa8c8736ee3aa8f5e7e83f78900e77c0a90210eecd"
+    },
+    {
+      "file": "gstack.png",
+      "name": "GStack",
+      "source": "https://raw.githubusercontent.com/garrytan/gstack/main/extension/icons/icon-128.png",
+      "license": "MIT",
+      "license_file": "gstack-LICENSE.txt",
+      "note": "Official browser-extension G icon; 128x128. Identify as GStack extension icon, not a broad fabricated brand logo.",
+      "modified": false,
+      "sha256": "d02ed8be5e15a683d49f9632aa4b5e4a0d7763e9efe49bd3e05d7d2dbead1a95"
+    },
+    {
+      "file": "paperclip-light.svg",
+      "name": "Paperclip",
+      "source": "https://raw.githubusercontent.com/paperclipai/paperclip/master/ui/public/favicon.svg",
+      "license": "MIT",
+      "license_file": "paperclip-LICENSE.txt",
+      "note": "Identical paths and existing light stroke; removed upstream dark media rule so asset remains legible on the required light site.",
+      "modified": true,
+      "sha256": "71a1be58d216504508751a8c444d69714a1fc0ee3420429ad3d5b4e5c832fbc8"
+    },
+    {
+      "file": "docker.svg",
+      "name": "docker",
+      "source": "https://github.com/simple-icons/simple-icons/blob/16.30.0/icons/docker.svg",
+      "package": "simple-icons@16.30.0",
+      "package_tarball": "https://registry.npmjs.org/simple-icons/-/simple-icons-16.30.0.tgz",
+      "license": "CC0-1.0",
+      "license_file": "simple-icons-LICENSE.txt",
+      "modified": false,
+      "sha256": "65571291c261ef869c31540a38f3ca0f0ee3bb73f179c172211c8860f19a6359"
+    },
+    {
+      "file": "python.svg",
+      "name": "python",
+      "source": "https://github.com/simple-icons/simple-icons/blob/16.30.0/icons/python.svg",
+      "package": "simple-icons@16.30.0",
+      "package_tarball": "https://registry.npmjs.org/simple-icons/-/simple-icons-16.30.0.tgz",
+      "license": "CC0-1.0",
+      "license_file": "simple-icons-LICENSE.txt",
+      "modified": false,
+      "sha256": "ad9468e1c4903f73ae7eebfbe980f0f727a10db695be3d914e7d8bd25356a862"
+    },
+    {
+      "file": "typescript.svg",
+      "name": "typescript",
+      "source": "https://github.com/simple-icons/simple-icons/blob/16.30.0/icons/typescript.svg",
+      "package": "simple-icons@16.30.0",
+      "package_tarball": "https://registry.npmjs.org/simple-icons/-/simple-icons-16.30.0.tgz",
+      "license": "CC0-1.0",
+      "license_file": "simple-icons-LICENSE.txt",
+      "modified": false,
+      "sha256": "7f023e8d1e767370306ec9437d2de5d5af97491d6208dd7799a3808a7c10a36a"
+    },
+    {
+      "file": "github.svg",
+      "name": "github",
+      "source": "https://github.com/simple-icons/simple-icons/blob/16.30.0/icons/github.svg",
+      "package": "simple-icons@16.30.0",
+      "package_tarball": "https://registry.npmjs.org/simple-icons/-/simple-icons-16.30.0.tgz",
+      "license": "CC0-1.0",
+      "license_file": "simple-icons-LICENSE.txt",
+      "modified": false,
+      "sha256": "3bf8cceead820aec50d4ee825a3fd02c5a1cd6665cc9cf4cbf3d9c8861a204bb"
+    },
+    {
+      "file": "vercel.svg",
+      "name": "vercel",
+      "source": "https://github.com/simple-icons/simple-icons/blob/16.30.0/icons/vercel.svg",
+      "package": "simple-icons@16.30.0",
+      "package_tarball": "https://registry.npmjs.org/simple-icons/-/simple-icons-16.30.0.tgz",
+      "license": "CC0-1.0",
+      "license_file": "simple-icons-LICENSE.txt",
+      "modified": false,
+      "sha256": "57f1e4135486c566e9878fddd259f7f6bf8ec43f31e7e6e38a36d9e814a1c0e0"
+    },
+    {
+      "file": "postgresql.svg",
+      "name": "postgresql",
+      "source": "https://github.com/simple-icons/simple-icons/blob/16.30.0/icons/postgresql.svg",
+      "package": "simple-icons@16.30.0",
+      "package_tarball": "https://registry.npmjs.org/simple-icons/-/simple-icons-16.30.0.tgz",
+      "license": "CC0-1.0",
+      "license_file": "simple-icons-LICENSE.txt",
+      "modified": false,
+      "sha256": "c8ccadbd88c9312c2ad3734c4861b31d3485ce179ee91d64793143f83cfa745c"
+    },
+    {
+      "file": "jenkins.svg",
+      "name": "jenkins",
+      "source": "https://github.com/simple-icons/simple-icons/blob/16.30.0/icons/jenkins.svg",
+      "package": "simple-icons@16.30.0",
+      "package_tarball": "https://registry.npmjs.org/simple-icons/-/simple-icons-16.30.0.tgz",
+      "license": "CC0-1.0",
+      "license_file": "simple-icons-LICENSE.txt",
+      "modified": false,
+      "sha256": "95ab5d541710c116d939f44e4e72c8b1503e78d04a1c298ad257c4e26d3a1873"
+    },
+    {
+      "file": "mlflow.svg",
+      "name": "mlflow",
+      "source": "https://github.com/simple-icons/simple-icons/blob/16.30.0/icons/mlflow.svg",
+      "package": "simple-icons@16.30.0",
+      "package_tarball": "https://registry.npmjs.org/simple-icons/-/simple-icons-16.30.0.tgz",
+      "license": "CC0-1.0",
+      "license_file": "simple-icons-LICENSE.txt",
+      "modified": false,
+      "sha256": "686679a10a6bdf1029ec4103bec15d8aec365a2be39f6b840992c597e2c76d45"
+    },
+    {
+      "file": "openclaw-static.png",
+      "name": "OpenClaw",
+      "source": "https://raw.githubusercontent.com/openclaw/openclaw/main/ui/public/favicon-32.png",
+      "license": "MIT",
+      "license_file": "openclaw-LICENSE.txt",
+      "modified": false,
+      "note": "Official static 32x32 favicon fallback for reduced motion; prefer SVG for large display.",
+      "sha256": "2b1d369de3b766905d2b2153884cc6fa3d31150fe4c30755ea52dcfba2bdafc0"
+    }
+  ],
+  "not_found": [
+    {
+      "name": "GBrain",
+      "repository": "https://github.com/garrytan/gbrain",
+      "branch": "master",
+      "finding": "Official complete repository image inventory contains docs/images/voice-client.png only; no icon/logo/favicon found. Use a clearly semantic Brain icon with GBrain text, not invented branding."
+    }
+  ]
+}

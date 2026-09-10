@@ -1,0 +1,57 @@
+{
+  "schemaVersion": "1.0",
+  "updatedAt": "2026-09-10",
+  "projects": [
+    {
+      "id": "factory",
+      "name": "Agent Factory",
+      "context": "VISA · ENTERPRISE AI",
+      "ownership": "I architect and operate the platform around an existing agent engine, connecting governed tools, reusable skills, knowledge, model routing, and human review. My delivery work spans self-service private-cloud compute, storage and network services.",
+      "decisions": [
+        "Package new capabilities behind a familiar experience.",
+        "Keep identity, budgets, and approvals at the platform boundary.",
+        "Use independent validation and feedback to improve delivery."
+      ],
+      "outcome": "500+ users, with organic growth. Container, macOS desktop, and private-cloud delivery support different ways of working.",
+      "stage": "Adoption confirmed September 2026. No daily-active or concurrent-user claim.",
+      "evidenceUrl": "https://osmarmorales.io/Osmar_Morales_Mastercard_Resume.pdf"
+    },
+    {
+      "id": "mlops",
+      "name": "MLOps modernization",
+      "context": "VISA · DATA & ML PLATFORMS",
+      "ownership": "I led data engineering and an AI workstream, built an end-to-end MLOps foundation, and coordinated migration of repositories and pipelines.",
+      "decisions": [
+        "Make pipelines reproducible and models discoverable.",
+        "Bring model registry, feature-store, and data-quality practices together.",
+        "Sequence migration around continuity of delivery."
+      ],
+      "outcome": "1k+ repositories and 500+ pipelines migrated without disrupting delivery. Team scope: seven data engineers and a six-person AI workstream.",
+      "stage": "Career results from candidate-provided professional record.",
+      "evidenceUrl": "https://osmarmorales.io/Osmar_Morales_Mastercard_Resume.pdf"
+    },
+    {
+      "id": "elygent",
+      "name": "Elygent",
+      "context": "INDEPENDENT · DEVELOPMENT PILOT",
+      "ownership": "I am building the integration and governance layer around established runtimes: identity-scoped MCP access, curated knowledge, accountable execution, and recovery.",
+      "decisions": [
+        "Choose the right runtime for the work.",
+        "Preserve person and business boundaries across surfaces.",
+        "Prove the real model-to-tool path, then keep the reusable lesson."
+      ],
+      "outcome": "Built an independent platform for people and AI agents to collaborate through connected tools, shared knowledge, accountable work, and recovery. The public portfolio sandbox demonstrates two specialists working in parallel and handing evidence to an editor.",
+      "stage": "Independent development pilot; separate from Visa and its adoption metrics.",
+      "evidenceUrl": "https://osmarmorales.io/Osmar_Morales_Elygent_Technical_Brief.pdf"
+    }
+  ],
+  "evidenceBoundaries": [
+    "Career outcomes are candidate-provided, not an independent employer audit.",
+    "Elygent is an independent development pilot; Visa adoption figures do not apply to it.",
+    "Private-cloud evidence supports service use and application delivery, not ownership of every catalog service. Shared Buzz compute remains exploration.",
+    "The supplied record does not establish GPU-fleet, facilities, RFP or infrastructure-budget ownership.",
+    "Education is Finance with a Mathematics minor; no engineering degree is claimed.",
+    "Capacity controls are hypothetical design exercises, not production telemetry.",
+    "The public sandbox cannot access private accounts, gateways, knowledge or payment credentials."
+  ]
+}
