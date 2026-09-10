@@ -14,13 +14,13 @@ import MotionHeading from './motion-heading';
 import { Tabs, TabsList, TabsTrigger, TabsContent } from '@/components/ui/tabs';
 const career = [
   [
-    '2025 — NOW',
+    '2024 — NOW',
     'Visa',
     'Director, AI Agent Platform',
-    'Platform architecture, governed agents, and organic adoption across 500+ users.',
+    'Created Agent Factory: AI-native teams, 3× delivery pace with the same resources, and 500+ users. Shared skills, memory and distributed execution.',
   ],
   [
-    '2020 — 2025',
+    '2020 — 2024',
     'Visa',
     'Director, Data Engineering',
     'Led data engineering and an AI workstream. Built MLOps foundations and coordinated cross-market delivery.',

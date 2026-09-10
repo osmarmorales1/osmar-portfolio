@@ -3,14 +3,15 @@ import {
   aiFactoryApproach,
   sharedComputeAgenda,
 } from './infrastructure-data.ts';
+import { visaPlatform, visaPlatformEvidence } from './visa-platform.ts';
 export const profile = {
   name: 'Osmar Morales',
   location: 'Miami, Florida',
   email: 'osmarmorales1@gmail.com',
   title: 'Director, AI Agent Platform at Visa',
-  thesis: 'I bring teams to the AI frontier.',
+  thesis: 'I build AI-native teams.',
   approach:
-    'I stay close to what is changing in AI, evaluate what is useful, and turn it into shared platforms so colleagues can focus on their work.',
+    'I turn business workflows, collective knowledge and distributed compute into a shared operating capability. Agent Factory makes agents useful to technical and business users, with reusable skills, shared memory and one way to delegate.',
   adoption: {
     users: '500+',
     mode: 'Organic adoption',
@@ -26,28 +27,29 @@ export const cases = [
     id: 'factory',
     label: 'Agent Factory',
     kind: 'VISA · ENTERPRISE AI',
-    title: 'Frontier capability.\nEveryday adoption.',
-    metric: '500+',
-    unit: 'users · organic adoption',
-    summary: 'A platform that makes AI capability accessible across the team.',
+    title: 'AI-native teams.\n3× delivery pace.',
+    metric: '3×',
+    unit: 'delivery pace · same resources',
+    summary: visaPlatform.summary,
     problem:
-      'New models and tools arrive faster than people can learn them. Individual experiments need a path into repeatable work.',
+      'Individual AI experiments fragment workflows and knowledge. Business users need the capability without having to operate multiple tools, models and compute environments.',
     ownership:
-      'I architect and operate the platform around an existing agent engine, connecting governed tools, reusable skills, knowledge, model routing, and human review. My delivery work spans self-service private-cloud compute, storage and network services.',
+      'Created and operate Agent Factory: V Agent provides one orchestration interface, VCA Brain shares business memory, and an AI Loop turns recurring work into reusable skills and runtime recommendations. Connect Buzz, Paperclip, the OpenClaw assistant and cloud agents through on-premises orchestration across local, remote, cloud and Windows VDI execution.',
     decisions: [
-      'Package new capabilities behind a familiar experience.',
-      'Keep identity, budgets, and approvals at the platform boundary.',
-      'Use independent validation and feedback to improve delivery.',
+      'Capture business workflows as skills; learn from recurring patterns and recommend relevant skills at runtime.',
+      'Use VCA Brain to share project context and observations so teams build on collective knowledge.',
+      'Make V Agent the simple entry to distributed execution, including agents working for hours and days.',
+      'Bring people and agents together in Buzz; retain checkpointed state, independent validation and human review.',
     ],
     outcome:
-      '500+ users, with organic growth. Container, macOS desktop, and private-cloud delivery support different ways of working.',
+      'Transformed data-science teams into an AI-native organization; enabled 3× delivery pace with the same resources and organic adoption by 500+ total users across five markets and two regions.',
     tags: [
-      'Private cloud',
-      'Kubernetes / Docker',
-      'MCP / APIs',
-      'Governed agents',
+      'AI-native transformation',
+      'Reusable skills / AI Loop',
+      'VCA Brain / V Agent',
+      'Distributed agents',
     ],
-    note: 'Adoption confirmed September 2026. No daily-active or concurrent-user claim.',
+    note: 'Candidate-confirmed September 2026. 3× refers to delivery pace with the same resources; its measurement period was not supplied. 500+ means total users.',
     file: '/Osmar_Morales_Mastercard_Resume.pdf',
   },
   {
@@ -196,7 +198,7 @@ export const learningLoop = [
     body: 'Use feedback and operational evidence to refine the workflow, retain a reusable lesson, or retire what no longer helps.',
   },
 ];
-export const publicEvidence = `OSMAR MORALES — PUBLIC PORTFOLIO BRIEF\nObserved September 2026.\n${profile.thesis}\n${profile.approach}\nCurrent title: ${profile.title}; October 2025–present. Miami.\nVisa Agent Factory: 500+ users, organic adoption, confirmed by the candidate September 2026. This is total users, not a DAU or concurrency claim. Delivered through container, macOS desktop, and private-cloud environments; platform built around an existing agent engine.\nVisa Director, Data Engineering: November 2020–September 2025. Led a seven-person data engineering team and six-person AI workstream. Automated MLOps foundation; 1k+ repositories and 500+ pipelines migrated without disrupting delivery. Benchmarking workflow moved from 1–3 days to 1–3 hours.\nVisa Manager, Data Analytics: November 2018–November 2020. Core data refresh from days to three hours, analytics cubes from three weeks to five hours. Azure DevOps self-service automation for 40+ colleagues.\nEarlier: FedEx Express Data Scientist, August 2016–November 2018; TracFone Revenue Systems Analyst, February 2013–August 2016; FedEx Process Automation Developer, March 2012–February 2013; Davis Quality Systems Accountant, January 2007–January 2012.\nElygent: independent owner-focused AI platform development pilot. Shared identity-scoped MCP tools, governed provenance-bearing knowledge, established agent runtimes, operational probes and recovery. Its component approach includes OpenClaw for conversation/runtime UX, Paperclip for accountable work, Hermes for selected workers, GBrain for curated knowledge, GStack for Software Factory methods, and Buzz for collaboration. Node.js/JavaScript, Python integration workers, Linux, Docker Compose, systemd and PostgreSQL-backed services. This is distinct from Visa; do not transfer Visa adoption metrics to Elygent.\n${infrastructureEvidence}\nAI factory approach: ${aiFactoryApproach}\nShared compute research: ${sharedComputeAgenda}\nElygent uses PostgreSQL and Redis in its Buzz deployment. GBrain supports scoped, provenance-bearing agent retrieval and knowledge relationships; a GraphRAG engine is not claimed.\nEducation: ${profile.education}\nRecognition: Visa LAC Support Excellence Award 2026; FedEx LAC Professional of the Year 2017; five Visa Technical Innovation TEAM awards 2023–2025.\nLimits: personal ownership of GPU fleets, hardware procurement/RFPs, power/cooling and infrastructure budgets is not established by this brief. Do not invent it. Do not infer an engineering degree. Capacity calculators on the site are design exercises, not observed production results.\nContact: ${profile.email}. LinkedIn: https://www.linkedin.com/in/osmarmorales/\nUse only these facts. Separate candidate-reported career outcomes from independently verified results. If information is missing, say so. Never invent credentials, clients, achievements or confidential detail.`;
+export const publicEvidence = `OSMAR MORALES — PUBLIC PORTFOLIO BRIEF\nObserved September 2026.\n${profile.thesis}\n${profile.approach}\nCurrent title: ${profile.title}; October 2024–present. Miami.\nVisa Agent Factory: 500+ users, organic adoption, confirmed by the candidate September 2026. This is total users, not a DAU or concurrency claim. Delivered through container, macOS desktop, and private-cloud environments; platform built around an existing agent engine.\nVisa Director, Data Engineering: November 2020–September 2024. Led a seven-person data engineering team and six-person AI workstream. Automated MLOps foundation; 1k+ repositories and 500+ pipelines migrated without disrupting delivery. Benchmarking workflow moved from 1–3 days to 1–3 hours.\nVisa Manager, Data Analytics: November 2018–November 2020. Core data refresh from days to three hours, analytics cubes from three weeks to five hours. Azure DevOps self-service automation for 40+ colleagues.\nEarlier: FedEx Express Data Scientist, August 2016–November 2018; TracFone Revenue Systems Analyst, February 2013–August 2016; FedEx Process Automation Developer, March 2012–February 2013; Davis Quality Systems Accountant, January 2007–January 2012.\nElygent: independent owner-focused AI platform development pilot. Shared identity-scoped MCP tools, governed provenance-bearing knowledge, established agent runtimes, operational probes and recovery. Its component approach includes OpenClaw for conversation/runtime UX, Paperclip for accountable work, Hermes for selected workers, GBrain for curated knowledge, GStack for Software Factory methods, and Buzz for collaboration. Node.js/JavaScript, Python integration workers, Linux, Docker Compose, systemd and PostgreSQL-backed services. This is distinct from Visa; do not transfer Visa adoption metrics to Elygent.\n${visaPlatformEvidence}\n${infrastructureEvidence}\nAI factory approach: ${aiFactoryApproach}\nShared compute research: ${sharedComputeAgenda}\nElygent uses PostgreSQL and Redis in its Buzz deployment. GBrain supports scoped, provenance-bearing agent retrieval and knowledge relationships; a GraphRAG engine is not claimed.\nEducation: ${profile.education}\nRecognition: Visa LAC Support Excellence Award 2026; FedEx LAC Professional of the Year 2017; five Visa Technical Innovation TEAM awards 2023–2025.\nLimits: personal ownership of GPU fleets, hardware procurement/RFPs, power/cooling and infrastructure budgets is not established by this brief. Do not invent it. Do not infer an engineering degree. Capacity calculators on the site are design exercises, not observed production results.\nContact: ${profile.email}. LinkedIn: https://www.linkedin.com/in/osmarmorales/\nUse only these facts. Separate candidate-reported career outcomes from independently verified results. If information is missing, say so. Never invent credentials, clients, achievements or confidential detail.`;
 
 export const expandedCareerEvidence =
-  'AI experience milestones reported by Osmar on September 9, 2026: early ChatGPT and Copilot adoption in 2022, followed by agentic workflows in 2024. These are work milestones, not official job-title dates. Visa Director, AI Agent Platform began October 2025 per the supplied career record. Earlier career: Visa Director Data Engineering November 2020–September 2025; Manager Data Analytics November 2018–November 2020; FedEx Express Data Scientist August 2016–November 2018; TracFone Wireless Revenue Systems Analyst February 2013–August 2016; FedEx Express Process Automation Developer March 2012–February 2013; Davis Quality Systems Accountant January 2007–January 2012. Visa work used Python, Docker, MCP, knowledge retrieval, Spark, Hadoop/Hive, MLflow, Feast, Deequ, GitHub, Jenkins, Azure DevOps, Tableau, Power BI and SQL. Elygent integrates OpenClaw, Hermes, Paperclip, Buzz, GBrain and GStack through Node.js/Python, identity-scoped MCP, Composio, and OAuth. Cloud operations include VPS, Linux, Docker, systemd, Caddy, PostgreSQL and Redis. This public sandbox uses React, TypeScript, Vite and Vercel with a bounded Linux VPS agent service. Public GitHub profile: https://github.com/osmarmorales1. Native guest sessions offer GPT-5.6 Sol and GPT-5.5; specialists inherit the selected model for their run. The native Buzz community separately uses xAI-hosted Grok 4.6. Locally hosted shared-model inference remains planned.';
+  'AI experience milestones reported by Osmar on September 9, 2026: early ChatGPT and Copilot adoption in 2022, followed by agentic workflows in 2024. These are work milestones, not official job-title dates. Visa Director, AI Agent Platform began October 2024, explicitly corrected by Osmar on September 10, 2026; this supersedes the earlier October 2025 record. Earlier career: Visa Director Data Engineering November 2020–September 2024; Manager Data Analytics November 2018–November 2020; FedEx Express Data Scientist August 2016–November 2018; TracFone Wireless Revenue Systems Analyst February 2013–August 2016; FedEx Express Process Automation Developer March 2012–February 2013; Davis Quality Systems Accountant January 2007–January 2012. Visa work used Python, Docker, MCP, knowledge retrieval, Spark, Hadoop/Hive, MLflow, Feast, Deequ, GitHub, Jenkins, Azure DevOps, Tableau, Power BI and SQL. Elygent integrates OpenClaw, Hermes, Paperclip, Buzz, GBrain and GStack through Node.js/Python, identity-scoped MCP, Composio, and OAuth. Cloud operations include VPS, Linux, Docker, systemd, Caddy, PostgreSQL and Redis. This public sandbox uses React, TypeScript, Vite and Vercel with a bounded Linux VPS agent service. Public GitHub profile: https://github.com/osmarmorales1. Native guest sessions offer GPT-5.6 Sol and GPT-5.5; specialists inherit the selected model for their run. The native Buzz community separately uses xAI-hosted Grok 4.6. Locally hosted shared-model inference remains planned.';

@@ -1,4 +1,5 @@
 import { writeFile } from 'node:fs/promises';
+import { visaPlatform, visaPlatformEvidence } from '../lib/visa-platform.ts';
 import {
   profile,
   cases,
@@ -11,6 +12,18 @@ import {
   sharedComputeAgenda,
 } from '../lib/infrastructure-data.ts';
 const records = [
+  {
+    id: 'visa-ai-native-transformation',
+    title: 'Agent Factory transformation and corrected role dates',
+    text: visaPlatformEvidence,
+    source: visaPlatform.source,
+  },
+  ...visaPlatform.capabilities.map((item) => ({
+    id: `visa-${item.id}`,
+    title: item.title,
+    text: item.text,
+    source: visaPlatform.source,
+  })),
   {
     id: 'infra-private-cloud',
     title: 'Visa private-cloud application delivery',
@@ -34,7 +47,7 @@ const records = [
     title: 'Visa Agent Factory',
     text: cases[0].ownership + ' ' + cases[0].outcome + ' ' + cases[0].note,
     source:
-      'Candidate confirmed 500+ users and organic growth on 2026-09-09; supplied career record.',
+      'Candidate confirmed adoption on 2026-09-09 and described AI-native transformation, 3× delivery pace, AI Loop, V Agent and VCA Brain on 2026-09-10.',
   },
   {
     id: 'mlops',
@@ -90,7 +103,7 @@ await writeFile(
 await writeFile(
   new URL('../public/portfolio-evidence.json', import.meta.url),
   JSON.stringify(
-    { version: '2026-09-10-v11', records, limits: records.at(-1).text },
+    { version: '2026-09-10-v13', records, limits: records.at(-1).text },
     null,
     2,
   ) + '\n',

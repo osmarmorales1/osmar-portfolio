@@ -44,8 +44,9 @@ export default function EvidenceDashboard({
           their <em>adoption.</em>
         </MotionHeading>
         <p>
-          I connect architecture to the people and work it serves. Here’s the
-          scale behind the story.
+          Agent Factory enabled 3× delivery pace with the same resources. Shared
+          skills and business memory make the capability reusable across the
+          team.
           <button
             className="editorial-link"
             onClick={() => onInspect('factory')}

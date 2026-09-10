@@ -1,6 +1,48 @@
 {
-  "version": "2026-09-10-v11",
+  "version": "2026-09-10-v13",
   "records": [
+    {
+      "id": "visa-ai-native-transformation",
+      "title": "Agent Factory transformation and corrected role dates",
+      "text": "Created Agent Factory to transform data-science teams into an AI-native organization, standardizing business workflows and enabling 3× delivery pace with the same resources. Reached 500+ total users through organic adoption.\nCorrected role dates: Director, AI Agent Platform, October 2024 to present; Director, Data Engineering, November 2020 to September 2024. Direct candidate correction and platform description, September 10, 2026. Supersedes the earlier October 2025 role date.\nDelivery result: Candidate-reported September 10, 2026; baseline, measurement period and workload mix not supplied. Do not convert this into a revenue, cost-saving, throughput or benchmark claim.\nAI Loop and reusable skills: Converted business workflows into reusable agent skills. The AI Loop learns recurring user patterns, creates and improves skills from collective knowledge, and recommends them at runtime to increase reuse, standardization and adoption. Platform capability grows through shared skills and knowledge; this does not establish model-weight training or unrestricted self-modifying production code.\nV Agent: one way to delegate: Built V Agent (Visa Agents) as a super-agent orchestration and simplification layer across the deployed Buzz collaboration workspace, Paperclip, cloud agents and OpenClaw assistant instances. Business users can delegate through a familiar interface without managing the underlying runtimes.\nVCA Brain: shared business memory: Created VCA Brain to share project context, observations and collective knowledge across people using Agent Factory. Teams and agents can discover prior work, understand what colleagues are working on and reuse learning instead of starting from zero. VCA Brain is Visa work; do not equate it with the independent Elygent GBrain deployment or imply public access to Visa knowledge.\nLocal, remote and cloud execution: Centralized orchestration on premises while connecting local, remote and cloud compute. Users can delegate agentic work to Windows VDIs, local or remote machines, and cloud agents. This is orchestration and application-delivery work across enterprise compute, not evidence of owning GPU fleets, datacenter facilities or hardware procurement.\nBuzz: people and agents together: Deployed Buzz as an agentic collaboration workspace, described by Osmar as agentic Slack, bringing humans and agents into one interface and connecting conversations to delegated desktop and cloud work. Buzz is a separate product, not an assertion that Slack itself was built or owned by Osmar. The Visa deployment is distinct from the native Buzz public demonstration.\nAgents that work for hours and days: Set up and operationalized long-running agents that execute for hours and days toward business objectives, with checkpointed state, isolated contexts, independent validation and human review. No completion-rate benchmark or guarantee of uninterrupted execution was provided.",
+      "source": "Direct candidate correction and platform description, September 10, 2026. Supersedes the earlier October 2025 role date."
+    },
+    {
+      "id": "visa-skills-loop",
+      "title": "AI Loop and reusable skills",
+      "text": "Converted business workflows into reusable agent skills. The AI Loop learns recurring user patterns, creates and improves skills from collective knowledge, and recommends them at runtime to increase reuse, standardization and adoption. Platform capability grows through shared skills and knowledge; this does not establish model-weight training or unrestricted self-modifying production code.",
+      "source": "Direct candidate correction and platform description, September 10, 2026. Supersedes the earlier October 2025 role date."
+    },
+    {
+      "id": "visa-v-agent",
+      "title": "V Agent: one way to delegate",
+      "text": "Built V Agent (Visa Agents) as a super-agent orchestration and simplification layer across the deployed Buzz collaboration workspace, Paperclip, cloud agents and OpenClaw assistant instances. Business users can delegate through a familiar interface without managing the underlying runtimes.",
+      "source": "Direct candidate correction and platform description, September 10, 2026. Supersedes the earlier October 2025 role date."
+    },
+    {
+      "id": "visa-vca-brain",
+      "title": "VCA Brain: shared business memory",
+      "text": "Created VCA Brain to share project context, observations and collective knowledge across people using Agent Factory. Teams and agents can discover prior work, understand what colleagues are working on and reuse learning instead of starting from zero. VCA Brain is Visa work; do not equate it with the independent Elygent GBrain deployment or imply public access to Visa knowledge.",
+      "source": "Direct candidate correction and platform description, September 10, 2026. Supersedes the earlier October 2025 role date."
+    },
+    {
+      "id": "visa-distributed-compute",
+      "title": "Local, remote and cloud execution",
+      "text": "Centralized orchestration on premises while connecting local, remote and cloud compute. Users can delegate agentic work to Windows VDIs, local or remote machines, and cloud agents. This is orchestration and application-delivery work across enterprise compute, not evidence of owning GPU fleets, datacenter facilities or hardware procurement.",
+      "source": "Direct candidate correction and platform description, September 10, 2026. Supersedes the earlier October 2025 role date."
+    },
+    {
+      "id": "visa-buzz-collaboration",
+      "title": "Buzz: people and agents together",
+      "text": "Deployed Buzz as an agentic collaboration workspace, described by Osmar as agentic Slack, bringing humans and agents into one interface and connecting conversations to delegated desktop and cloud work. Buzz is a separate product, not an assertion that Slack itself was built or owned by Osmar. The Visa deployment is distinct from the native Buzz public demonstration.",
+      "source": "Direct candidate correction and platform description, September 10, 2026. Supersedes the earlier October 2025 role date."
+    },
+    {
+      "id": "visa-long-running",
+      "title": "Agents that work for hours and days",
+      "text": "Set up and operationalized long-running agents that execute for hours and days toward business objectives, with checkpointed state, isolated contexts, independent validation and human review. No completion-rate benchmark or guarantee of uninterrupted execution was provided.",
+      "source": "Direct candidate correction and platform description, September 10, 2026. Supersedes the earlier October 2025 role date."
+    },
     {
       "id": "infra-private-cloud",
       "title": "Visa private-cloud application delivery",
@@ -10,14 +52,14 @@
     {
       "id": "ai-factory-approach",
       "title": "AI factory and shared compute approach",
-      "text": "An AI factory connects compute, data and knowledge, governed tools, agents and people into useful, repeatable execution. This describes Osmar’s platform approach, not a claim of NVIDIA-scale hardware ownership. Community-shared compute means hosting an open-weight model on contributed hardware and making inference available to authorized community members through Buzz. This is Osmar’s target for his community. Open-source agent software and locally hosted model weights are separate layers. A Grok-backed cloud demo must be labeled Grok; it is not evidence of self-hosted GLM, Kimi or another local model. A deployed Elygent local compute pool has not been established. Elygent Buzz deployment source includes PostgreSQL and Redis. Scoped GBrain recall supplies provenance-bearing knowledge to agents. Knowledge graphs are a design focus; no deployed GraphRAG engine is asserted.",
+      "text": "An AI factory is infrastructure purpose-built to produce intelligence, integrating compute and AI software for training and inference. Osmar uses the term for the transition from general data-center capacity to AI compute that serves the business. His stated contribution is the orchestration and application layer: connecting on-premises, local, remote and cloud execution to agents, reusable workflows and shared business knowledge. Agent Factory is his named enablement platform, not a synonym for ownership of an entire physical AI factory. GPU-fleet, facilities, power/cooling and procurement ownership are not established. Community-shared compute means hosting an open-weight model on contributed hardware and making inference available to authorized community members through Buzz. This is Osmar’s target for his community. Open-source agent software and locally hosted model weights are separate layers. A Grok-backed cloud demo must be labeled Grok; it is not evidence of self-hosted GLM, Kimi or another local model. A deployed Elygent local compute pool has not been established. Elygent Buzz deployment source includes PostgreSQL and Redis. Scoped GBrain recall supplies provenance-bearing knowledge to agents. Knowledge graphs are a design focus; no deployed GraphRAG engine is asserted.",
       "source": "Candidate platform approach; NVIDIA and official Buzz research plus local Elygent source review, 2026-09-10."
     },
     {
       "id": "agent-factory",
       "title": "Visa Agent Factory",
-      "text": "I architect and operate the platform around an existing agent engine, connecting governed tools, reusable skills, knowledge, model routing, and human review. My delivery work spans self-service private-cloud compute, storage and network services. 500+ users, with organic growth. Container, macOS desktop, and private-cloud delivery support different ways of working. Adoption confirmed September 2026. No daily-active or concurrent-user claim.",
-      "source": "Candidate confirmed 500+ users and organic growth on 2026-09-09; supplied career record."
+      "text": "Created and operate Agent Factory: V Agent provides one orchestration interface, VCA Brain shares business memory, and an AI Loop turns recurring work into reusable skills and runtime recommendations. Connect Buzz, Paperclip, the OpenClaw assistant and cloud agents through on-premises orchestration across local, remote, cloud and Windows VDI execution. Transformed data-science teams into an AI-native organization; enabled 3× delivery pace with the same resources and organic adoption by 500+ total users across five markets and two regions. Candidate-confirmed September 2026. 3× refers to delivery pace with the same resources; its measurement period was not supplied. 500+ means total users.",
+      "source": "Candidate confirmed adoption on 2026-09-09 and described AI-native transformation, 3× delivery pace, AI Loop, V Agent and VCA Brain on 2026-09-10."
     },
     {
       "id": "mlops",
@@ -34,7 +76,7 @@
     {
       "id": "career",
       "title": "Career progression",
-      "text": "AI experience milestones reported by Osmar on September 9, 2026: early ChatGPT and Copilot adoption in 2022, followed by agentic workflows in 2024. These are work milestones, not official job-title dates. Visa Director, AI Agent Platform began October 2025 per the supplied career record. Earlier career: Visa Director Data Engineering November 2020–September 2025; Manager Data Analytics November 2018–November 2020; FedEx Express Data Scientist August 2016–November 2018; TracFone Wireless Revenue Systems Analyst February 2013–August 2016; FedEx Express Process Automation Developer March 2012–February 2013; Davis Quality Systems Accountant January 2007–January 2012. Visa work used Python, Docker, MCP, knowledge retrieval, Spark, Hadoop/Hive, MLflow, Feast, Deequ, GitHub, Jenkins, Azure DevOps, Tableau, Power BI and SQL. Elygent integrates OpenClaw, Hermes, Paperclip, Buzz, GBrain and GStack through Node.js/Python, identity-scoped MCP, Composio, and OAuth. Cloud operations include VPS, Linux, Docker, systemd, Caddy, PostgreSQL and Redis. This public sandbox uses React, TypeScript, Vite and Vercel with a bounded Linux VPS agent service. Public GitHub profile: https://github.com/osmarmorales1. Native guest sessions offer GPT-5.6 Sol and GPT-5.5; specialists inherit the selected model for their run. The native Buzz community separately uses xAI-hosted Grok 4.6. Locally hosted shared-model inference remains planned.",
+      "text": "AI experience milestones reported by Osmar on September 9, 2026: early ChatGPT and Copilot adoption in 2022, followed by agentic workflows in 2024. These are work milestones, not official job-title dates. Visa Director, AI Agent Platform began October 2024, explicitly corrected by Osmar on September 10, 2026; this supersedes the earlier October 2025 record. Earlier career: Visa Director Data Engineering November 2020–September 2024; Manager Data Analytics November 2018–November 2020; FedEx Express Data Scientist August 2016–November 2018; TracFone Wireless Revenue Systems Analyst February 2013–August 2016; FedEx Express Process Automation Developer March 2012–February 2013; Davis Quality Systems Accountant January 2007–January 2012. Visa work used Python, Docker, MCP, knowledge retrieval, Spark, Hadoop/Hive, MLflow, Feast, Deequ, GitHub, Jenkins, Azure DevOps, Tableau, Power BI and SQL. Elygent integrates OpenClaw, Hermes, Paperclip, Buzz, GBrain and GStack through Node.js/Python, identity-scoped MCP, Composio, and OAuth. Cloud operations include VPS, Linux, Docker, systemd, Caddy, PostgreSQL and Redis. This public sandbox uses React, TypeScript, Vite and Vercel with a bounded Linux VPS agent service. Public GitHub profile: https://github.com/osmarmorales1. Native guest sessions offer GPT-5.6 Sol and GPT-5.5; specialists inherit the selected model for their run. The native Buzz community separately uses xAI-hosted Grok 4.6. Locally hosted shared-model inference remains planned.",
       "source": "Candidate-provided career record."
     },
     {
@@ -46,7 +88,7 @@
     {
       "id": "approach",
       "title": "Frontier learning and team enablement",
-      "text": "I bring teams to the AI frontier. I stay close to what is changing in AI, evaluate what is useful, and turn it into shared platforms so colleagues can focus on their work.",
+      "text": "I build AI-native teams. I turn business workflows, collective knowledge and distributed compute into a shared operating capability. Agent Factory makes agents useful to technical and business users, with reusable skills, shared memory and one way to delegate.",
       "source": "Candidate positioning updated 2026-09-10."
     },
     {
