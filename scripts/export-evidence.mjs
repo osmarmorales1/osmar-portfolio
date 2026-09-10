@@ -76,7 +76,7 @@ const records = [
       cases[2].outcome +
       ' The platform combines OpenClaw for conversation/runtime UX, Paperclip for accountable work, Hermes for selected persistent workers, GBrain for curated knowledge, GStack for the separate Software Factory delivery method, and Buzz for collaboration. Elygent owns identity, policy, capability routing and evidence. It uses model-agnostic integration, choosing existing components for their strengths.',
     source:
-      'Osmar explicitly confirmed he founded Elygent as a company on 2026-09-10. Product capabilities are supported by the reviewed independent platform and public deployments; no founding date or commercial traction metrics were supplied.',
+      'On 2026-09-10, Osmar confirmed that Elygent is a company he founded. This is the confirmation date, not the founding date. Product capabilities are supported by the reviewed platform and public deployments; no founding date or commercial traction metrics were supplied.',
   },
   {
     id: 'career',

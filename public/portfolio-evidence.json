@@ -77,7 +77,7 @@
       "id": "elygent",
       "title": "Elygent — company founded by Osmar",
       "text": "Founded Elygent and lead its product and platform architecture. Built shared memory, scoped tool access and accountable execution so workflows can reuse context, preserve personal and business boundaries, and recover from failure. Launched a public cloud-agent lab and native Buzz community. Visitors can experience specialist collaboration, browser execution and human review; the company’s broader platform brings people and agents into shared, accountable work. The platform combines OpenClaw for conversation/runtime UX, Paperclip for accountable work, Hermes for selected persistent workers, GBrain for curated knowledge, GStack for the separate Software Factory delivery method, and Buzz for collaboration. Elygent owns identity, policy, capability routing and evidence. It uses model-agnostic integration, choosing existing components for their strengths.",
-      "source": "Osmar explicitly confirmed he founded Elygent as a company on 2026-09-10. Product capabilities are supported by the reviewed independent platform and public deployments; no founding date or commercial traction metrics were supplied."
+      "source": "On 2026-09-10, Osmar confirmed that Elygent is a company he founded. This is the confirmation date, not the founding date. Product capabilities are supported by the reviewed platform and public deployments; no founding date or commercial traction metrics were supplied."
     },
     {
       "id": "career",
