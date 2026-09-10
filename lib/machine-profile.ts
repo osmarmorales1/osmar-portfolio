@@ -113,7 +113,7 @@ export const publicStack = [
       'Candidate-provided professional record, private-cloud service context and broader cloud/on-premises scope confirmed September 10, 2026',
   },
   {
-    context: 'Independent Elygent platform',
+    context: 'Elygent — founder and AI platform architect',
     themes: [
       'Cloud agents',
       'Human-agent collaboration',
@@ -185,7 +185,7 @@ export const machineProfile = {
     languages: profile.languages,
   },
   story:
-    'Osmar creates AI-native teams and agent platforms that scale productivity and efficiency. His work connects reusable workflows, shared knowledge and distributed execution behind interfaces people can use. Professional case studies demonstrate team transformation, adoption and measurable delivery results. Elygent is his independent platform for building and testing these capabilities.',
+    'Osmar creates AI-native teams and agent platforms that scale productivity and efficiency. His work connects reusable workflows, shared knowledge and distributed execution behind interfaces people can use. Professional case studies demonstrate team transformation, adoption and measurable delivery results. He founded Elygent, an independent AI platform company, and leads its product and platform architecture.',
   aspirations: ['Principal AI Platform Engineer', 'Senior Director', 'VP'],
   experience: publicCareer,
   milestones: [
@@ -277,7 +277,7 @@ export const machineProfile = {
     'Career outcomes are candidate-provided, not an independent employer audit.',
     'Role dates corrected directly by Osmar on September 10, 2026: current role October 2024; previous Director role ends September 2024. These supersede the earlier dates.',
     '3× describes reported delivery pace with the same resources; no measurement period or standardized benchmark was provided. AI Loop improvement refers to skills and shared knowledge, not model-weight training.',
-    'Elygent is an independent development pilot; Visa adoption figures do not apply to it.',
+    'Elygent is an independent AI platform company founded by Osmar. Its founding date, revenue, headcount and commercial adoption metrics were not supplied; Visa adoption figures do not apply to it.',
     'Private-cloud evidence supports service use and application delivery, not ownership of every catalog service. Shared Buzz compute remains exploration.',
     'The supplied record does not establish GPU-fleet, facilities, RFP or infrastructure-budget ownership.',
     'Education is Finance with a Mathematics minor; no engineering degree is claimed.',

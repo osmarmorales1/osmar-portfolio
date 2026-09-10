@@ -69,14 +69,14 @@ const records = [
   },
   {
     id: 'elygent',
-    title: 'Independent Elygent platform',
+    title: 'Elygent — company founded by Osmar',
     text:
       cases[2].ownership +
       ' ' +
       cases[2].outcome +
       ' The platform combines OpenClaw for conversation/runtime UX, Paperclip for accountable work, Hermes for selected persistent workers, GBrain for curated knowledge, GStack for the separate Software Factory delivery method, and Buzz for collaboration. Elygent owns identity, policy, capability routing and evidence. It uses model-agnostic integration, choosing existing components for their strengths.',
     source:
-      'Candidate project; current development source reviewed 2026-09-09.',
+      'Osmar explicitly confirmed he founded Elygent as a company on 2026-09-10. Product capabilities are supported by the reviewed independent platform and public deployments; no founding date or commercial traction metrics were supplied.',
   },
   {
     id: 'career',
@@ -99,7 +99,7 @@ const records = [
   {
     id: 'limits',
     title: 'Evidence boundaries',
-    text: 'GPU-fleet ownership, RFPs, facilities and infrastructure budgets are unverified here. No engineering degree is claimed. 500+ is total users, not DAU or concurrency. Elygent is an independent development pilot. The website capacity lab is hypothetical, not measured production performance.',
+    text: 'GPU-fleet ownership, RFPs, facilities and infrastructure budgets are unverified here. No engineering degree is claimed. 500+ is total users, not DAU or concurrency. Elygent is an independent AI platform company founded by Osmar; do not transfer Visa outcomes to it or invent its founding date, revenue, headcount or customer metrics. The website capacity lab is hypothetical, not measured production performance.',
     source: 'Scope assessment from supplied evidence, 2026-09-09.',
   },
 ];
@@ -110,7 +110,7 @@ await writeFile(
 await writeFile(
   new URL('../public/portfolio-evidence.json', import.meta.url),
   JSON.stringify(
-    { version: '2026-09-10-v16', records, limits: records.at(-1).text },
+    { version: '2026-09-10-v17', records, limits: records.at(-1).text },
     null,
     2,
   ) + '\n',

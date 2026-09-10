@@ -408,7 +408,7 @@ export default function Home() {
               </p>
               <p>
                 <strong>Built for people to use.</strong> One simple way to
-                delegate work. Elygent is my independent proving ground.
+                delegate work. Elygent is the AI platform company I founded.
               </p>
               <button
                 className="black-pill intro-cloud-action"
