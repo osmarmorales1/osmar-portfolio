@@ -379,8 +379,7 @@ export default function Home() {
               AI-native teams.
             </h1>
             <p className="hero-lead">
-              Agent Factory at Visa. 3× delivery pace with the same resources.
-              Shared skills, business memory, and agents people can use.
+              Agent Factory at Visa. 3× delivery pace. Same resources.
             </p>
             <div className="hero-actions">
               <a
@@ -404,20 +403,13 @@ export default function Home() {
             </a>
             <div>
               <p>
-                <strong>Make AI a team capability.</strong> I created Agent
-                Factory to transform data-science teams into an AI-native
-                organization. V Agent gives people one way to delegate across
-                local, remote and cloud compute. VCA Brain shares project
-                context and business knowledge, so the next task builds on what
-                the team already knows.
+                <strong>One platform. A shared advantage.</strong> Agent
+                Factory combines reusable skills, business memory, and
+                distributed agents.
               </p>
               <p>
-                <strong>The platform learns with the people using it.</strong>{' '}
-                The AI Loop captures recurring workflows as skills, improves
-                them through collective knowledge, and recommends them when they
-                are useful. Buzz brings people and agents into the same
-                conversation. Long-running agents carry work forward for hours
-                and days. Elygent is my separate, independent proving ground.
+                <strong>Built for people to use.</strong> V Agent makes
+                delegation simple. Elygent is my independent proving ground.
               </p>
               <button
                 className="black-pill intro-cloud-action"

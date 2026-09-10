@@ -44,9 +44,7 @@ export default function EvidenceDashboard({
           their <em>adoption.</em>
         </MotionHeading>
         <p>
-          Agent Factory enabled 3× delivery pace with the same resources. Shared
-          skills and business memory make the capability reusable across the
-          team.
+          500+ users. Five markets. Two regions.
           <button
             className="editorial-link"
             onClick={() => onInspect('factory')}
