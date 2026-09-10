@@ -110,7 +110,7 @@ export default function FrontierLab({
               </div>
             </div>
           </div>
-          <span className="lab-label">LIVE ELYGENT COMPUTER</span>
+          <span className="lab-label">COMPUTER USE · BROWSER AUTOMATION</span>
           <h3>Give it a task. Watch it work.</h3>
           <p>
             Watch the agent inspect an Amazon product, compare options, and

@@ -1,6 +1,12 @@
 {
-  "version": "2026-09-10-v17",
+  "version": "2026-09-10-v18",
   "records": [
+    {
+      "id": "technical-keyword-scope",
+      "title": "Airflow, feature platforms, Linux VPS and computer use",
+      "text": "Apache Airflow appears in Osmar’s supplied career technology tags; a specific Airflow deployment outcome was not supplied. His MLOps ownership includes feature-store infrastructure using Feast, model registry using MLflow, pipelines and data quality. The phrase feature engineering platforms describes this platform scope; do not invent specific model features, transformation algorithms or performance gains. Elygent and the public agent lab run on Linux VPS infrastructure with isolated containers. Public computer use means browser automation in the isolated demo environment, not unrestricted access to a visitor’s desktop. VPS means virtual private server; Windows VDI is a separate virtual-desktop execution example from Visa work. LLMOps summarizes established model routing, evaluations, tracing/observability and controls; it does not establish fine-tuning or ownership of model weights.",
+      "source": "Candidate-supplied technology tags and photo evidence, reviewed September 2026; implemented Elygent/public-lab source and deployments. Keyword wording reviewed against current official employer postings on 2026-09-10. Feature-transformation detail remains unconfirmed."
+    },
     {
       "id": "languages",
       "title": "Languages",
@@ -76,7 +82,7 @@
     {
       "id": "elygent",
       "title": "Elygent — company founded by Osmar",
-      "text": "Founded Elygent and lead its product and platform architecture. Built shared memory, scoped tool access and accountable execution so workflows can reuse context, preserve personal and business boundaries, and recover from failure. Launched a public cloud-agent lab and native Buzz community. Visitors can experience specialist collaboration, browser execution and human review; the company’s broader platform brings people and agents into shared, accountable work. The platform combines OpenClaw for conversation/runtime UX, Paperclip for accountable work, Hermes for selected persistent workers, GBrain for curated knowledge, GStack for the separate Software Factory delivery method, and Buzz for collaboration. Elygent owns identity, policy, capability routing and evidence. It uses model-agnostic integration, choosing existing components for their strengths.",
+      "text": "Founded Elygent and lead its product and platform architecture. Built shared memory, scoped tool access and accountable execution so workflows can reuse context, preserve personal and business boundaries, and recover from failure. Launched a public cloud-agent lab on Linux VPS and a native Buzz community. Visitors can experience specialist collaboration, computer use through browser automation, and human review; the company’s broader platform brings people and agents into shared, accountable work. The platform combines OpenClaw for conversation/runtime UX, Paperclip for accountable work, Hermes for selected persistent workers, GBrain for curated knowledge, GStack for the separate Software Factory delivery method, and Buzz for collaboration. Elygent owns identity, policy, capability routing and evidence. It uses model-agnostic integration, choosing existing components for their strengths.",
       "source": "On 2026-09-10, Osmar confirmed that Elygent is a company he founded. This is the confirmation date, not the founding date. Product capabilities are supported by the reviewed platform and public deployments; no founding date or commercial traction metrics were supplied."
     },
     {

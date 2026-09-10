@@ -13,6 +13,13 @@ import {
 } from '../lib/infrastructure-data.ts';
 const records = [
   {
+    id: 'technical-keyword-scope',
+    title: 'Airflow, feature platforms, Linux VPS and computer use',
+    text: 'Apache Airflow appears in Osmar’s supplied career technology tags; a specific Airflow deployment outcome was not supplied. His MLOps ownership includes feature-store infrastructure using Feast, model registry using MLflow, pipelines and data quality. The phrase feature engineering platforms describes this platform scope; do not invent specific model features, transformation algorithms or performance gains. Elygent and the public agent lab run on Linux VPS infrastructure with isolated containers. Public computer use means browser automation in the isolated demo environment, not unrestricted access to a visitor’s desktop. VPS means virtual private server; Windows VDI is a separate virtual-desktop execution example from Visa work. LLMOps summarizes established model routing, evaluations, tracing/observability and controls; it does not establish fine-tuning or ownership of model weights.',
+    source:
+      'Candidate-supplied technology tags and photo evidence, reviewed September 2026; implemented Elygent/public-lab source and deployments. Keyword wording reviewed against current official employer postings on 2026-09-10. Feature-transformation detail remains unconfirmed.',
+  },
+  {
     id: 'languages',
     title: 'Languages',
     text: profile.languages.join('; '),
@@ -110,7 +117,7 @@ await writeFile(
 await writeFile(
   new URL('../public/portfolio-evidence.json', import.meta.url),
   JSON.stringify(
-    { version: '2026-09-10-v17', records, limits: records.at(-1).text },
+    { version: '2026-09-10-v18', records, limits: records.at(-1).text },
     null,
     2,
   ) + '\n',

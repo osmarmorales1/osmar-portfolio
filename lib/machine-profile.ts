@@ -82,6 +82,7 @@ export const publicStack = [
     themes: [
       'AI-native team enablement',
       'Agent orchestration and reusable workflows',
+      'Agentic AI and LLMOps',
       'Shared context and collective learning',
       'Public cloud, private cloud and on-premises delivery',
       'MLOps',
@@ -100,6 +101,9 @@ export const publicStack = [
       'MCP',
       'RAG',
       'Spark',
+      'Apache Airflow',
+      'Feature engineering platforms',
+      'Feature stores',
       'MLflow',
       'Feast',
       'Deequ',
@@ -116,6 +120,7 @@ export const publicStack = [
     context: 'Elygent — founder and AI platform architect',
     themes: [
       'Cloud agents',
+      'Computer use and browser automation',
       'Human-agent collaboration',
       'Shared knowledge',
       'Model-agnostic integration',
@@ -128,6 +133,7 @@ export const publicStack = [
       'GBrain',
       'GStack',
       'Node.js',
+      'Linux VPS',
       'Python',
       'MCP',
       'Composio',

@@ -95,7 +95,7 @@ export const cases = [
       'Ship working experiences and validate the real model-to-tool path before expanding capabilities.',
     ],
     outcome:
-      'Launched a public cloud-agent lab and native Buzz community. Visitors can experience specialist collaboration, browser execution and human review; the company’s broader platform brings people and agents into shared, accountable work.',
+      'Launched a public cloud-agent lab on Linux VPS and a native Buzz community. Visitors can experience specialist collaboration, computer use through browser automation, and human review; the company’s broader platform brings people and agents into shared, accountable work.',
     tags: [
       'MCP / APIs',
       'Linux / Docker',

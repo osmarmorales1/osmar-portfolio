@@ -59,23 +59,23 @@ const career = [
 const groups = {
   visa: [
     [
-      'Agent engineering',
-      'Multi-agent systems · Long-running execution · Model routing · Evaluation',
+      'Agentic AI',
+      'Multi-agent orchestration · Computer use · MCP · Long-running agents',
       Network,
     ],
     [
-      'Context & skills',
-      'Shared memory · RAG · Reusable workflows · MCP',
+      'LLMOps & context',
+      'RAG · Shared memory · Reusable skills · Evaluations · Observability',
       Database,
     ],
     [
-      'Distributed AI',
-      'Cloud · On-premises · Windows VDI · Kubernetes · Docker',
+      'Cloud infrastructure',
+      'Linux VPS · Docker · Kubernetes · Cloud/on-premises · Sandboxing',
       Server,
     ],
     [
-      'Data & MLOps',
-      'Python · SQL · Spark · MLflow · Feature management · CI/CD',
+      'Data engineering & MLOps',
+      'Apache Airflow · Spark · Feature engineering platforms · Feature stores · CI/CD',
       Workflow,
     ],
   ],
