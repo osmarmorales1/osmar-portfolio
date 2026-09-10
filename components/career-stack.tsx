@@ -78,11 +78,6 @@ const groups = {
       'Python · SQL · Spark · MLflow · Feature management · CI/CD',
       Workflow,
     ],
-    [
-      'Decision experiences',
-      'Tableau · Power BI · Python · SQL',
-      ChartNoAxesCombined,
-    ],
   ],
   elygent: [
     [
