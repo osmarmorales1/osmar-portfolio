@@ -1,7 +1,7 @@
-'use client';
+"use client";
 /* eslint-disable next/no-img-element, next/no-html-link-for-pages -- This site ships as standalone Vite HTML; native images and static-file links are intentional. */
 /* eslint-disable jsx-a11y/no-noninteractive-tabindex -- The horizontal gallery must be keyboard-focusable for native arrow-key scrolling. */
-import { useEffect, useState } from 'react';
+import { useEffect, useState } from "react";
 import {
   Activity,
   ArrowRight,
@@ -22,209 +22,202 @@ import {
   Users,
   Workflow,
   X,
-} from 'lucide-react';
-import { Button } from '@/components/ui/button';
-import {
-  Dialog,
-  DialogContent,
-  DialogTitle,
-  DialogDescription,
-} from '@/components/ui/dialog';
-import NativeGuestWorkspace from '@/components/native-guest-workspace';
-import AppShowcase from '@/components/app-showcase';
-import HeroFilm from '@/components/hero-film';
-import LeadershipMethod from '@/components/leadership-method';
-import MotionHeading from '@/components/motion-heading';
-import EvidenceDashboard from '@/components/evidence-dashboard';
-import CareerStack from '@/components/career-stack';
-import FrontierLab from '@/components/frontier-lab';
-import CapabilityCard from '@/components/capability-card';
-import { cases } from '@/lib/portfolio-data';
-import { registerPortfolioTools } from '@/lib/portfolio-webmcp';
-import { buzzCommunity, profileStructuredData } from '@/lib/machine-profile';
+} from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Dialog, DialogContent, DialogTitle, DialogDescription } from "@/components/ui/dialog";
+import NativeGuestWorkspace from "@/components/native-guest-workspace";
+import AppShowcase from "@/components/app-showcase";
+import HeroFilm from "@/components/hero-film";
+import LeadershipMethod from "@/components/leadership-method";
+import MotionHeading from "@/components/motion-heading";
+import EvidenceDashboard from "@/components/evidence-dashboard";
+import CareerStack from "@/components/career-stack";
+import FrontierLab from "@/components/frontier-lab";
+import CapabilityCard from "@/components/capability-card";
+import { cases } from "@/lib/portfolio-data";
+import { registerPortfolioTools } from "@/lib/portfolio-webmcp";
+import { buzzCommunity, profileStructuredData } from "@/lib/machine-profile";
 const teamPrompt =
-  'Create an executive brief about Osmar’s platform leadership. Have two specialists review public career evidence and platform decisions, then bring their findings together for an AI platform hiring team.';
+  "Create an executive brief about Osmar’s platform leadership. Have two specialists review public career evidence and platform decisions, then bring their findings together for an AI platform hiring team.";
 const apps = [
   {
-    name: 'OpenClaw',
+    name: "OpenClaw",
     icon: Compass,
-    color: '#e96952',
-    role: 'Conversation & runtime',
-    detail: 'A familiar way to begin work with an AI assistant.',
+    color: "#e96952",
+    role: "Conversation & runtime",
+    detail: "A familiar way to begin work with an AI assistant.",
   },
   {
-    name: 'Buzz',
+    name: "Buzz",
     icon: Users,
-    color: '#aa911a',
-    role: 'Team collaboration',
-    detail: 'Shared channels for people, agents, and the work they produce.',
+    color: "#aa911a",
+    role: "Team collaboration",
+    detail: "Shared channels for people, agents, and the work they produce.",
   },
   {
-    name: 'Paperclip',
+    name: "Paperclip",
     icon: Workflow,
-    color: '#677cc2',
-    role: 'Accountable work',
-    detail: 'Goals, ownership, handoffs, and a path to a delivered result.',
+    color: "#677cc2",
+    role: "Accountable work",
+    detail: "Goals, ownership, handoffs, and a path to a delivered result.",
   },
   {
-    name: 'Hermes',
+    name: "Hermes",
     icon: Feather,
-    color: '#7099bf',
-    role: 'Specialist workers',
-    detail: 'Focused execution and useful methods carried forward.',
+    color: "#7099bf",
+    role: "Specialist workers",
+    detail: "Focused execution and useful methods carried forward.",
   },
   {
-    name: 'GBrain',
+    name: "GBrain",
     icon: BrainCircuit,
-    color: '#7c9c73',
-    role: 'Shared knowledge',
+    color: "#7c9c73",
+    role: "Shared knowledge",
     detail:
-      'Curated facts, knowledge relationships, and agentic retrieval (RAG) with source boundaries.',
+      "Curated facts, knowledge relationships, and agentic retrieval (RAG) with source boundaries.",
   },
   {
-    name: 'GStack',
+    name: "GStack",
     icon: Code2,
-    color: '#b1795d',
-    role: 'Engineering methods',
-    detail: 'Reusable review, testing, and release workflows.',
+    color: "#b1795d",
+    role: "Engineering methods",
+    detail: "Reusable review, testing, and release workflows.",
   },
   {
-    name: 'MCP',
+    name: "MCP",
     icon: Network,
-    color: '#63867f',
-    role: 'Connected tools',
-    detail: 'A common interface for approved capabilities.',
+    color: "#63867f",
+    role: "Connected tools",
+    detail: "A common interface for approved capabilities.",
   },
   {
-    name: 'Python',
+    name: "Python",
     icon: Code2,
-    color: '#ac9b5e',
-    role: 'Data & automation',
-    detail: 'Practical data, automation, and integration work.',
+    color: "#ac9b5e",
+    role: "Data & automation",
+    detail: "Practical data, automation, and integration work.",
   },
   {
-    name: 'Vercel',
+    name: "Vercel",
     icon: Globe,
-    color: '#404847',
-    role: 'The web experience',
-    detail: 'The public portfolio interface, deployed at osmarmorales.io.',
+    color: "#404847",
+    role: "The web experience",
+    detail: "The public portfolio interface, deployed at osmarmorales.io.",
   },
   {
-    name: 'Linux VPS',
+    name: "Linux VPS",
     icon: Server,
-    color: '#78918a',
-    role: 'Cloud execution',
-    detail: 'The bounded agent service behind the portfolio.',
+    color: "#78918a",
+    role: "Cloud execution",
+    detail: "The bounded agent service behind the portfolio.",
   },
   {
-    name: 'PostgreSQL',
+    name: "PostgreSQL",
     icon: Database,
-    color: '#7293b5',
-    role: 'Data foundations',
-    detail: 'A building block in the independent Elygent integration stack.',
+    color: "#7293b5",
+    role: "Data foundations",
+    detail: "A building block in the independent Elygent integration stack.",
   },
   {
-    name: 'GitHub',
+    name: "GitHub",
     icon: Code2,
-    color: '#666b6c',
-    role: 'Delivery workflow',
-    detail: 'Repositories, change review, and software delivery.',
+    color: "#666b6c",
+    role: "Delivery workflow",
+    detail: "Repositories, change review, and software delivery.",
   },
   {
-    name: 'Docker',
+    name: "Docker",
     icon: Layers3,
-    color: '#6a9bc2',
-    role: 'Portable environments',
-    detail: 'Packaged services and repeatable deployment.',
+    color: "#6a9bc2",
+    role: "Portable environments",
+    detail: "Packaged services and repeatable deployment.",
   },
   {
-    name: 'TypeScript',
+    name: "TypeScript",
     icon: Code2,
-    color: '#6289b8',
-    role: 'Application engineering',
-    detail: 'Typed interfaces in this portfolio and application prototypes.',
+    color: "#6289b8",
+    role: "Application engineering",
+    detail: "Typed interfaces in this portfolio and application prototypes.",
   },
   {
-    name: 'Redis',
+    name: "Redis",
     icon: Database,
-    color: '#397d9f',
-    role: 'Application infrastructure',
-    detail:
-      'Redis and PostgreSQL support the independent Buzz deployment in Elygent.',
+    color: "#397d9f",
+    role: "Application infrastructure",
+    detail: "Redis and PostgreSQL support the independent Buzz deployment in Elygent.",
   },
   {
-    name: 'MLflow',
+    name: "MLflow",
     icon: Activity,
-    color: '#67a397',
-    role: 'MLOps foundations',
-    detail: 'Model management in the supplied Visa work record.',
+    color: "#67a397",
+    role: "MLOps foundations",
+    detail: "Model management in the supplied Visa work record.",
   },
   {
-    name: 'Kubernetes',
+    name: "Kubernetes",
     icon: Layers3,
-    color: '#397d9f',
-    role: 'Private-cloud workloads',
-    detail:
-      'Container and namespace services for enterprise application delivery.',
+    color: "#397d9f",
+    role: "Private-cloud workloads",
+    detail: "Container and namespace services for enterprise application delivery.",
   },
   {
-    name: 'WebMCP',
+    name: "WebMCP",
     icon: Globe,
-    color: '#397d9f',
-    role: 'An interface for agents',
-    detail:
-      'This page exposes public profile and capacity tools to compatible browser agents.',
+    color: "#397d9f",
+    role: "An interface for agents",
+    detail: "This page exposes public profile and capacity tools to compatible browser agents.",
   },
 ];
 const brandIcons: Record<string, string> = {
-  OpenClaw: 'openclaw-static.png',
-  Hermes: 'hermes.png',
-  Buzz: 'buzz.png',
-  Paperclip: 'paperclip-light.svg',
-  GStack: 'gstack.png',
-  Docker: 'docker.svg',
-  Python: 'python.svg',
-  TypeScript: 'typescript.svg',
-  GitHub: 'github.svg',
-  Vercel: 'vercel.svg',
-  PostgreSQL: 'postgresql.svg',
-  Jenkins: 'jenkins.svg',
-  MLflow: 'mlflow.svg',
+  OpenClaw: "openclaw-static.png",
+  Hermes: "hermes.png",
+  Buzz: "buzz.png",
+  Paperclip: "paperclip-light.svg",
+  GStack: "gstack.png",
+  Docker: "docker.svg",
+  Python: "python.svg",
+  TypeScript: "typescript.svg",
+  GitHub: "github.svg",
+  Vercel: "vercel.svg",
+  PostgreSQL: "postgresql.svg",
+  Jenkins: "jenkins.svg",
+  MLflow: "mlflow.svg",
+  Redis: "redis.svg",
+  Kubernetes: "kubernetes.svg",
 };
 const productScreens = [
   {
-    id: 'elygent',
-    name: 'Elygent',
-    task: 'Bring in specialists. Show me the result.',
-    title: 'Make collaboration visible.',
-    description: 'A working view of agents, evidence, and a completed brief.',
+    id: "elygent",
+    name: "Elygent",
+    task: "Bring in specialists. Show me the result.",
+    title: "Make collaboration visible.",
+    description: "A working view of agents, evidence, and a completed brief.",
     image: null,
     source: null,
   },
   {
-    id: 'buzz',
-    name: 'Buzz',
-    task: 'Work together, in the same conversation.',
-    title: 'Give the team a shared space.',
-    description:
-      'Our native community, with shared channels and cloud agents.',
-    image: '/v10/buzz-community.jpg',
+    id: "buzz",
+    name: "Buzz",
+    task: "Work together, in the same conversation.",
+    title: "Give the team a shared space.",
+    description: "Our native community, with shared channels and cloud agents.",
+    image: "/v10/buzz-community.jpg",
     source: buzzCommunity.inviteUrl,
   },
   {
-    id: 'paperclip',
-    name: 'Paperclip',
-    task: 'Turn the goal into accountable work.',
-    title: 'Keep ownership in the picture.',
-    description: 'Goals, assignments, and handoffs in the actual app.',
-    image: '/v5/paperclip-light-app.png',
-    source: 'https://github.com/paperclipai/paperclip',
+    id: "paperclip",
+    name: "Paperclip",
+    task: "Turn the goal into accountable work.",
+    title: "Keep ownership in the picture.",
+    description: "Goals, assignments, and handoffs in the actual app.",
+    image: "/v5/paperclip-light-app.png",
+    source: "https://github.com/paperclipai/paperclip",
   },
 ];
 export default function Home() {
   const [workspace, setWorkspace] = useState(false),
-    [prompt, setPrompt] = useState(''),
-    [workspaceView, setWorkspaceView] = useState<'agent' | 'computer'>('agent'),
+    [prompt, setPrompt] = useState(""),
+    [workspaceView, setWorkspaceView] = useState<"agent" | "computer">("agent"),
     [launch, setLaunch] = useState(0),
     [mobileNav, setMobileNav] = useState(false),
     [pinned, setPinned] = useState(false),
@@ -234,7 +227,7 @@ export default function Home() {
   const selected = cases.find((c) => c.id === project);
   const galleryItem = productScreens.find((p) => p.id === gallery);
   useEffect(() => registerPortfolioTools(), []);
-  function openEly(message = '', view: 'agent' | 'computer' = 'agent') {
+  function openEly(message = "", view: "agent" | "computer" = "agent") {
     setPrompt(message);
     setWorkspaceView(view);
     setLaunch((v) => v + 1);
@@ -244,18 +237,18 @@ export default function Home() {
   useEffect(() => {
     const scroll = () => setPinned(window.scrollY > 450);
     scroll();
-    window.addEventListener('scroll', scroll, { passive: true });
+    window.addEventListener("scroll", scroll, { passive: true });
     const key = (e: KeyboardEvent) => {
-      if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') {
+      if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === "k") {
         e.preventDefault();
-        openEly('');
+        openEly("");
       }
-      if (e.key === 'Escape') setMobileNav(false);
+      if (e.key === "Escape") setMobileNav(false);
     };
-    window.addEventListener('keydown', key);
+    window.addEventListener("keydown", key);
     return () => {
-      window.removeEventListener('scroll', scroll);
-      window.removeEventListener('keydown', key);
+      window.removeEventListener("scroll", scroll);
+      window.removeEventListener("keydown", key);
     };
   }, []);
   return (
@@ -263,16 +256,13 @@ export default function Home() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify(profileStructuredData).replace(
-            /</g,
-            '\\u003c',
-          ),
+          __html: JSON.stringify(profileStructuredData).replace(/</g, "\\u003c"),
         }}
       />
       <a href="#main" className="skip-link">
         Skip to content
       </a>
-      <header className={`aside-nav ${pinned ? 'pinned' : ''}`}>
+      <header className={`aside-nav ${pinned ? "pinned" : ""}`}>
         <a href="#main" className="osmar-logo" aria-label="Osmar Morales home">
           <span>
             <Sparkles size={22} />
@@ -283,18 +273,14 @@ export default function Home() {
           <a href="#work">Work</a>
           <a href="#platform">Approach</a>
           <a href="#experience">Experience</a>
-          <a
-            href="https://github.com/osmarmorales1"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <a href="https://github.com/osmarmorales1" target="_blank" rel="noreferrer">
             GitHub <ArrowUpRight size={11} />
           </a>
         </nav>
         <Button
           variant="ghost"
           className="aside-menu-button"
-          aria-label={mobileNav ? 'Close menu' : 'Open menu'}
+          aria-label={mobileNav ? "Close menu" : "Open menu"}
           onClick={() => setMobileNav(!mobileNav)}
         >
           {mobileNav ? <X size={23} /> : <Menu size={23} />}
@@ -316,39 +302,27 @@ export default function Home() {
               </span>
               Osmar
             </span>
-            <Button
-              variant="ghost"
-              aria-label="Close menu"
-              onClick={() => setMobileNav(false)}
-            >
+            <Button variant="ghost" aria-label="Close menu" onClick={() => setMobileNav(false)}>
               <X size={23} />
             </Button>
           </div>
           <nav aria-label="Mobile navigation">
             {[
-              ['Work', '#work'],
-              ['Approach', '#platform'],
-              ['Experience', '#experience'],
-              ['Contact', '#contact'],
+              ["Work", "#work"],
+              ["Approach", "#platform"],
+              ["Experience", "#experience"],
+              ["Contact", "#contact"],
             ].map(([label, href]) => (
               <a key={href} href={href} onClick={() => setMobileNav(false)}>
                 {label}
                 <ArrowUpRight size={20} />
               </a>
             ))}
-            <a
-              href="https://github.com/osmarmorales1"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href="https://github.com/osmarmorales1" target="_blank" rel="noreferrer">
               GitHub <ArrowUpRight size={20} />
             </a>
           </nav>
-          <a
-            className="black-pill"
-            href="/Osmar_Morales_Mastercard_Resume.pdf"
-            download
-          >
+          <a className="black-pill" href="/Osmar_Morales_Mastercard_Resume.pdf" download>
             <Download size={16} />
             Download resume
           </a>
@@ -359,12 +333,7 @@ export default function Home() {
           <div className="aside-hero-copy">
             <a className="identity-pill" href="#experience">
               <span className="hero-portrait">
-                <img
-                  src="/v8/osmar-morales.png"
-                  alt=""
-                  width="1254"
-                  height="1254"
-                />
+                <img src="/v8/osmar-morales.png" alt="" width="1254" height="1254" />
               </span>
               <span className="hero-identity-text">
                 <strong>Osmar Morales</strong>
@@ -378,15 +347,10 @@ export default function Home() {
               to the AI frontier.
             </h1>
             <p className="hero-lead">
-              Enterprise AI. Cloud and on-premises foundations. Platforms people choose
-              to use.
+              Enterprise AI. Cloud and on-premises foundations. Platforms people choose to use.
             </p>
             <div className="hero-actions">
-              <a
-                className="black-pill"
-                href="/Osmar_Morales_Mastercard_Resume.pdf"
-                download
-              >
+              <a className="black-pill" href="/Osmar_Morales_Mastercard_Resume.pdf" download>
                 <Download size={17} />
                 <span>Download resume</span>
               </a>
@@ -403,25 +367,17 @@ export default function Home() {
             </a>
             <div>
               <p>
-                <strong>From business insight to enterprise AI.</strong> My
-                career has moved through finance, analytics, data engineering,
-                and AI platforms. My work spans public cloud, private cloud and
-                on-premises infrastructure, connecting data foundations and
-                governed AI—turning emerging
-                capabilities into systems people choose to use.
+                <strong>From business insight to enterprise AI.</strong> My career has moved through
+                finance, analytics, data engineering, and AI platforms. My work spans public cloud,
+                private cloud and on-premises infrastructure, connecting data foundations and
+                governed AI—turning emerging capabilities into systems people choose to use.
               </p>
               <p>
-                <strong>
-                  I learn at the frontier so the team can build there.
-                </strong>{' '}
-                Elygent is my independent proving ground: cloud agents, shared
-                knowledge, and accountable collaboration—brought into one
-                working experience.
+                <strong>I learn at the frontier so the team can build there.</strong> Elygent is my
+                independent proving ground: cloud agents, shared knowledge, and accountable
+                collaboration—brought into one working experience.
               </p>
-              <button
-                className="black-pill intro-cloud-action"
-                onClick={() => openEly()}
-              >
+              <button className="black-pill intro-cloud-action" onClick={() => openEly()}>
                 Try cloud agent <ArrowUpRight size={16} />
               </button>
             </div>
@@ -439,14 +395,11 @@ export default function Home() {
               </MotionHeading>
             </div>
             <div className="app-icon-stage">
-              <fieldset
-                className="app-icon-field"
-                aria-label="Explore the connected stack"
-              >
+              <fieldset className="app-icon-field" aria-label="Explore the connected stack">
                 {apps.map((app, i) => (
                   <button
                     key={app.name}
-                    className={i === selectedApp ? 'selected' : ''}
+                    className={i === selectedApp ? "selected" : ""}
                     onClick={() => setSelectedApp(i)}
                     aria-pressed={i === selectedApp}
                     aria-label={`${app.name}: ${app.role}`}
@@ -483,11 +436,7 @@ export default function Home() {
               tabIndex={0}
             >
               {productScreens.map((p) => (
-                <CapabilityCard
-                  key={p.id}
-                  item={p}
-                  onOpen={() => setGallery(p.id)}
-                />
+                <CapabilityCard key={p.id} item={p} onOpen={() => setGallery(p.id)} />
               ))}
             </section>
             <div className="gallery-hint">
@@ -520,11 +469,7 @@ export default function Home() {
             <a className="black-pill" href="mailto:osmarmorales1@gmail.com">
               Get in touch <ArrowUpRight size={15} />
             </a>
-            <a
-              className="closing-resume"
-              href="/Osmar_Morales_Mastercard_Resume.pdf"
-              download
-            >
+            <a className="closing-resume" href="/Osmar_Morales_Mastercard_Resume.pdf" download>
               Download resume <Download size={14} />
             </a>
           </div>
@@ -553,18 +498,10 @@ export default function Home() {
         </div>
         <div>
           <strong>Connect</strong>
-          <a
-            href="https://www.linkedin.com/in/osmarmorales/"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <a href="https://www.linkedin.com/in/osmarmorales/" target="_blank" rel="noreferrer">
             LinkedIn
           </a>
-          <a
-            href="https://github.com/osmarmorales1"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <a href="https://github.com/osmarmorales1" target="_blank" rel="noreferrer">
             GitHub
           </a>
           <a href="https://elygent.ai" target="_blank" rel="noreferrer">
@@ -577,7 +514,7 @@ export default function Home() {
           <a href="/portfolio-evidence.txt">Public evidence</a>
           <a href="/agents.html">Agent API</a>
           <a href="/llms.txt">llms.txt</a>
-          <button onClick={() => setGallery('credits')}>Product credits</button>
+          <button onClick={() => setGallery("credits")}>Product credits</button>
         </div>
         <div className="aside-footer-bottom">
           <span>Osmar Morales · Miami, Florida</span>
@@ -600,50 +537,51 @@ export default function Home() {
       >
         <DialogContent className="app-gallery-dialog">
           <DialogTitle>
-            {gallery === 'credits'
-              ? 'Product references'
-              : galleryItem?.name || 'Elygent'}
+            {gallery === "credits" ? "Product references" : galleryItem?.name || "Elygent"}
           </DialogTitle>
           <DialogDescription>
-            {gallery === 'credits'
-              ? 'Public app examples and our own guest workspace. Elygent dashboards use a recorded public sandbox run.'
+            {gallery === "credits"
+              ? "Public app examples and our own guest workspace. Elygent dashboards use a recorded public sandbox run."
               : galleryItem?.description ||
-                'A recorded public example. Start a live task to create your own result.'}
+                "A recorded public example. Start a live task to create your own result."}
           </DialogDescription>
-          {gallery === 'credits' ? (
+          {gallery === "credits" ? (
             <div className="product-credits">
               <p>
-                OpenClaw: the native app in an isolated Elygent guest workspace.
-                MIT. <a href="/products/openclaw-LICENSE.txt">License</a>
+                OpenClaw: the native app in an isolated Elygent guest workspace. MIT.{" "}
+                <a href="/products/openclaw-LICENSE.txt">License</a>
               </p>
               <p>
-                Buzz: Block / Buzz. Our native community, captured September 10,
-                2026. Apache-2.0.{' '}
+                Buzz: Block / Buzz. Our native community, captured September 10, 2026. Apache-2.0.{" "}
                 <a href="/products/buzz-LICENSE.txt">License</a>
               </p>
               <p>
-                Paperclip: Paperclip UI with official public example data. MIT.{' '}
+                Paperclip: Paperclip UI with official public example data. MIT.{" "}
                 <a href="/products/paperclip-LICENSE.txt">License</a>
               </p>
               <p>
-                Hermes: Nous Research / Hermes Agent. MIT.{' '}
+                Hermes: Nous Research / Hermes Agent. MIT.{" "}
                 <a href="/products/hermes-LICENSE.txt">License</a>
               </p>
               <p>
-                Application marks identify their respective projects.{' '}
-                <a
-                  href="/v5/icons/sources.json"
-                  target="_blank"
-                  rel="noreferrer"
-                >
+                Application marks identify their respective projects.{" "}
+                <a href="/v5/icons/sources.json" target="_blank" rel="noreferrer">
                   Sources and license notices
                 </a>
                 .
               </p>
               <p>
-                Elygent: interactive application previews built for this
-                portfolio, with recorded public run evidence. No private
-                workspaces are pictured.
+                Jenkins artwork:{" "}
+                <a href="https://www.jenkins.io/" target="_blank" rel="noreferrer">
+                  Jenkins project
+                </a>
+                , <a href="/v5/icons/jenkins-logo-NOTICE.txt">CC BY-SA 3.0</a>. Python, Docker, and
+                PostgreSQL use their official artwork;{" "}
+                <a href="/v5/icons/sources.json">sources and usage notices</a>.
+              </p>
+              <p>
+                Elygent: interactive application previews built for this portfolio, with recorded
+                public run evidence. No private workspaces are pictured.
               </p>
             </div>
           ) : galleryItem?.image ? (
@@ -657,11 +595,7 @@ export default function Home() {
             <div className="expanded-app">
               <AppShowcase
                 initialView={
-                  gallery === 'workboard'
-                    ? 'workboard'
-                    : gallery === 'brief'
-                      ? 'brief'
-                      : 'overview'
+                  gallery === "workboard" ? "workboard" : gallery === "brief" ? "brief" : "overview"
                 }
                 onLaunch={() => {
                   setGallery(null);
@@ -677,9 +611,9 @@ export default function Home() {
               target="_blank"
               rel="noreferrer"
             >
-              {galleryItem.id === 'buzz'
-                ? 'Join the native community'
-                : 'Explore the upstream project'}{' '}
+              {galleryItem.id === "buzz"
+                ? "Join the native community"
+                : "Explore the upstream project"}{" "}
               <ArrowUpRight size={13} />
             </a>
           )}
@@ -710,9 +644,7 @@ export default function Home() {
                 className="black-pill"
                 onClick={() => {
                   setProject(null);
-                  openEly(
-                    `Inspect ${selected.label} and explain Osmar’s role and decisions.`,
-                  );
+                  openEly(`Inspect ${selected.label} and explain Osmar’s role and decisions.`);
                 }}
               >
                 Ask the cloud agent <ArrowUpRight size={14} />

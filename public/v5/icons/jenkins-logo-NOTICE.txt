@@ -1,0 +1,7 @@
+Jenkins artwork. Attribution: Jenkins project, https://www.jenkins.io/
+Source: https://www.jenkins.io/images/logos/jenkins/jenkins.svg
+Official artwork and license statement: https://www.jenkins.io/artwork/
+License: Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0).
+License terms: https://creativecommons.org/licenses/by-sa/3.0/
+Legal code: https://creativecommons.org/licenses/by-sa/3.0/legalcode
+Original paths and colors preserved; added only a matching viewBox for responsive scaling.

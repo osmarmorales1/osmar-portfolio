@@ -1,5 +1,5 @@
 {
-  "observed": "2026-09-09",
+  "observed": "2026-09-10",
   "assets": [
     {
       "file": "hermes.png",
@@ -43,25 +43,27 @@
     },
     {
       "file": "docker.svg",
-      "name": "docker",
-      "source": "https://github.com/simple-icons/simple-icons/blob/16.30.0/icons/docker.svg",
-      "package": "simple-icons@16.30.0",
-      "package_tarball": "https://registry.npmjs.org/simple-icons/-/simple-icons-16.30.0.tgz",
-      "license": "CC0-1.0",
-      "license_file": "simple-icons-LICENSE.txt",
+      "name": "Docker",
+      "source": "https://www.docker.com/static/Docker-Logos-1.zip",
+      "source_page": "https://www.docker.com/company/newsroom/media-resources/",
+      "license": "Docker brand and trademark guidelines",
+      "license_file": "docker-logo-NOTICE.txt",
       "modified": false,
-      "sha256": "65571291c261ef869c31540a38f3ca0f0ee3bb73f179c172211c8860f19a6359"
+      "note": "Official Docker ocean-blue symbol from current brand kit; SVG/docker-mark-ocean-blue.svg, fill #2560ff. Geometry/colors unchanged.",
+      "previous_source": "https://github.com/simple-icons/simple-icons/blob/16.30.0/icons/docker.svg",
+      "sha256": "0fd7f9164de13672bb1708ac7cc401ed439eb938ffa7358d5cb278e107904687"
     },
     {
       "file": "python.svg",
-      "name": "python",
-      "source": "https://github.com/simple-icons/simple-icons/blob/16.30.0/icons/python.svg",
-      "package": "simple-icons@16.30.0",
-      "package_tarball": "https://registry.npmjs.org/simple-icons/-/simple-icons-16.30.0.tgz",
-      "license": "CC0-1.0",
-      "license_file": "simple-icons-LICENSE.txt",
-      "modified": false,
-      "sha256": "ad9468e1c4903f73ae7eebfbe980f0f727a10db695be3d914e7d8bd25356a862"
+      "name": "Python",
+      "source": "https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/files/python-logo-only.svg",
+      "source_page": "https://www.python.org/community/logos/",
+      "license": "Python Software Foundation logo/trademark usage policy",
+      "license_file": "python-logo-NOTICE.txt",
+      "modified": true,
+      "note": "Official two-tone Python mark from the PSF logo page; blue/yellow gradients and geometry unchanged. Added a matching viewBox for responsive scaling; no path or color edits.",
+      "previous_source": "https://github.com/simple-icons/simple-icons/blob/16.30.0/icons/python.svg",
+      "sha256": "cdeafa01c7020d6dd57cde11aa86aee165800d5bd19105928c2eeef0ddbab578"
     },
     {
       "file": "typescript.svg",
@@ -71,8 +73,11 @@
       "package_tarball": "https://registry.npmjs.org/simple-icons/-/simple-icons-16.30.0.tgz",
       "license": "CC0-1.0",
       "license_file": "simple-icons-LICENSE.txt",
-      "modified": false,
-      "sha256": "7f023e8d1e767370306ec9437d2de5d5af97491d6208dd7799a3808a7c10a36a"
+      "modified": true,
+      "sha256": "662b9b049a06df067089cacc32c8a40e14b08e13b5874f397ccf3e70ef15872c",
+      "color": "#3178C6",
+      "note": "Pinned Simple Icons geometry unchanged; restored the recorded brand color instead of default black.",
+      "color_source": "https://www.typescriptlang.org/images/branding/palette.svg"
     },
     {
       "file": "github.svg",
@@ -98,25 +103,27 @@
     },
     {
       "file": "postgresql.svg",
-      "name": "postgresql",
-      "source": "https://github.com/simple-icons/simple-icons/blob/16.30.0/icons/postgresql.svg",
-      "package": "simple-icons@16.30.0",
-      "package_tarball": "https://registry.npmjs.org/simple-icons/-/simple-icons-16.30.0.tgz",
-      "license": "CC0-1.0",
-      "license_file": "simple-icons-LICENSE.txt",
-      "modified": false,
-      "sha256": "c8ccadbd88c9312c2ad3734c4861b31d3485ce179ee91d64793143f83cfa745c"
+      "name": "PostgreSQL",
+      "source": "https://wiki.postgresql.org/images/a/a4/PostgreSQL_logo.3colors.svg",
+      "source_page": "https://wiki.postgresql.org/wiki/Logo",
+      "license": "PostgreSQL License and trademark policy",
+      "license_file": "postgresql-logo-NOTICE.txt",
+      "modified": true,
+      "note": "Official three-color Slonik elephant; blue #336791, white and black. Removed only external SVG DTD declaration; geometry/colors unchanged. Normalized line endings.",
+      "previous_source": "https://github.com/simple-icons/simple-icons/blob/16.30.0/icons/postgresql.svg",
+      "sha256": "b2d682ad6fd7180793b727531b491a8032cc48abe55ed0903beb9e0e2b181640"
     },
     {
       "file": "jenkins.svg",
-      "name": "jenkins",
-      "source": "https://github.com/simple-icons/simple-icons/blob/16.30.0/icons/jenkins.svg",
-      "package": "simple-icons@16.30.0",
-      "package_tarball": "https://registry.npmjs.org/simple-icons/-/simple-icons-16.30.0.tgz",
-      "license": "CC0-1.0",
-      "license_file": "simple-icons-LICENSE.txt",
-      "modified": false,
-      "sha256": "95ab5d541710c116d939f44e4e72c8b1503e78d04a1c298ad257c4e26d3a1873"
+      "name": "Jenkins",
+      "source": "https://www.jenkins.io/images/logos/jenkins/jenkins.svg",
+      "source_page": "https://www.jenkins.io/artwork/",
+      "license": "CC-BY-SA-3.0",
+      "license_file": "jenkins-logo-NOTICE.txt",
+      "modified": true,
+      "note": "Official full-color Jenkins artwork, preserving original paths and colors. Attribution: Jenkins project, https://www.jenkins.io/. Added a matching viewBox for responsive scaling; no path or color edits.",
+      "previous_source": "https://github.com/simple-icons/simple-icons/blob/16.30.0/icons/jenkins.svg",
+      "sha256": "acaa37781673390bc926574d66113e3a1b3dc0c3b470bb0bb504556c8459c745"
     },
     {
       "file": "mlflow.svg",
@@ -126,8 +133,11 @@
       "package_tarball": "https://registry.npmjs.org/simple-icons/-/simple-icons-16.30.0.tgz",
       "license": "CC0-1.0",
       "license_file": "simple-icons-LICENSE.txt",
-      "modified": false,
-      "sha256": "686679a10a6bdf1029ec4103bec15d8aec365a2be39f6b840992c597e2c76d45"
+      "modified": true,
+      "sha256": "7f289982e6d764f9c2b1378aa55c3fca42a8b15840ba6a014e53d5213f4378f1",
+      "color": "#0194E2",
+      "note": "Pinned Simple Icons geometry unchanged; restored the recorded brand color instead of default black.",
+      "color_source": "https://github.com/mlflow/mlflow/blob/855881f93703b15ffe643003fb4d7c84f0ec2502/assets/icon.svg"
     },
     {
       "file": "openclaw-static.png",
@@ -138,6 +148,34 @@
       "modified": false,
       "note": "Official static 32x32 favicon fallback for reduced motion; prefer SVG for large display.",
       "sha256": "2b1d369de3b766905d2b2153884cc6fa3d31150fe4c30755ea52dcfba2bdafc0"
+    },
+    {
+      "file": "redis.svg",
+      "name": "redis",
+      "source": "https://github.com/simple-icons/simple-icons/blob/16.30.0/icons/redis.svg",
+      "package": "simple-icons@16.30.0",
+      "package_tarball": "https://registry.npmjs.org/simple-icons/-/simple-icons-16.30.0.tgz",
+      "license": "CC0-1.0",
+      "license_file": "simple-icons-LICENSE.txt",
+      "modified": true,
+      "color": "#FF4438",
+      "note": "Pinned Simple Icons geometry unchanged; restored the recorded brand color instead of default black.",
+      "color_source": "https://redis.io/brand-guidelines",
+      "sha256": "4245419834dd111d83a8ed645a2e305c67faa0af5c5b864eb5f0991de156034c"
+    },
+    {
+      "file": "kubernetes.svg",
+      "name": "kubernetes",
+      "source": "https://github.com/simple-icons/simple-icons/blob/16.30.0/icons/kubernetes.svg",
+      "package": "simple-icons@16.30.0",
+      "package_tarball": "https://registry.npmjs.org/simple-icons/-/simple-icons-16.30.0.tgz",
+      "license": "CC0-1.0",
+      "license_file": "simple-icons-LICENSE.txt",
+      "modified": true,
+      "color": "#326CE5",
+      "note": "Pinned Simple Icons geometry unchanged; restored the recorded brand color instead of default black.",
+      "color_source": "https://github.com/kubernetes/kubernetes/tree/cac53883f4714452f3084a22e4be20d042a9df33/logo",
+      "sha256": "76037c7167ffdf86e7e014871ba0f42faa38e016c4e5a40aa3b3b011ce789587"
     }
   ],
   "not_found": [

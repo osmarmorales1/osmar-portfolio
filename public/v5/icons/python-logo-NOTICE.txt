@@ -1,0 +1,5 @@
+Python logo artwork from the Python Software Foundation official logo page.
+Source: https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/files/python-logo-only.svg
+Logo and trademark usage policy: https://www.python.org/psf/trademarks/
+Official artwork index: https://www.python.org/community/logos/
+The original artwork paths and colors are preserved, with only a matching viewBox added for responsive scaling, to identify the Python programming language. Python and its logo are trademarks of the Python Software Foundation; no affiliation or endorsement is implied.

@@ -1,0 +1,7 @@
+Docker symbol from the official Docker brand kit.
+Source: https://www.docker.com/static/Docker-Logos-1.zip
+Archive entry: docker-logos/SVG/docker-mark-ocean-blue.svg
+Artwork reproduced unchanged.
+Brand guidelines: https://www.docker.com/company/newsroom/media-resources/
+Trademark guidelines: https://www.docker.com/legal/trademark-guidelines/
+Docker and its logo belong to Docker, Inc.; used solely to identify the technology.
