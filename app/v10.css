@@ -112,6 +112,11 @@
   background: linear-gradient(145deg, #fff, #f7f7f8);
   border-color: #e2e4e6;
 }
+.aside-portfolio .static-app-frame.buzz .static-app-image > img {
+  transform: none;
+  object-fit: contain;
+  object-position: center;
+}
 .aside-portfolio
   :is(
     .software-sidebar,
