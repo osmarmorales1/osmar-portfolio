@@ -43,7 +43,7 @@ export const publicCareer = [
     start: '2018-11',
     end: '2020-11',
     summary:
-      'Self-service analytics, data foundations and automation for 40+ colleagues.',
+      'Built Azure DevOps self-service automation for 40+ colleagues and modernized analytics foundations.',
   },
   {
     employer: 'FedEx Express',
@@ -51,28 +51,28 @@ export const publicCareer = [
     start: '2016-08',
     end: '2018-11',
     summary:
-      'Executive finance reporting, dashboards and distributed BI delivery.',
+      'Built BI platforms and executive financial-close reporting to support leadership decisions.',
   },
   {
     employer: 'TracFone Wireless',
     title: 'Revenue Systems Analyst',
     start: '2013-02',
     end: '2016-08',
-    summary: 'Revenue systems, ETL and decision support.',
+    summary: 'Rebuilt revenue ETL and reporting; created analytical models that cut analysis time by two-thirds.',
   },
   {
     employer: 'FedEx Express',
     title: 'Process Automation Developer',
     start: '2012-03',
     end: '2013-02',
-    summary: 'Financial reporting and reconciliation automation.',
+    summary: 'Built reconciliation software and standardized reporting, cutting reconciliation time 70%.',
   },
   {
     employer: 'Davis Quality',
     title: 'Systems Accountant',
     start: '2007-01',
     end: '2012-01',
-    summary: 'Accounting systems and financial visibility.',
+    summary: 'Built digital data infrastructure and modernized accounting systems for financial planning.',
   },
 ];
 
@@ -201,7 +201,7 @@ export const machineProfile = {
     languages: profile.languages,
   },
   story:
-    'Osmar creates AI-native teams and agent platforms that scale productivity and efficiency. His work connects reusable workflows, shared knowledge and distributed execution behind interfaces people can use. Professional case studies demonstrate team transformation, adoption and measurable delivery results. He founded Elygent, an independent AI platform company, and leads its product and platform architecture.',
+    'Osmar creates systems and processes that automate complex work and scale delivery. His career spans financial automation, business intelligence, data platforms and enterprise AI. Today, he builds AI-native teams through agents, reusable skills, shared knowledge and distributed execution. He founded Elygent, an independent AI platform company, and leads its product and platform architecture.',
   aspirations: ['Principal AI Platform Engineer', 'Senior Director', 'VP'],
   experience: publicCareer,
   milestones: [

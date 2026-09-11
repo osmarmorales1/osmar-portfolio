@@ -13,6 +13,13 @@ import {
 } from '../lib/infrastructure-data.ts';
 const records = [
   {
+    id: 'systems-builder-career',
+    title: 'Systems and process creation across the career',
+    text: 'Osmar positions his career as creating systems and processes that automate complex work and scale delivery. At FedEx as Data Scientist, he led end-to-end BI platform delivery and rebuilt executive financial-close reporting. At TracFone, he rebuilt ETL and revenue-recognition reporting, and created analytical models that reduced analysis time by two-thirds. In his earlier FedEx automation role, he designed a reconciliation application that reduced processing time 70% across Latin America and the Caribbean, and automated and standardized financial reporting. At Davis Quality, he modernized accounting systems and built digital data infrastructure for financial visibility and business planning. These earlier systems complement later self-service analytics, MLOps, Agent Factory and Elygent work; do not label the earlier roles generative AI or attribute later technology stacks to them.',
+    source:
+      'Candidate-supplied career photos 3568-3570, visually reviewed; source facts recorded in the private career-evidence review. Systems-and-processes positioning explicitly requested by Osmar on September 10, 2026. Outcomes are candidate-reported, not independently employer-verified.',
+  },
+  {
     id: 'harness-model-portability',
     title: 'Agent harnesses, API/CLI integration and model portability',
     text: 'Elygent provides provider-neutral API/MCP tool contracts and CLI/terminal integration across configured Claude Code, Codex, Hermes and other harnesses. Dated onboarding and runtime-acceptance records establish shared tools/knowledge and actual native Codex sandboxed execution. LLM-agnostic and harness-agnostic describe this architecture and adapter approach, not universal zero-configuration switching, equal model quality, or identical state formats across every runtime. The candidate’s Visa materials also describe frontier/open-weight model routing by work class. Open-source agent infrastructure and open-weight models are different layers; no unspecified model license, model-weight training, or deployed local inference pool should be invented.',
@@ -131,7 +138,7 @@ await writeFile(
 await writeFile(
   new URL('../public/portfolio-evidence.json', import.meta.url),
   JSON.stringify(
-    { version: '2026-09-10-v19', records, limits: records.at(-1).text },
+    { version: '2026-09-10-v20', records, limits: records.at(-1).text },
     null,
     2,
   ) + '\n',

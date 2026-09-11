@@ -11,7 +11,7 @@ export const profile = {
   title: 'Director, AI Agent Platform at Visa',
   thesis: 'I build AI-native teams.',
   approach:
-    'I turn business workflows, collective knowledge and distributed compute into shared capability. I make agents useful to technical and business users through reusable skills, shared memory and one simple way to delegate.',
+    'I create systems and processes that automate complex work and scale delivery. From financial automation to data and AI platforms, I build reusable capability for teams. Today, that means agents, shared skills, business memory and distributed compute behind one simple way to delegate.',
   adoption: {
     users: '500+',
     mode: 'Organic adoption',

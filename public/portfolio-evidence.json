@@ -1,6 +1,12 @@
 {
-  "version": "2026-09-10-v19",
+  "version": "2026-09-10-v20",
   "records": [
+    {
+      "id": "systems-builder-career",
+      "title": "Systems and process creation across the career",
+      "text": "Osmar positions his career as creating systems and processes that automate complex work and scale delivery. At FedEx as Data Scientist, he led end-to-end BI platform delivery and rebuilt executive financial-close reporting. At TracFone, he rebuilt ETL and revenue-recognition reporting, and created analytical models that reduced analysis time by two-thirds. In his earlier FedEx automation role, he designed a reconciliation application that reduced processing time 70% across Latin America and the Caribbean, and automated and standardized financial reporting. At Davis Quality, he modernized accounting systems and built digital data infrastructure for financial visibility and business planning. These earlier systems complement later self-service analytics, MLOps, Agent Factory and Elygent work; do not label the earlier roles generative AI or attribute later technology stacks to them.",
+      "source": "Candidate-supplied career photos 3568-3570, visually reviewed; source facts recorded in the private career-evidence review. Systems-and-processes positioning explicitly requested by Osmar on September 10, 2026. Outcomes are candidate-reported, not independently employer-verified."
+    },
     {
       "id": "harness-model-portability",
       "title": "Agent harnesses, API/CLI integration and model portability",
@@ -112,7 +118,7 @@
     {
       "id": "approach",
       "title": "Frontier learning and team enablement",
-      "text": "I build AI-native teams. I turn business workflows, collective knowledge and distributed compute into shared capability. I make agents useful to technical and business users through reusable skills, shared memory and one simple way to delegate.",
+      "text": "I build AI-native teams. I create systems and processes that automate complex work and scale delivery. From financial automation to data and AI platforms, I build reusable capability for teams. Today, that means agents, shared skills, business memory and distributed compute behind one simple way to delegate.",
       "source": "Candidate positioning updated 2026-09-10."
     },
     {

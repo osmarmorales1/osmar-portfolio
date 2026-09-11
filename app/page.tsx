@@ -379,7 +379,7 @@ export default function Home() {
               AI-native teams.
             </h1>
             <p className="hero-lead">
-              Agents that scale productivity. Platforms people can use.
+              Systems that automate work. Teams that scale delivery.
             </p>
             <div className="hero-actions">
               <a
@@ -403,8 +403,9 @@ export default function Home() {
             </a>
             <div>
               <p>
-                <strong>One platform. A shared advantage.</strong> I connect
-                reusable skills, shared business memory, and distributed agents.
+                <strong>I create systems and processes.</strong> From financial
+                automation to AI platforms, I build reusable ways for teams to
+                work.
               </p>
               <p>
                 <strong>Built for people to use.</strong> One simple way to

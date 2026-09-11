@@ -29,31 +29,31 @@ const career = [
     '2018 — 2020',
     'Visa',
     'Manager, Data Analytics',
-    'Self-service analytics, faster data foundations, and automation for 40+ colleagues.',
+    'Built Azure DevOps self-service automation for 40+ colleagues and modernized analytics foundations.',
   ],
   [
     '2016 — 2018',
     'FedEx Express',
     'Data Scientist',
-    'Executive finance reporting, mobile dashboards, and distributed BI delivery.',
+    'Built BI platforms and executive financial-close reporting to support leadership decisions.',
   ],
   [
     '2013 — 2016',
     'TracFone Wireless',
     'Revenue Systems Analyst',
-    'Revenue systems, ETL, and decision support.',
+    'Rebuilt revenue ETL and reporting. Created analytical models that cut analysis time by two-thirds.',
   ],
   [
     '2012 — 2013',
     'FedEx Express',
     'Process Automation Developer',
-    'Financial reporting and reconciliation automation.',
+    'Built reconciliation software and standardized reporting, cutting reconciliation time 70%.',
   ],
   [
     '2007 — 2012',
     'Davis Quality',
     'Systems Accountant',
-    'Accounting systems and financial visibility.',
+    'Built digital data infrastructure and modernized accounting systems for financial planning.',
   ],
 ];
 const groups = {
