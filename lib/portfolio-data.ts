@@ -88,7 +88,7 @@ export const cases = [
     problem:
       'Using more AI tools can fragment knowledge, permissions, and execution. People should not need to manage that complexity themselves.',
     ownership:
-      'Founded Elygent and lead its product and platform architecture. Built shared memory, scoped tool access and accountable execution so workflows can reuse context, preserve personal and business boundaries, and recover from failure.',
+      'Founded Elygent and lead its product and platform architecture on open-source foundations. Built LLM-agnostic and harness-agnostic integrations through APIs, CLIs and MCP so tools, skills and knowledge can be reused across coding agents and business workflows. Shared memory, scoped access and recoverable execution preserve personal and business boundaries. Configured integrations include Claude Code, Codex and other agent harnesses; this is interoperability, not a guarantee of identical behavior across every runtime.',
     decisions: [
       'Make delegation simple while connecting the right agents, tools and knowledge behind it.',
       'Carry useful context across workflows while preserving personal and business boundaries.',

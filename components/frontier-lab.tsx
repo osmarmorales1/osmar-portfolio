@@ -211,9 +211,8 @@ export default function FrontierLab({
           )}
         </div>
         <p className="community-roadmap">
-          The goal: run open-weight models on my own hardware and share
-          inference with my community. That local model pool is still a separate
-          step.
+          Exploring shared computing: community access to locally hosted
+          open-weight models.
         </p>
         <a
           href="https://github.com/block/buzz/blob/main/VISION_MESH.md"

@@ -1,6 +1,18 @@
 {
-  "version": "2026-09-10-v18",
+  "version": "2026-09-10-v19",
   "records": [
+    {
+      "id": "harness-model-portability",
+      "title": "Agent harnesses, API/CLI integration and model portability",
+      "text": "Elygent provides provider-neutral API/MCP tool contracts and CLI/terminal integration across configured Claude Code, Codex, Hermes and other harnesses. Dated onboarding and runtime-acceptance records establish shared tools/knowledge and actual native Codex sandboxed execution. LLM-agnostic and harness-agnostic describe this architecture and adapter approach, not universal zero-configuration switching, equal model quality, or identical state formats across every runtime. The candidate’s Visa materials also describe frontier/open-weight model routing by work class. Open-source agent infrastructure and open-weight models are different layers; no unspecified model license, model-weight training, or deployed local inference pool should be invented.",
+      "source": "Reviewed Elygent gateway/onboarding source and September 8 runtime acceptance; candidate career evidence. Terminology cross-checked with creator transcripts and official engineering documentation on September 10, 2026."
+    },
+    {
+      "id": "compute-delivery-scope",
+      "title": "Distributed computing, shared compute and CI/CD scope",
+      "text": "Osmar’s demonstrated distributed computing scope is agent workload execution across local, remote, cloud/VPS and on-premises environments; it does not establish tensor-parallel model inference or distributed GPU training. Shared computing for community access to locally hosted open-weight models remains research/planned; the live Buzz demo uses xAI-hosted Grok. CI/CD experience is supported for GitHub, Jenkins and Azure DevOps. GitHub Actions and GitHub Agentic Workflows are covered in current research, but personal implementation is unconfirmed. No Actions workflows were found in the reviewed owner repositories; upstream Buzz workflow files are not evidence of Osmar’s implementation. Do not present research topics as delivered capabilities.",
+      "source": "Candidate-described workload distribution; verified local/VPS platform source; current shared-compute roadmap; scoped owner-repository workflow audit and creator/GitHub documentation review on September 10, 2026. Direct GitHub Actions experience confirmation is pending."
+    },
     {
       "id": "technical-keyword-scope",
       "title": "Airflow, feature platforms, Linux VPS and computer use",
@@ -82,7 +94,7 @@
     {
       "id": "elygent",
       "title": "Elygent — company founded by Osmar",
-      "text": "Founded Elygent and lead its product and platform architecture. Built shared memory, scoped tool access and accountable execution so workflows can reuse context, preserve personal and business boundaries, and recover from failure. Launched a public cloud-agent lab on Linux VPS and a native Buzz community. Visitors can experience specialist collaboration, computer use through browser automation, and human review; the company’s broader platform brings people and agents into shared, accountable work. The platform combines OpenClaw for conversation/runtime UX, Paperclip for accountable work, Hermes for selected persistent workers, GBrain for curated knowledge, GStack for the separate Software Factory delivery method, and Buzz for collaboration. Elygent owns identity, policy, capability routing and evidence. It uses model-agnostic integration, choosing existing components for their strengths.",
+      "text": "Founded Elygent and lead its product and platform architecture on open-source foundations. Built LLM-agnostic and harness-agnostic integrations through APIs, CLIs and MCP so tools, skills and knowledge can be reused across coding agents and business workflows. Shared memory, scoped access and recoverable execution preserve personal and business boundaries. Configured integrations include Claude Code, Codex and other agent harnesses; this is interoperability, not a guarantee of identical behavior across every runtime. Launched a public cloud-agent lab on Linux VPS and a native Buzz community. Visitors can experience specialist collaboration, computer use through browser automation, and human review; the company’s broader platform brings people and agents into shared, accountable work. The platform combines OpenClaw for conversation/runtime UX, Paperclip for accountable work, Hermes for selected persistent workers, GBrain for curated knowledge, GStack for the separate Software Factory delivery method, and Buzz for collaboration. Elygent owns identity, policy, capability routing and evidence. It uses model-agnostic integration, choosing existing components for their strengths.",
       "source": "On 2026-09-10, Osmar confirmed that Elygent is a company he founded. This is the confirmation date, not the founding date. Product capabilities are supported by the reviewed platform and public deployments; no founding date or commercial traction metrics were supplied."
     },
     {

@@ -86,6 +86,8 @@ export const publicStack = [
       'Shared context and collective learning',
       'Public cloud, private cloud and on-premises delivery',
       'MLOps',
+      'API and CLI integration',
+      'Frontier and open-weight model routing',
       'Governed tools',
       'Data storytelling',
     ],
@@ -121,12 +123,19 @@ export const publicStack = [
     themes: [
       'Cloud agents',
       'Computer use and browser automation',
+      'LLM-agnostic and harness-agnostic architecture',
+      'Open-source agent infrastructure',
+      'Distributed agent execution',
       'Human-agent collaboration',
       'Shared knowledge',
       'Model-agnostic integration',
     ],
     technologies: [
       'OpenClaw',
+      'Claude Code',
+      'Codex',
+      'APIs and CLIs',
+      'Terminal workflows',
       'Hermes',
       'Paperclip',
       'Buzz',
@@ -146,7 +155,8 @@ export const publicStack = [
       'systemd',
       'Caddy',
     ],
-    evidence: 'Independent development pilot and reviewed implementation',
+    evidence:
+      'Founder-led Elygent platform; reviewed API/CLI/harness integrations and working public demonstrations',
   },
   {
     context: 'This public portfolio',

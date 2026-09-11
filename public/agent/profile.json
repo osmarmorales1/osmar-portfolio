@@ -155,7 +155,7 @@
       "id": "elygent",
       "name": "Elygent",
       "context": "FOUNDED COMPANY · AI PLATFORM",
-      "ownership": "Founded Elygent and lead its product and platform architecture. Built shared memory, scoped tool access and accountable execution so workflows can reuse context, preserve personal and business boundaries, and recover from failure.",
+      "ownership": "Founded Elygent and lead its product and platform architecture on open-source foundations. Built LLM-agnostic and harness-agnostic integrations through APIs, CLIs and MCP so tools, skills and knowledge can be reused across coding agents and business workflows. Shared memory, scoped access and recoverable execution preserve personal and business boundaries. Configured integrations include Claude Code, Codex and other agent harnesses; this is interoperability, not a guarantee of identical behavior across every runtime.",
       "decisions": [
         "Make delegation simple while connecting the right agents, tools and knowledge behind it.",
         "Carry useful context across workflows while preserving personal and business boundaries.",
@@ -176,6 +176,8 @@
         "Shared context and collective learning",
         "Public cloud, private cloud and on-premises delivery",
         "MLOps",
+        "API and CLI integration",
+        "Frontier and open-weight model routing",
         "Governed tools",
         "Data storytelling"
       ],
@@ -210,12 +212,19 @@
       "themes": [
         "Cloud agents",
         "Computer use and browser automation",
+        "LLM-agnostic and harness-agnostic architecture",
+        "Open-source agent infrastructure",
+        "Distributed agent execution",
         "Human-agent collaboration",
         "Shared knowledge",
         "Model-agnostic integration"
       ],
       "technologies": [
         "OpenClaw",
+        "Claude Code",
+        "Codex",
+        "APIs and CLIs",
+        "Terminal workflows",
         "Hermes",
         "Paperclip",
         "Buzz",
@@ -235,7 +244,7 @@
         "systemd",
         "Caddy"
       ],
-      "evidence": "Independent development pilot and reviewed implementation"
+      "evidence": "Founder-led Elygent platform; reviewed API/CLI/harness integrations and working public demonstrations"
     },
     {
       "context": "This public portfolio",

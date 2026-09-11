@@ -13,6 +13,20 @@ import {
 } from '../lib/infrastructure-data.ts';
 const records = [
   {
+    id: 'harness-model-portability',
+    title: 'Agent harnesses, API/CLI integration and model portability',
+    text: 'Elygent provides provider-neutral API/MCP tool contracts and CLI/terminal integration across configured Claude Code, Codex, Hermes and other harnesses. Dated onboarding and runtime-acceptance records establish shared tools/knowledge and actual native Codex sandboxed execution. LLM-agnostic and harness-agnostic describe this architecture and adapter approach, not universal zero-configuration switching, equal model quality, or identical state formats across every runtime. The candidate’s Visa materials also describe frontier/open-weight model routing by work class. Open-source agent infrastructure and open-weight models are different layers; no unspecified model license, model-weight training, or deployed local inference pool should be invented.',
+    source:
+      'Reviewed Elygent gateway/onboarding source and September 8 runtime acceptance; candidate career evidence. Terminology cross-checked with creator transcripts and official engineering documentation on September 10, 2026.',
+  },
+  {
+    id: 'compute-delivery-scope',
+    title: 'Distributed computing, shared compute and CI/CD scope',
+    text: 'Osmar’s demonstrated distributed computing scope is agent workload execution across local, remote, cloud/VPS and on-premises environments; it does not establish tensor-parallel model inference or distributed GPU training. Shared computing for community access to locally hosted open-weight models remains research/planned; the live Buzz demo uses xAI-hosted Grok. CI/CD experience is supported for GitHub, Jenkins and Azure DevOps. GitHub Actions and GitHub Agentic Workflows are covered in current research, but personal implementation is unconfirmed. No Actions workflows were found in the reviewed owner repositories; upstream Buzz workflow files are not evidence of Osmar’s implementation. Do not present research topics as delivered capabilities.',
+    source:
+      'Candidate-described workload distribution; verified local/VPS platform source; current shared-compute roadmap; scoped owner-repository workflow audit and creator/GitHub documentation review on September 10, 2026. Direct GitHub Actions experience confirmation is pending.',
+  },
+  {
     id: 'technical-keyword-scope',
     title: 'Airflow, feature platforms, Linux VPS and computer use',
     text: 'Apache Airflow appears in Osmar’s supplied career technology tags; a specific Airflow deployment outcome was not supplied. His MLOps ownership includes feature-store infrastructure using Feast, model registry using MLflow, pipelines and data quality. The phrase feature engineering platforms describes this platform scope; do not invent specific model features, transformation algorithms or performance gains. Elygent and the public agent lab run on Linux VPS infrastructure with isolated containers. Public computer use means browser automation in the isolated demo environment, not unrestricted access to a visitor’s desktop. VPS means virtual private server; Windows VDI is a separate virtual-desktop execution example from Visa work. LLMOps summarizes established model routing, evaluations, tracing/observability and controls; it does not establish fine-tuning or ownership of model weights.',
@@ -117,7 +131,7 @@ await writeFile(
 await writeFile(
   new URL('../public/portfolio-evidence.json', import.meta.url),
   JSON.stringify(
-    { version: '2026-09-10-v18', records, limits: records.at(-1).text },
+    { version: '2026-09-10-v19', records, limits: records.at(-1).text },
     null,
     2,
   ) + '\n',

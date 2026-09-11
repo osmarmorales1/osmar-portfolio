@@ -59,24 +59,29 @@ const career = [
 const groups = {
   visa: [
     [
-      'Agentic AI',
-      'Multi-agent orchestration · Computer use · MCP · Long-running agents',
+      'Agentic AI & harnesses',
+      'Claude Code · Codex · APIs · CLIs · MCP · Terminal workflows · Computer use',
       Network,
     ],
     [
-      'LLMOps & context',
-      'RAG · Shared memory · Reusable skills · Evaluations · Observability',
+      'Models & context',
+      'LLM-agnostic · Harness-agnostic · Open-weight routing · RAG · Shared memory',
       Database,
     ],
     [
-      'Cloud infrastructure',
-      'Linux VPS · Docker · Kubernetes · Cloud/on-premises · Sandboxing',
+      'Distributed computing',
+      'Linux VPS · Docker · Kubernetes · Local, remote & cloud agent execution',
       Server,
     ],
     [
       'Data engineering & MLOps',
-      'Apache Airflow · Spark · Feature engineering platforms · Feature stores · CI/CD',
+      'Apache Airflow · Spark · Feature engineering platforms · Feature stores · LLMOps',
       Workflow,
+    ],
+    [
+      'CI/CD & validation',
+      'GitHub · Jenkins · Azure DevOps · Automated tests · Evaluations',
+      Code2,
     ],
   ],
   elygent: [
@@ -223,7 +228,7 @@ export default function CareerStack() {
                 </div>
                 <p className="stack-context">
                   {name === 'visa'
-                    ? 'Enterprise platform work across public cloud, private cloud and on-premises infrastructure, grouped by responsibility.'
+                    ? 'Capabilities used across enterprise and founder-led AI platform work.'
                     : name === 'elygent'
                       ? 'The independent Elygent integration stack. Upstream projects retain their own authorship.'
                       : 'The portfolio you are using: a Vercel interface connected to a bounded agent service on a Linux VPS.'}
