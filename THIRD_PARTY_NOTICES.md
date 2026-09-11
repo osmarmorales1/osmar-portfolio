@@ -19,6 +19,7 @@ Product names, marks, and screenshots identify upstream tools and the author's i
 - Hermes: MIT; [`public/products/hermes-LICENSE.txt`](public/products/hermes-LICENSE.txt).
 - Paperclip: MIT; [`public/products/paperclip-LICENSE.txt`](public/products/paperclip-LICENSE.txt).
 - GStack icon: MIT; license in `public/v5/icons/`.
+- Codex, Claude and Grok Bot: product artwork and trademarks of OpenAI, Anthropic and xAI / SpaceXAI respectively. Official sources and standalone-rendering notes are recorded in [`public/v5/icons/agent-brand-NOTICE.txt`](public/v5/icons/agent-brand-NOTICE.txt) and the icon manifest. No endorsement is implied.
 - Technology icons from Simple Icons: CC0-1.0; attribution and upstream URLs in [`public/v5/icons/sources.json`](public/v5/icons/sources.json), with the complete license beside them.
 
 The icon manifest records source URLs, modifications, license filenames, and hashes. The light Paperclip icon follows the upstream paths with the dark-mode rule removed. The native Buzz community screenshot depicts the intentionally public portfolio community. The hero dashboard is an original visual interpretation, not an upstream performance claim. Personal photos and résumé content are not stock assets licensed for reuse.

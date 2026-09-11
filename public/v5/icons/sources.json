@@ -176,6 +176,38 @@
       "note": "Pinned Simple Icons geometry unchanged; restored the recorded brand color instead of default black.",
       "color_source": "https://github.com/kubernetes/kubernetes/tree/cac53883f4714452f3084a22e4be20d042a9df33/logo",
       "sha256": "76037c7167ffdf86e7e014871ba0f42faa38e016c4e5a40aa3b3b011ce789587"
+    },
+    {
+      "file": "codex.png",
+      "name": "Codex",
+      "source": "https://openai.com/codex/",
+      "license": "OpenAI product artwork and trademark guidelines",
+      "license_file": "agent-brand-NOTICE.txt",
+      "modified": false,
+      "note": "Original icon-codex-light.png distributed with the official OpenAI desktop application; copied without artwork changes.",
+      "sha256": "de7d43f3386105ab20952958c2c25beb0d903e2aeb6e1aef57c49a648c0d1c07"
+    },
+    {
+      "file": "claude.svg",
+      "name": "Claude",
+      "source": "https://www.anthropic.com/press-kit",
+      "archive": "https://www-cdn.anthropic.com/ae59ca4ca194dac9c9dc3bc78c5829468cb0e8af.zip",
+      "archive_member": "Anthropic media resources/Anthropic logos/Claude logos/3 Claude Spark/SVG/Claude Spark - Clay.svg",
+      "license": "Anthropic product artwork and trademarks",
+      "license_file": "agent-brand-NOTICE.txt",
+      "modified": false,
+      "note": "Original terracotta Claude Spark from the official press kit.",
+      "sha256": "6d53db4be375e899c937c26cf16684a80d6e869b1928d72b37748bef2560e219"
+    },
+    {
+      "file": "grok-bot.svg",
+      "name": "Grok Bot",
+      "source": "https://x.ai/news/designing-grok-bot",
+      "license": "xAI / SpaceXAI product artwork and trademarks",
+      "license_file": "agent-brand-NOTICE.txt",
+      "modified": true,
+      "note": "Static official purple idle Bot avatar captured after the source page renders the eyes. Source geometry and computed light-mode colors retained; CSS fills made self-contained. Page layout and animation omitted.",
+      "sha256": "344b909fa1ba90a10da34f7333f3c91452d9fc45de615f4d99e475c0d1f7d708"
     }
   ],
   "not_found": [

@@ -1,0 +1,17 @@
+Product artwork is used for identification in Osmar Morales's portfolio.
+The product names, artwork and trademarks remain the property of their owners.
+No affiliation or endorsement is implied, and no ownership of these marks is claimed.
+
+Codex: OpenAI. Original light app icon distributed with the official desktop app,
+copied without artwork changes. Product: https://openai.com/codex/
+Brand guidelines: https://openai.com/brand/
+
+Claude: Anthropic. Original "Claude Spark - Clay.svg" from the official press kit,
+copied without artwork changes. Source: https://www.anthropic.com/press-kit
+
+Grok Bot: xAI / SpaceXAI. Static idle avatar from the official design article:
+https://x.ai/news/designing-grok-bot
+Original geometry and the source light-mode colors are retained. Source CSS
+fills are resolved inside the SVG for standalone rendering; page-sized layout
+and animation are omitted. This is one official Bot avatar, not a claim that
+Grok Bot is deployed as the portfolio backend.
