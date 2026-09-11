@@ -2,11 +2,11 @@
 // These describe Visa work; the independent public lab has different capabilities.
 export const visaPlatform = {
   source:
-    'Direct candidate correction and platform description, September 10, 2026. Supersedes the earlier October 2025 role date.',
+    'Direct candidate corrections and platform description, September 2026. Current role starts October 2024; latest adoption scope is five regions and multiple teams at Visa. This supersedes earlier role-date and geography wording.',
   roleStart: '2024-10',
   previousRoleEnd: '2024-09',
   summary:
-    'Created Agent Factory to transform data-science teams into an AI-native organization, standardizing business workflows and enabling 3× delivery pace with the same resources. Reached 500+ total users through organic adoption.',
+    'Created Agent Factory to transform data-science teams into an AI-native organization, standardizing business workflows and enabling 3× delivery pace with the same resources. Built locally and adopted globally by 500+ total users across five regions and multiple teams at Visa.',
   delivery: {
     display: '3×',
     measure: 'delivery pace',

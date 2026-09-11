@@ -39,12 +39,12 @@ export default function EvidenceDashboard({
     <section className="evidence-section" id="work">
       <div className="aside-split-heading">
         <MotionHeading>
-          Good platforms earn
+          Built locally.
           <br />
-          their <em>adoption.</em>
+          <em>Used globally.</em>
         </MotionHeading>
         <p>
-          500+ users. Five markets. Two regions.
+          500+ users across five regions and multiple teams at Visa.
           <button
             className="editorial-link"
             onClick={() => onInspect('factory')}

@@ -43,7 +43,7 @@ export const cases = [
       'Build Agentic Slack on Buzz for human–agent communication; retain scoped access, Numbat monitoring and human review.',
     ],
     outcome:
-      'Transformed data-science teams into an AI-native organization; enabled 3× delivery pace with the same resources and organic adoption by 500+ total users across five markets and two regions.',
+      'Transformed data-science teams into an AI-native organization; enabled 3× delivery pace with the same resources. Built locally and adopted globally by 500+ total users across five regions and multiple teams at Visa.',
     tags: [
       'AI-native transformation',
       'Reusable skills / AI Loop',

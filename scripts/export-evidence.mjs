@@ -13,6 +13,13 @@ import {
 } from '../lib/infrastructure-data.ts';
 const records = [
   {
+    id: 'global-adoption',
+    title: 'Built locally, used globally across five regions',
+    text: 'Osmar describes Agent Factory as built locally and used globally by 500+ total users across five regions and multiple teams at Visa. This is the current candidate-confirmed adoption scope and supersedes previous geography wording. Built locally describes the origin of the initiative; it does not imply that every deployment, model, data store or user is hosted on Osmar’s personal computer. No additional team count, regional breakdown, concurrency or daily-active-user metric was supplied.',
+    source:
+      'Direct candidate correction in the website review, September 2026.',
+  },
+  {
     id: 'agentic-slack-cybersecurity',
     title: 'Agentic Slack, human-agent communication and cybersecurity',
     text: 'Osmar built the integration and communication experience described as Agentic Slack on Buzz: people and agents share channels, context and delegated work. Paperclip is the agent orchestration backend. This credits his system design, integration and deployment, not authorship of upstream Buzz, Paperclip or Slack. Cybersecurity scope includes identity-scoped access, isolated agent execution, approval boundaries and auditability. Osmar directly confirms Numbat deployment at both Visa and Elygent. Numbat provides agent-activity visibility and local detection; upstream blocking is opt-in on supported synchronous hooks and shipped rules are monitor-only. No specific enforcement mode, complete harness coverage, certification, penetration-test result or guarantee of safe uninterrupted autonomy was supplied. The public demo community remains visible to its participants; do not describe public posts as confidential.',
@@ -152,7 +159,7 @@ await writeFile(
 await writeFile(
   new URL('../public/portfolio-evidence.json', import.meta.url),
   JSON.stringify(
-    { version: '2026-09-10-v24', records, limits: records.at(-1).text },
+    { version: '2026-09-10-v25', records, limits: records.at(-1).text },
     null,
     2,
   ) + '\n',

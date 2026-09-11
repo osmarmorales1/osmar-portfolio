@@ -109,8 +109,25 @@
     inset 0 1px 0 #fff;
 }
 .aside-portfolio .capability-card .app-card-stage {
+  height: auto;
+  padding: 24px 17px 0;
+  display: grid;
+  grid-template-rows: minmax(70px, auto) 225px;
+  gap: 18px;
+  align-items: start;
   background: linear-gradient(145deg, #fff, #f7f7f8);
   border-color: #e2e4e6;
+}
+.aside-portfolio .capability-card .capability-task {
+  position: static;
+  inset: auto;
+  grid-row: 1;
+  min-width: 0;
+  align-self: start;
+}
+.aside-portfolio .capability-card :is(.mini-app-crop, .static-app-frame) {
+  grid-row: 2;
+  min-width: 0;
 }
 .aside-portfolio .static-app-frame.buzz .static-app-image > img {
   transform: none;

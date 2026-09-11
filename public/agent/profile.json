@@ -133,7 +133,7 @@
         "Make V Agent the simple entry to distributed execution, including agents working for hours and days.",
         "Build Agentic Slack on Buzz for human–agent communication; retain scoped access, Numbat monitoring and human review."
       ],
-      "outcome": "Transformed data-science teams into an AI-native organization; enabled 3× delivery pace with the same resources and organic adoption by 500+ total users across five markets and two regions.",
+      "outcome": "Transformed data-science teams into an AI-native organization; enabled 3× delivery pace with the same resources. Built locally and adopted globally by 500+ total users across five regions and multiple teams at Visa.",
       "stage": "Candidate-confirmed September 2026. 3× refers to delivery pace with the same resources; its measurement period was not supplied. 500+ means total users.",
       "evidenceUrl": "https://osmarmorales.io/Osmar_Morales_Mastercard_Resume.pdf"
     },
@@ -331,10 +331,10 @@
   },
   "aiFactoryApproach": "An AI factory is infrastructure purpose-built to produce intelligence, integrating compute and AI software for training and inference. Osmar uses the term for the transition from general data-center capacity to AI compute that serves the business. His stated contribution is the orchestration and application layer: connecting on-premises, local, remote and cloud execution to agents, reusable workflows and shared business knowledge. Agent Factory is his named enablement platform, not a synonym for ownership of an entire physical AI factory. GPU-fleet, facilities, power/cooling and procurement ownership are not established.",
   "visaAgentFactory": {
-    "source": "Direct candidate correction and platform description, September 10, 2026. Supersedes the earlier October 2025 role date.",
+    "source": "Direct candidate corrections and platform description, September 2026. Current role starts October 2024; latest adoption scope is five regions and multiple teams at Visa. This supersedes earlier role-date and geography wording.",
     "roleStart": "2024-10",
     "previousRoleEnd": "2024-09",
-    "summary": "Created Agent Factory to transform data-science teams into an AI-native organization, standardizing business workflows and enabling 3× delivery pace with the same resources. Reached 500+ total users through organic adoption.",
+    "summary": "Created Agent Factory to transform data-science teams into an AI-native organization, standardizing business workflows and enabling 3× delivery pace with the same resources. Built locally and adopted globally by 500+ total users across five regions and multiple teams at Visa.",
     "delivery": {
       "display": "3×",
       "measure": "delivery pace",

@@ -72,9 +72,7 @@ export default function CapabilityCard({
         </button>
       </div>
       <h3>{item.title}</h3>
-      <p>
-        <span>{item.name}.</span> {item.description}
-      </p>
+      <p>{item.description}</p>
     </article>
   );
 }
