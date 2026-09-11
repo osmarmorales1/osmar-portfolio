@@ -1,8 +1,8 @@
 # Osmar Morales · Portfolio
 
-**I bring teams to the AI frontier.**
+**I build AI-native teams.**
 
-The source for my personal portfolio: the story, interactive project windows, career evidence, capacity explorer, and a public profile that people and agents can read.
+I create systems and processes that automate complex work and scale delivery. This portfolio connects financial automation, data platforms and enterprise AI through interactive case studies, career evidence and a public profile that people and agents can read.
 
 [Live portfolio](https://osmarmorales.io/) · [AI platform showcase](https://github.com/osmarmorales1/ai-platform-showcase) · [LinkedIn](https://www.linkedin.com/in/osmarmorales/)
 
@@ -49,7 +49,9 @@ The Buzz community link points to the live portfolio, which provides the current
 
 ## Professional evidence
 
-Enterprise outcomes are candidate-reported career evidence, confirmed September 2026. **500+ users**, **1k+ repositories**, and **500+ pipelines** describe separate Visa platform/adoption and delivery initiatives. They do not measure this portfolio or Elygent. Elygent is my independent project.
+Enterprise outcomes are candidate-reported career evidence, confirmed September 2026. **3× delivery pace with the same resources** and **500+ total users** describe Agent Factory; **1k+ repositories** and **500+ pipelines** describe a separate MLOps modernization. These outcomes do not measure this portfolio or Elygent, the AI platform company I founded.
+
+Elygent connects agents, reusable skills and shared knowledge through APIs, CLIs and MCP. Its public lab demonstrates cloud agents, computer use and human-agent collaboration. Shared local-model computing, digital twins and AI ontology are exploration areas.
 
 Interactive capacity calculations are illustrative scenarios, not measured production performance. Product screenshots show identified interface states; the live lab is the place to inspect current behavior.
 
