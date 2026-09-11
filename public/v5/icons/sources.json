@@ -126,18 +126,14 @@
       "sha256": "acaa37781673390bc926574d66113e3a1b3dc0c3b470bb0bb504556c8459c745"
     },
     {
-      "file": "mlflow.svg",
-      "name": "mlflow",
-      "source": "https://github.com/simple-icons/simple-icons/blob/16.30.0/icons/mlflow.svg",
-      "package": "simple-icons@16.30.0",
-      "package_tarball": "https://registry.npmjs.org/simple-icons/-/simple-icons-16.30.0.tgz",
-      "license": "CC0-1.0",
-      "license_file": "simple-icons-LICENSE.txt",
-      "modified": true,
-      "sha256": "7f289982e6d764f9c2b1378aa55c3fca42a8b15840ba6a014e53d5213f4378f1",
-      "color": "#0194E2",
-      "note": "Pinned Simple Icons geometry unchanged; restored the recorded brand color instead of default black.",
-      "color_source": "https://github.com/mlflow/mlflow/blob/855881f93703b15ffe643003fb4d7c84f0ec2502/assets/icon.svg"
+      "file": "airflow.png",
+      "name": "Apache Airflow",
+      "source": "https://raw.githubusercontent.com/apache/airflow/main/airflow-core/docs/img/logos/airflow_64x64_emoji_transparent.png",
+      "source_page": "https://airflow.apache.org/community/",
+      "license": "Apache-2.0 and Apache trademark policy",
+      "modified": false,
+      "note": "Official full-color Apache Airflow icon from the Apache Airflow source repository; geometry and colors unchanged.",
+      "sha256": "7c56632c5e10f85446d6921f40000e8e7abdd618eaf80b821bb5f4da3055a2f5"
     },
     {
       "file": "openclaw-static.png",
@@ -208,6 +204,26 @@
       "modified": true,
       "note": "Static official purple idle Bot avatar captured after the source page renders the eyes. Source geometry and computed light-mode colors retained; CSS fills made self-contained. Page layout and animation omitted.",
       "sha256": "344b909fa1ba90a10da34f7333f3c91452d9fc45de615f4d99e475c0d1f7d708"
+    },
+    {
+      "file": "mcp.svg",
+      "name": "Model Context Protocol",
+      "source": "https://raw.githubusercontent.com/modelcontextprotocol/modelcontextprotocol/main/docs/favicon.svg",
+      "source_page": "https://modelcontextprotocol.io/",
+      "license": "MIT",
+      "modified": false,
+      "note": "Official MCP documentation favicon from the verified Model Context Protocol repository; artwork unchanged.",
+      "sha256": "f6f33e24e95846f9ae2582ab72c4eae7beec5ec52c13d767d9f342bf639dd3e6"
+    },
+    {
+      "file": "webmcp.png",
+      "name": "WebMCP",
+      "source": "https://webmcp.com/icon-128.png",
+      "source_page": "https://webmcp.com/resources",
+      "license": "WebMCP site artwork and trademark",
+      "modified": false,
+      "note": "Current WebMCP ecosystem site icon; 128x128 RGBA artwork unchanged.",
+      "sha256": "7ded25a82c777a98ee79401c9a518e5ee9abbc5d113a75bbe2568a50a931d1b0"
     }
   ],
   "not_found": [

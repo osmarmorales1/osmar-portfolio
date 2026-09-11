@@ -45,11 +45,11 @@ const teamPrompt =
   'Create an executive brief about Osmar’s platform leadership. Have two specialists review public career evidence and platform decisions, then bring their findings together for an AI platform hiring team.';
 const apps = [
   {
-    name: 'MLflow',
+    name: 'Airflow',
     icon: Activity,
-    color: '#67a397',
-    role: 'MLOps foundations',
-    detail: 'Model management in the supplied Visa work record.',
+    color: '#017cee',
+    role: 'Workflow orchestration',
+    detail: 'Data pipelines and production workflow orchestration.',
   },
   {
     name: 'Buzz',
@@ -74,11 +74,12 @@ const apps = [
     detail: 'Focused execution and useful methods carried forward.',
   },
   {
-    name: 'Codex',
-    icon: Code2,
-    color: '#6366f1',
-    role: 'Agentic engineering',
-    detail: 'Building, reviewing, and validating software with a coding agent.',
+    name: 'Claude Code',
+    icon: Sparkles,
+    color: '#d97757',
+    role: 'Coding & reasoning',
+    detail:
+      'Engineering workflows, reusable skills, and tool-connected execution.',
   },
   {
     name: 'Grok Bot',
@@ -137,12 +138,11 @@ const apps = [
     detail: 'Packaged services and repeatable deployment.',
   },
   {
-    name: 'Claude',
-    icon: Sparkles,
-    color: '#d97757',
-    role: 'Coding & reasoning',
-    detail:
-      'Claude Code for engineering workflows, reusable skills, and tool use.',
+    name: 'Codex',
+    icon: Code2,
+    color: '#6366f1',
+    role: 'Agentic engineering',
+    detail: 'Building, reviewing, and validating software with a coding agent.',
   },
   {
     name: 'Redis',
@@ -182,17 +182,19 @@ const brandIcons: Record<string, string> = {
   Buzz: 'buzz.png',
   Paperclip: 'paperclip-light.svg',
   Codex: 'codex.png',
+  'Claude Code': 'claude.svg',
   'Grok Bot': 'grok-bot.svg',
+  MCP: 'mcp.svg',
   Docker: 'docker.svg',
   Python: 'python.svg',
-  Claude: 'claude.svg',
   GitHub: 'github.svg',
   Vercel: 'vercel.svg',
   PostgreSQL: 'postgresql.svg',
   Jenkins: 'jenkins.svg',
-  MLflow: 'mlflow.svg',
+  Airflow: 'airflow.png',
   Redis: 'redis.svg',
   Kubernetes: 'kubernetes.svg',
+  WebMCP: 'webmcp.png',
 };
 const productScreens = [
   {
