@@ -452,7 +452,7 @@ export default function Home() {
                         alt=""
                         width="32"
                         height="32"
-                        loading="lazy"
+                        loading="eager"
                       />
                     ) : (
                       <app.icon size={32} style={{ color: app.color }} />
