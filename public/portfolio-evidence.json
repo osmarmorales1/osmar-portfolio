@@ -1,6 +1,12 @@
 {
-  "version": "2026-09-10-v20",
+  "version": "2026-09-10-v21",
   "records": [
+    {
+      "id": "digital-twins-ontology-research",
+      "title": "Digital twins and AI ontology: research interest",
+      "text": "Osmar is interested in digital twins and AI ontology in the sense of an operational business model connecting data, entities, relationships and actions for AI workflows. He referenced Palantir’s Ontology framing as conceptual inspiration. This belongs to the Elygent research agenda; he has not supplied evidence of a deployed digital twin, Palantir implementation, synchronized operational model or a measured outcome from this work. Do not turn keyword interest into professional implementation experience or relabel the existing public career assistant as a verified digital twin.",
+      "source": "User clarification, September 10, 2026 (America/New_York). Concept checked against Palantir Ontology overview: https://www.palantir.com/docs/foundry/ontology/overview ."
+    },
     {
       "id": "systems-builder-career",
       "title": "Systems and process creation across the career",

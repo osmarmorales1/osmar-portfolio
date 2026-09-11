@@ -13,6 +13,13 @@ import {
 } from '../lib/infrastructure-data.ts';
 const records = [
   {
+    id: 'digital-twins-ontology-research',
+    title: 'Digital twins and AI ontology: research interest',
+    text: 'Osmar is interested in digital twins and AI ontology in the sense of an operational business model connecting data, entities, relationships and actions for AI workflows. He referenced Palantir’s Ontology framing as conceptual inspiration. This belongs to the Elygent research agenda; he has not supplied evidence of a deployed digital twin, Palantir implementation, synchronized operational model or a measured outcome from this work. Do not turn keyword interest into professional implementation experience or relabel the existing public career assistant as a verified digital twin.',
+    source:
+      'User clarification, September 10, 2026 (America/New_York). Concept checked against Palantir Ontology overview: https://www.palantir.com/docs/foundry/ontology/overview .',
+  },
+  {
     id: 'systems-builder-career',
     title: 'Systems and process creation across the career',
     text: 'Osmar positions his career as creating systems and processes that automate complex work and scale delivery. At FedEx as Data Scientist, he led end-to-end BI platform delivery and rebuilt executive financial-close reporting. At TracFone, he rebuilt ETL and revenue-recognition reporting, and created analytical models that reduced analysis time by two-thirds. In his earlier FedEx automation role, he designed a reconciliation application that reduced processing time 70% across Latin America and the Caribbean, and automated and standardized financial reporting. At Davis Quality, he modernized accounting systems and built digital data infrastructure for financial visibility and business planning. These earlier systems complement later self-service analytics, MLOps, Agent Factory and Elygent work; do not label the earlier roles generative AI or attribute later technology stacks to them.',
@@ -138,7 +145,7 @@ await writeFile(
 await writeFile(
   new URL('../public/portfolio-evidence.json', import.meta.url),
   JSON.stringify(
-    { version: '2026-09-10-v20', records, limits: records.at(-1).text },
+    { version: '2026-09-10-v21', records, limits: records.at(-1).text },
     null,
     2,
   ) + '\n',

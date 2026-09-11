@@ -270,6 +270,11 @@ export const machineProfile = {
   frontierAgenda: [
     { topic: 'AI factories and shared compute', status: sharedComputeAgenda },
     {
+      topic: 'Digital twins and AI ontology',
+      status:
+        'Exploring how business entities, relationships and actions can provide shared context for AI workflows. This is a research interest; a deployed digital twin or Palantir implementation is not claimed.',
+    },
+    {
       topic: 'Knowledge graphs and agentic RAG',
       status:
         'Knowledge relationships and scoped agent-guided retrieval are part of the platform approach. A deployed GraphRAG engine or quality benchmark is not claimed.',

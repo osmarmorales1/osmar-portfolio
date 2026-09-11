@@ -230,7 +230,7 @@ export default function CareerStack() {
                   {name === 'visa'
                     ? 'Capabilities used across enterprise and founder-led AI platform work.'
                     : name === 'elygent'
-                      ? 'The independent Elygent integration stack. Upstream projects retain their own authorship.'
+                      ? 'Independent Elygent integration work. Exploring digital twins and AI ontology for business workflows.'
                       : 'The portfolio you are using: a Vercel interface connected to a bounded agent service on a Linux VPS.'}
                 </p>
               </TabsContent>
