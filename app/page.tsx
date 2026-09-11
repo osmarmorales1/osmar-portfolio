@@ -46,11 +46,11 @@ const teamPrompt =
   'Create an executive brief about Osmar’s platform leadership. Have two specialists review public career evidence and platform decisions, then bring their findings together for an AI platform hiring team.';
 const apps = [
   {
-    name: 'OpenClaw',
-    icon: Compass,
-    color: '#e96952',
-    role: 'Conversation & runtime',
-    detail: 'A familiar way to begin work with an AI assistant.',
+    name: 'MLflow',
+    icon: Activity,
+    color: '#67a397',
+    role: 'MLOps foundations',
+    detail: 'Model management in the supplied Visa work record.',
   },
   {
     name: 'Buzz',
@@ -153,11 +153,11 @@ const apps = [
       'Redis and PostgreSQL support the independent Buzz deployment in Elygent.',
   },
   {
-    name: 'MLflow',
-    icon: Activity,
-    color: '#67a397',
-    role: 'MLOps foundations',
-    detail: 'Model management in the supplied Visa work record.',
+    name: 'OpenClaw',
+    icon: Compass,
+    color: '#e96952',
+    role: 'Conversation & runtime',
+    detail: 'A familiar way to begin work with an AI assistant.',
   },
   {
     name: 'Kubernetes',
@@ -229,7 +229,9 @@ export default function Home() {
     [launch, setLaunch] = useState(0),
     [mobileNav, setMobileNav] = useState(false),
     [pinned, setPinned] = useState(false),
-    [selectedApp, setSelectedApp] = useState(0),
+    [selectedApp, setSelectedApp] = useState(() =>
+      apps.findIndex((app) => app.name === 'OpenClaw'),
+    ),
     [gallery, setGallery] = useState<string | null>(null),
     [project, setProject] = useState<string | null>(null);
   const selected = cases.find((c) => c.id === project);
