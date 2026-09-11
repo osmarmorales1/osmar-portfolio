@@ -125,7 +125,7 @@ const records = [
       cases[2].outcome +
       ' The platform combines OpenClaw for conversation/runtime UX, Paperclip for accountable work, Hermes for selected persistent workers, GBrain for curated knowledge, GStack for the separate Software Factory delivery method, and Buzz for collaboration. Elygent owns identity, policy, capability routing and evidence. It uses model-agnostic integration, choosing existing components for their strengths.',
     source:
-      'On 2026-09-10, Osmar confirmed that Elygent is a company he founded. This is the confirmation date, not the founding date. Product capabilities are supported by the reviewed platform and public deployments; no founding date or commercial traction metrics were supplied.',
+      'Osmar confirmed in September 2026 that Elygent is a company he founded in October 2025. Product capabilities are supported by the reviewed platform and public deployments; no commercial traction metrics were supplied.',
   },
   {
     id: 'career',
@@ -148,7 +148,7 @@ const records = [
   {
     id: 'limits',
     title: 'Evidence boundaries',
-    text: 'GPU-fleet ownership, RFPs, facilities and infrastructure budgets are unverified here. No engineering degree is claimed. 500+ is total users, not DAU or concurrency. Elygent is an independent AI platform company founded by Osmar; do not transfer Visa outcomes to it or invent its founding date, revenue, headcount or customer metrics. The website capacity lab is hypothetical, not measured production performance.',
+    text: 'GPU-fleet ownership, RFPs, facilities and infrastructure budgets are unverified here. No engineering degree is claimed. 500+ is total users, not DAU or concurrency. Elygent is an independent AI platform company founded by Osmar in October 2025; do not transfer Visa outcomes to it or invent revenue, headcount or customer metrics. The website capacity lab is hypothetical, not measured production performance.',
     source: 'Scope assessment from supplied evidence, 2026-09-09.',
   },
 ];
@@ -159,7 +159,7 @@ await writeFile(
 await writeFile(
   new URL('../public/portfolio-evidence.json', import.meta.url),
   JSON.stringify(
-    { version: '2026-09-10-v25', records, limits: records.at(-1).text },
+    { version: '2026-09-10-v27', records, limits: records.at(-1).text },
     null,
     2,
   ) + '\n',

@@ -1,5 +1,5 @@
 {
-  "version": "2026-09-10-v25",
+  "version": "2026-09-10-v27",
   "records": [
     {
       "id": "global-adoption",
@@ -119,7 +119,7 @@
       "id": "elygent",
       "title": "Elygent — company founded by Osmar",
       "text": "Founded Elygent and lead its product and platform architecture on open-source foundations. Built Agentic Slack on Buzz for human-agent communication and collaboration, with Paperclip as the agent orchestration backend. Built LLM-agnostic and harness-agnostic integrations through APIs, CLIs and MCP so tools, skills and knowledge can be reused across coding agents and business workflows. Cybersecurity work includes scoped access, isolated execution and candidate-confirmed Numbat deployment. Configured integrations include Claude Code, Codex and other harnesses; this is interoperability, not a guarantee of identical behavior across every runtime. Launched a public cloud-agent lab on Linux VPS and an Agentic Slack community powered by native Buzz. Visitors can experience human-agent collaboration, shared communication, computer use through browser automation and human review; the company’s broader platform connects conversations to governed, accountable work. The platform combines OpenClaw for conversation/runtime UX, Paperclip for accountable work, Hermes for selected persistent workers, GBrain for curated knowledge, GStack for the separate Software Factory delivery method, and Buzz for collaboration. Elygent owns identity, policy, capability routing and evidence. It uses model-agnostic integration, choosing existing components for their strengths.",
-      "source": "On 2026-09-10, Osmar confirmed that Elygent is a company he founded. This is the confirmation date, not the founding date. Product capabilities are supported by the reviewed platform and public deployments; no founding date or commercial traction metrics were supplied."
+      "source": "Osmar confirmed in September 2026 that Elygent is a company he founded in October 2025. Product capabilities are supported by the reviewed platform and public deployments; no commercial traction metrics were supplied."
     },
     {
       "id": "career",
@@ -142,9 +142,9 @@
     {
       "id": "limits",
       "title": "Evidence boundaries",
-      "text": "GPU-fleet ownership, RFPs, facilities and infrastructure budgets are unverified here. No engineering degree is claimed. 500+ is total users, not DAU or concurrency. Elygent is an independent AI platform company founded by Osmar; do not transfer Visa outcomes to it or invent its founding date, revenue, headcount or customer metrics. The website capacity lab is hypothetical, not measured production performance.",
+      "text": "GPU-fleet ownership, RFPs, facilities and infrastructure budgets are unverified here. No engineering degree is claimed. 500+ is total users, not DAU or concurrency. Elygent is an independent AI platform company founded by Osmar in October 2025; do not transfer Visa outcomes to it or invent revenue, headcount or customer metrics. The website capacity lab is hypothetical, not measured production performance.",
       "source": "Scope assessment from supplied evidence, 2026-09-09."
     }
   ],
-  "limits": "GPU-fleet ownership, RFPs, facilities and infrastructure budgets are unverified here. No engineering degree is claimed. 500+ is total users, not DAU or concurrency. Elygent is an independent AI platform company founded by Osmar; do not transfer Visa outcomes to it or invent its founding date, revenue, headcount or customer metrics. The website capacity lab is hypothetical, not measured production performance."
+  "limits": "GPU-fleet ownership, RFPs, facilities and infrastructure budgets are unverified here. No engineering degree is claimed. 500+ is total users, not DAU or concurrency. Elygent is an independent AI platform company founded by Osmar in October 2025; do not transfer Visa outcomes to it or invent revenue, headcount or customer metrics. The website capacity lab is hypothetical, not measured production performance."
 }
