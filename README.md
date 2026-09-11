@@ -51,7 +51,7 @@ The Buzz community link points to the live portfolio, which provides the current
 
 Enterprise outcomes are candidate-reported career evidence, confirmed September 2026. **3× delivery pace with the same resources** and **500+ total users** describe Agent Factory; **1k+ repositories** and **500+ pipelines** describe a separate MLOps modernization. These outcomes do not measure this portfolio or Elygent, the AI platform company I founded.
 
-Elygent connects agents, reusable skills and shared knowledge through APIs, CLIs and MCP. Its public lab demonstrates cloud agents, computer use and human-agent collaboration. Shared local-model computing, digital twins and AI ontology are exploration areas.
+Elygent connects agents, reusable skills and shared knowledge through APIs, CLIs and MCP. I built an **Agentic Slack experience on Buzz** for human-agent communication and collaboration, with **Paperclip as the orchestration backend**. Cybersecurity work includes Numbat monitoring, scoped access and isolated execution. The public lab demonstrates cloud agents and computer use; shared local-model computing, digital twins and AI ontology are exploration areas.
 
 Interactive capacity calculations are illustrative scenarios, not measured production performance. Product screenshots show identified interface states; the live lab is the place to inspect current behavior.
 

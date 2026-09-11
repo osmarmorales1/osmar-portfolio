@@ -79,15 +79,15 @@ const groups = {
       Workflow,
     ],
     [
-      'CI/CD & validation',
-      'GitHub · Jenkins · Azure DevOps · Automated tests · Evaluations',
+      'CI/CD & cybersecurity',
+      'GitHub · Jenkins · Azure DevOps · Numbat monitoring · Scoped access',
       Code2,
     ],
   ],
   elygent: [
     [
-      'Cloud agents & multiplayer',
-      'OpenClaw · Hermes · Paperclip · Buzz',
+      'Human–agent collaboration',
+      'Agentic Slack on Buzz · Paperclip orchestration · OpenClaw · Hermes',
       Network,
     ],
     [

@@ -55,15 +55,16 @@ const apps = [
     name: 'Buzz',
     icon: Users,
     color: '#aa911a',
-    role: 'Team collaboration',
-    detail: 'Shared channels for people, agents, and the work they produce.',
+    role: 'Agentic Slack',
+    detail: 'Human–agent communication and collaboration in shared channels.',
   },
   {
     name: 'Paperclip',
     icon: Workflow,
     color: '#677cc2',
-    role: 'Accountable work',
-    detail: 'Goals, ownership, handoffs, and a path to a delivered result.',
+    role: 'Agent orchestrator',
+    detail:
+      'The orchestration backend: ownership, delegation, and accountable execution.',
   },
   {
     name: 'Hermes',
@@ -140,7 +141,8 @@ const apps = [
     icon: Sparkles,
     color: '#d97757',
     role: 'Coding & reasoning',
-    detail: 'Claude Code for engineering workflows, reusable skills, and tool use.',
+    detail:
+      'Claude Code for engineering workflows, reusable skills, and tool use.',
   },
   {
     name: 'Redis',
@@ -204,19 +206,20 @@ const productScreens = [
   },
   {
     id: 'buzz',
-    name: 'Buzz',
+    name: 'Agentic Slack · Buzz',
     task: 'Work together, in the same conversation.',
-    title: 'Give the team a shared space.',
-    description: 'Our native community, with shared channels and cloud agents.',
+    title: 'People and agents. One conversation.',
+    description: 'Human–agent communication and collaboration, built on Buzz.',
     image: '/v10/buzz-community.jpg',
     source: buzzCommunity.inviteUrl,
   },
   {
     id: 'paperclip',
-    name: 'Paperclip',
+    name: 'Agent orchestrator · Paperclip',
     task: 'Turn the goal into accountable work.',
-    title: 'Keep ownership in the picture.',
-    description: 'Goals, assignments, and handoffs in the actual app.',
+    title: 'Turn conversations into execution.',
+    description:
+      'My agent orchestration backend: goals, delegation and accountable work.',
     image: '/v5/paperclip-light-app.png',
     source: 'https://github.com/paperclipai/paperclip',
   },

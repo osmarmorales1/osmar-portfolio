@@ -131,7 +131,7 @@
         "Capture business workflows as skills; learn from recurring patterns and recommend relevant skills at runtime.",
         "Use VCA Brain to share project context and observations so teams build on collective knowledge.",
         "Make V Agent the simple entry to distributed execution, including agents working for hours and days.",
-        "Bring people and agents together in Buzz; retain checkpointed state, independent validation and human review."
+        "Build Agentic Slack on Buzz for human–agent communication; retain scoped access, Numbat monitoring and human review."
       ],
       "outcome": "Transformed data-science teams into an AI-native organization; enabled 3× delivery pace with the same resources and organic adoption by 500+ total users across five markets and two regions.",
       "stage": "Candidate-confirmed September 2026. 3× refers to delivery pace with the same resources; its measurement period was not supplied. 500+ means total users.",
@@ -155,13 +155,13 @@
       "id": "elygent",
       "name": "Elygent",
       "context": "FOUNDED COMPANY · AI PLATFORM",
-      "ownership": "Founded Elygent and lead its product and platform architecture on open-source foundations. Built LLM-agnostic and harness-agnostic integrations through APIs, CLIs and MCP so tools, skills and knowledge can be reused across coding agents and business workflows. Shared memory, scoped access and recoverable execution preserve personal and business boundaries. Configured integrations include Claude Code, Codex and other agent harnesses; this is interoperability, not a guarantee of identical behavior across every runtime.",
+      "ownership": "Founded Elygent and lead its product and platform architecture on open-source foundations. Built Agentic Slack on Buzz for human-agent communication and collaboration, with Paperclip as the agent orchestration backend. Built LLM-agnostic and harness-agnostic integrations through APIs, CLIs and MCP so tools, skills and knowledge can be reused across coding agents and business workflows. Cybersecurity work includes scoped access, isolated execution and candidate-confirmed Numbat deployment. Configured integrations include Claude Code, Codex and other harnesses; this is interoperability, not a guarantee of identical behavior across every runtime.",
       "decisions": [
         "Make delegation simple while connecting the right agents, tools and knowledge behind it.",
         "Carry useful context across workflows while preserving personal and business boundaries.",
         "Ship working experiences and validate the real model-to-tool path before expanding capabilities."
       ],
-      "outcome": "Launched a public cloud-agent lab on Linux VPS and a native Buzz community. Visitors can experience specialist collaboration, computer use through browser automation, and human review; the company’s broader platform brings people and agents into shared, accountable work.",
+      "outcome": "Launched a public cloud-agent lab on Linux VPS and an Agentic Slack community powered by native Buzz. Visitors can experience human-agent collaboration, shared communication, computer use through browser automation and human review; the company’s broader platform connects conversations to governed, accountable work.",
       "stage": "Elygent is an independent company founded by Osmar, confirmed September 2026. Its public lab and native community are live; Visa adoption metrics do not describe Elygent.",
       "evidenceUrl": "https://osmarmorales.io/Osmar_Morales_Elygent_Technical_Brief.pdf"
     }
@@ -171,6 +171,8 @@
       "context": "AI and platform engineering",
       "themes": [
         "AI-native team enablement",
+        "Agentic Slack and human-agent communication",
+        "Agent cybersecurity",
         "Agent orchestration and reusable workflows",
         "Agentic AI and LLMOps",
         "Shared context and collective learning",
@@ -189,6 +191,7 @@
         "Storage services",
         "Load balancing and DNS",
         "Agent evaluation and tracing",
+        "Numbat",
         "Docker",
         "MCP",
         "RAG",
@@ -215,7 +218,8 @@
         "LLM-agnostic and harness-agnostic architecture",
         "Open-source agent infrastructure",
         "Distributed agent execution",
-        "Human-agent collaboration",
+        "Agentic Slack and human-agent collaboration",
+        "Secure communication and agent cybersecurity",
         "Shared knowledge",
         "Model-agnostic integration"
       ],
@@ -228,6 +232,7 @@
         "Hermes",
         "Paperclip",
         "Buzz",
+        "Numbat",
         "GBrain",
         "GStack",
         "Node.js",
@@ -244,7 +249,7 @@
         "systemd",
         "Caddy"
       ],
-      "evidence": "Founder-led Elygent platform; reviewed API/CLI/harness integrations and working public demonstrations"
+      "evidence": "Founder-led Elygent platform; reviewed API/CLI/harness integrations and public demonstrations. Numbat deployment at Visa and Elygent is candidate-confirmed; enforcement mode and coverage were not supplied."
     },
     {
       "context": "This public portfolio",
@@ -359,13 +364,13 @@
       },
       {
         "id": "buzz-collaboration",
-        "title": "Buzz: people and agents together",
-        "text": "Deployed Buzz as an agentic collaboration workspace, described by Osmar as agentic Slack, bringing humans and agents into one interface and connecting conversations to delegated desktop and cloud work. Buzz is a separate product, not an assertion that Slack itself was built or owned by Osmar. The Visa deployment is distinct from the native Buzz public demonstration."
+        "title": "Agentic Slack: human–agent communication",
+        "text": "Built and deployed an Agentic Slack experience on Buzz for human-agent communication and collaboration, connecting shared channels to delegated desktop and cloud work. Paperclip serves as an agent orchestration backend. Agentic Slack is a descriptive analogy; the integration is Osmar’s work, while Buzz, Paperclip and Slack retain their own authorship and ownership. The Visa deployment is distinct from the native Buzz public demonstration."
       },
       {
         "id": "long-running",
         "title": "Agents that work for hours and days",
-        "text": "Set up and operationalized long-running agents that execute for hours and days toward business objectives, with checkpointed state, isolated contexts, independent validation and human review. No completion-rate benchmark or guarantee of uninterrupted execution was provided."
+        "text": "Set up and operationalized long-running agents that execute for hours and days toward business objectives, with checkpointed state, isolated contexts, scoped access, independent validation and human review. Osmar confirms deploying Perplexity Numbat at Visa and Elygent for agent cybersecurity visibility. Numbat monitoring is an additional control, not a guarantee of complete threat prevention or uninterrupted execution. Specific enforcement configuration, detection coverage and performance metrics were not supplied."
       }
     ]
   },

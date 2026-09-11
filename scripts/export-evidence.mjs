@@ -13,6 +13,13 @@ import {
 } from '../lib/infrastructure-data.ts';
 const records = [
   {
+    id: 'agentic-slack-cybersecurity',
+    title: 'Agentic Slack, human-agent communication and cybersecurity',
+    text: 'Osmar built the integration and communication experience described as Agentic Slack on Buzz: people and agents share channels, context and delegated work. Paperclip is the agent orchestration backend. This credits his system design, integration and deployment, not authorship of upstream Buzz, Paperclip or Slack. Cybersecurity scope includes identity-scoped access, isolated agent execution, approval boundaries and auditability. Osmar directly confirms Numbat deployment at both Visa and Elygent. Numbat provides agent-activity visibility and local detection; upstream blocking is opt-in on supported synchronous hooks and shipped rules are monitor-only. No specific enforcement mode, complete harness coverage, certification, penetration-test result or guarantee of safe uninterrupted autonomy was supplied. The public demo community remains visible to its participants; do not describe public posts as confidential.',
+    source:
+      'Direct candidate confirmation in the current portfolio revision, September 2026; reviewed Elygent security/integration evidence and portfolio runtime controls. Numbat scope checked against https://github.com/perplexityai/numbat . Earlier evaluation-only references are superseded by the candidate’s deployment confirmation, not by a new operational audit.',
+  },
+  {
     id: 'digital-twins-ontology-research',
     title: 'Digital twins and AI ontology: research interest',
     text: 'Osmar is interested in digital twins and AI ontology in the sense of an operational business model connecting data, entities, relationships and actions for AI workflows. He referenced Palantir’s Ontology framing as conceptual inspiration. This belongs to the Elygent research agenda; he has not supplied evidence of a deployed digital twin, Palantir implementation, synchronized operational model or a measured outcome from this work. Do not turn keyword interest into professional implementation experience or relabel the existing public career assistant as a verified digital twin.',
@@ -145,7 +152,7 @@ await writeFile(
 await writeFile(
   new URL('../public/portfolio-evidence.json', import.meta.url),
   JSON.stringify(
-    { version: '2026-09-10-v21', records, limits: records.at(-1).text },
+    { version: '2026-09-10-v24', records, limits: records.at(-1).text },
     null,
     2,
   ) + '\n',

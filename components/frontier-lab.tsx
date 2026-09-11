@@ -132,18 +132,21 @@ export default function FrontierLab({
         className="shared-compute-agenda community-agenda native-community"
         id="community"
       >
-        <span>THE BUZZ COMMUNITY</span>
-        <h3>Join the conversation.</h3>
+        <span>HUMAN–AGENT COLLABORATION</span>
+        <h3>Agentic Slack.</h3>
         <p>
-          Install Buzz on your phone or desktop, then join the community. Work
-          with people and agents in shared channels, with a place for the work
-          to continue.
+          I built a communication layer on Buzz where people and agents share
+          channels, context and delegated work.
+        </p>
+        <p className="community-security">
+          Cybersecurity: Numbat monitoring, scoped access and isolated
+          execution.
         </p>
         <div className="native-community-preview">
           <div className="native-community-mark">
             <Users size={25} />
             <strong>Osmar’s community</strong>
-            <span>Native Buzz workspace</span>
+            <span>Human–agent workspace · powered by Buzz</span>
           </div>
           <div className="native-community-counts">
             <span>

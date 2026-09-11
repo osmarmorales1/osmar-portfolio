@@ -81,6 +81,8 @@ export const publicStack = [
     context: 'AI and platform engineering',
     themes: [
       'AI-native team enablement',
+      'Agentic Slack and human-agent communication',
+      'Agent cybersecurity',
       'Agent orchestration and reusable workflows',
       'Agentic AI and LLMOps',
       'Shared context and collective learning',
@@ -99,6 +101,7 @@ export const publicStack = [
       'Storage services',
       'Load balancing and DNS',
       'Agent evaluation and tracing',
+      'Numbat',
       'Docker',
       'MCP',
       'RAG',
@@ -126,7 +129,8 @@ export const publicStack = [
       'LLM-agnostic and harness-agnostic architecture',
       'Open-source agent infrastructure',
       'Distributed agent execution',
-      'Human-agent collaboration',
+      'Agentic Slack and human-agent collaboration',
+      'Secure communication and agent cybersecurity',
       'Shared knowledge',
       'Model-agnostic integration',
     ],
@@ -139,6 +143,7 @@ export const publicStack = [
       'Hermes',
       'Paperclip',
       'Buzz',
+      'Numbat',
       'GBrain',
       'GStack',
       'Node.js',
@@ -156,7 +161,7 @@ export const publicStack = [
       'Caddy',
     ],
     evidence:
-      'Founder-led Elygent platform; reviewed API/CLI/harness integrations and working public demonstrations',
+      'Founder-led Elygent platform; reviewed API/CLI/harness integrations and public demonstrations. Numbat deployment at Visa and Elygent is candidate-confirmed; enforcement mode and coverage were not supplied.',
   },
   {
     context: 'This public portfolio',

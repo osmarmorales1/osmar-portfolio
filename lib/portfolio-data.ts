@@ -40,7 +40,7 @@ export const cases = [
       'Capture business workflows as skills; learn from recurring patterns and recommend relevant skills at runtime.',
       'Use VCA Brain to share project context and observations so teams build on collective knowledge.',
       'Make V Agent the simple entry to distributed execution, including agents working for hours and days.',
-      'Bring people and agents together in Buzz; retain checkpointed state, independent validation and human review.',
+      'Build Agentic Slack on Buzz for human–agent communication; retain scoped access, Numbat monitoring and human review.',
     ],
     outcome:
       'Transformed data-science teams into an AI-native organization; enabled 3× delivery pace with the same resources and organic adoption by 500+ total users across five markets and two regions.',
@@ -88,19 +88,19 @@ export const cases = [
     problem:
       'Using more AI tools can fragment knowledge, permissions, and execution. People should not need to manage that complexity themselves.',
     ownership:
-      'Founded Elygent and lead its product and platform architecture on open-source foundations. Built LLM-agnostic and harness-agnostic integrations through APIs, CLIs and MCP so tools, skills and knowledge can be reused across coding agents and business workflows. Shared memory, scoped access and recoverable execution preserve personal and business boundaries. Configured integrations include Claude Code, Codex and other agent harnesses; this is interoperability, not a guarantee of identical behavior across every runtime.',
+      'Founded Elygent and lead its product and platform architecture on open-source foundations. Built Agentic Slack on Buzz for human-agent communication and collaboration, with Paperclip as the agent orchestration backend. Built LLM-agnostic and harness-agnostic integrations through APIs, CLIs and MCP so tools, skills and knowledge can be reused across coding agents and business workflows. Cybersecurity work includes scoped access, isolated execution and candidate-confirmed Numbat deployment. Configured integrations include Claude Code, Codex and other harnesses; this is interoperability, not a guarantee of identical behavior across every runtime.',
     decisions: [
       'Make delegation simple while connecting the right agents, tools and knowledge behind it.',
       'Carry useful context across workflows while preserving personal and business boundaries.',
       'Ship working experiences and validate the real model-to-tool path before expanding capabilities.',
     ],
     outcome:
-      'Launched a public cloud-agent lab on Linux VPS and a native Buzz community. Visitors can experience specialist collaboration, computer use through browser automation, and human review; the company’s broader platform brings people and agents into shared, accountable work.',
+      'Launched a public cloud-agent lab on Linux VPS and an Agentic Slack community powered by native Buzz. Visitors can experience human-agent collaboration, shared communication, computer use through browser automation and human review; the company’s broader platform connects conversations to governed, accountable work.',
     tags: [
       'MCP / APIs',
       'Linux / Docker',
-      'PostgreSQL / Redis',
-      'Agentic retrieval',
+      'Agentic Slack / orchestration',
+      'Cybersecurity / Numbat',
     ],
     note: 'Elygent is an independent company founded by Osmar, confirmed September 2026. Its public lab and native community are live; Visa adoption metrics do not describe Elygent.',
     file: '/Osmar_Morales_Elygent_Technical_Brief.pdf',

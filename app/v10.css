@@ -308,6 +308,12 @@
     0 10px 30px #17191c05,
     inset 0 1px 0 #fff;
 }
+.community-agenda .community-security {
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 1.65;
+  color: #62676d;
+}
 .native-community-mark {
   display: grid;
   grid-template-columns: 32px 1fr;

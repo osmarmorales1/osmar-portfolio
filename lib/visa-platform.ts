@@ -37,13 +37,13 @@ export const visaPlatform = {
     },
     {
       id: 'buzz-collaboration',
-      title: 'Buzz: people and agents together',
-      text: 'Deployed Buzz as an agentic collaboration workspace, described by Osmar as agentic Slack, bringing humans and agents into one interface and connecting conversations to delegated desktop and cloud work. Buzz is a separate product, not an assertion that Slack itself was built or owned by Osmar. The Visa deployment is distinct from the native Buzz public demonstration.',
+      title: 'Agentic Slack: human–agent communication',
+      text: 'Built and deployed an Agentic Slack experience on Buzz for human-agent communication and collaboration, connecting shared channels to delegated desktop and cloud work. Paperclip serves as an agent orchestration backend. Agentic Slack is a descriptive analogy; the integration is Osmar’s work, while Buzz, Paperclip and Slack retain their own authorship and ownership. The Visa deployment is distinct from the native Buzz public demonstration.',
     },
     {
       id: 'long-running',
       title: 'Agents that work for hours and days',
-      text: 'Set up and operationalized long-running agents that execute for hours and days toward business objectives, with checkpointed state, isolated contexts, independent validation and human review. No completion-rate benchmark or guarantee of uninterrupted execution was provided.',
+      text: 'Set up and operationalized long-running agents that execute for hours and days toward business objectives, with checkpointed state, isolated contexts, scoped access, independent validation and human review. Osmar confirms deploying Perplexity Numbat at Visa and Elygent for agent cybersecurity visibility. Numbat monitoring is an additional control, not a guarantee of complete threat prevention or uninterrupted execution. Specific enforcement configuration, detection coverage and performance metrics were not supplied.',
     },
   ],
 };
