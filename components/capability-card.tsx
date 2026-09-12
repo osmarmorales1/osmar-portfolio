@@ -35,7 +35,11 @@ export default function CapabilityCard({
     return () => observer.disconnect();
   }, []);
   return (
-    <article ref={ref} className="aside-product-card capability-card">
+    <article
+      ref={ref}
+      className={`aside-product-card capability-card capability-card-${item.id}`}
+      aria-labelledby={`capability-title-${item.id}`}
+    >
       <div className="app-card-stage">
         <span className="capability-task">{item.task}</span>
         {item.id === 'elygent' ? (
@@ -44,12 +48,6 @@ export default function CapabilityCard({
           </div>
         ) : (
           <div className={`static-app-frame ${item.id}`}>
-            <div className="static-window-bar">
-              <i />
-              <i />
-              <i />
-              <span>{item.name}</span>
-            </div>
             <div className="static-app-image">
               <img
                 src={item.image!}
@@ -71,8 +69,10 @@ export default function CapabilityCard({
           </span>
         </button>
       </div>
-      <h3>{item.title}</h3>
-      <p>{item.description}</p>
+      <div className="capability-caption">
+        <h3 id={`capability-title-${item.id}`}>{item.title}</h3>{' '}
+        <p>{item.description}</p>
+      </div>
     </article>
   );
 }

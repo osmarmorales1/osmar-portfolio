@@ -200,8 +200,9 @@ const productScreens = [
     id: 'elygent',
     name: 'Elygent',
     task: 'Bring in specialists. Show me the result.',
-    title: 'Make collaboration visible.',
-    description: 'Delegate research and synthesis. Review one coordinated result.',
+    title: 'Collaborative agents.',
+    description:
+      'Delegate research and synthesis. Review one coordinated result.',
     image: null,
     source: null,
   },
@@ -209,8 +210,9 @@ const productScreens = [
     id: 'buzz',
     name: 'Agentic Slack · Buzz',
     task: 'Work together, in the same conversation.',
-    title: 'People and agents. One conversation.',
-    description: 'Human–agent communication and collaboration, built on Buzz.',
+    title: 'Agentic Slack.',
+    description:
+      'People and agents share context, conversations and delegated work.',
     image: '/v10/buzz-community.jpg',
     source: buzzCommunity.inviteUrl,
   },
@@ -218,7 +220,7 @@ const productScreens = [
     id: 'paperclip',
     name: 'Agent orchestrator · Paperclip',
     task: 'Turn the goal into accountable work.',
-    title: 'Turn conversations into execution.',
+    title: 'Agent orchestration.',
     description:
       'Turn goals into delegated tasks with clear ownership and review.',
     image: '/v5/paperclip-light-app.png',
@@ -280,8 +282,8 @@ export default function Home() {
       </a>
       <header className={`aside-nav ${pinned ? 'pinned' : ''}`}>
         <a href="#main" className="osmar-logo" aria-label="Osmar Morales home">
-          <span>
-            <Sparkles size={22} />
+          <span className="nav-portrait">
+            <img src="/v8/osmar-morales.png" alt="" width="40" height="40" />
           </span>
           Osmar
         </a>
@@ -317,8 +319,13 @@ export default function Home() {
           </DialogDescription>
           <div className="mobile-menu-heading">
             <span className="osmar-logo">
-              <span>
-                <Sparkles size={22} />
+              <span className="nav-portrait">
+                <img
+                  src="/v8/osmar-morales.png"
+                  alt=""
+                  width="40"
+                  height="40"
+                />
               </span>
               Osmar
             </span>
@@ -362,20 +369,17 @@ export default function Home() {
       </Dialog>
       <main id="main">
         <section className="aside-hero">
+          <img
+            className="aside-sky"
+            src="/v5/sky-hero.png"
+            alt=""
+            width="1672"
+            height="941"
+            fetchPriority="high"
+          />
           <div className="aside-hero-copy">
-            <a className="identity-pill" href="#experience">
-              <span className="hero-portrait">
-                <img
-                  src="/v8/osmar-morales.png"
-                  alt=""
-                  width="1254"
-                  height="1254"
-                />
-              </span>
-              <span className="hero-identity-text">
-                <strong>Osmar Morales</strong>
-                <span>AI platform leader</span>
-              </span>
+            <a className="hero-eyebrow" href="#experience">
+              AI platform leadership
               <ChevronDown size={13} />
             </a>
             <h1>
@@ -509,6 +513,13 @@ export default function Home() {
           />
         </div>
         <section className="aside-closing" id="contact">
+          <img
+            src="/v7/closing-horizon.png"
+            alt=""
+            width="2172"
+            height="724"
+            loading="lazy"
+          />
           <div>
             <MotionHeading>
               Let’s move your
@@ -531,9 +542,6 @@ export default function Home() {
       <footer className="aside-footer">
         <div>
           <a className="osmar-logo" href="#main">
-            <span>
-              <Sparkles size={22} />
-            </span>
             Osmar
           </a>
           <p>
