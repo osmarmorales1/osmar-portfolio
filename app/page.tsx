@@ -1,7 +1,7 @@
 'use client';
 /* eslint-disable next/no-img-element, next/no-html-link-for-pages -- This site ships as standalone Vite HTML; native images and static-file links are intentional. */
 /* eslint-disable jsx-a11y/no-noninteractive-tabindex -- The horizontal gallery must be keyboard-focusable for native arrow-key scrolling. */
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import {
   Activity,
   ArrowRight,
@@ -228,6 +228,7 @@ const productScreens = [
   },
 ];
 export default function Home() {
+  const mobileMenuRef = useRef<HTMLDivElement>(null);
   const [workspace, setWorkspace] = useState(false),
     [prompt, setPrompt] = useState(''),
     [workspaceView, setWorkspaceView] = useState<'agent' | 'computer'>('agent'),
@@ -312,6 +313,8 @@ export default function Home() {
         <DialogContent
           className="aside-mobile-menu translate-x-0 translate-y-0"
           showCloseButton={false}
+          ref={mobileMenuRef}
+          initialFocus={mobileMenuRef}
         >
           <DialogTitle className="sr-only">Navigation</DialogTitle>
           <DialogDescription className="sr-only">
@@ -371,21 +374,21 @@ export default function Home() {
         <section className="aside-hero">
           <img
             className="aside-sky"
-            src="/v5/sky-hero.png"
+            src="/v12/hero-clouds.webp"
             alt=""
             width="1672"
             height="941"
             fetchPriority="high"
           />
           <div className="aside-hero-copy">
-            <a className="hero-eyebrow" href="#experience">
-              AI platform leadership
+            <a className="hero-eyebrow" href="#work">
+              3× delivery. Same resources.
               <ChevronDown size={13} />
             </a>
             <h1>
-              I build
+              I build AI-native teams
               <br />
-              AI-native teams.
+              at the frontier.
             </h1>
             <p className="hero-lead">
               Systems that automate work. Teams that scale delivery.

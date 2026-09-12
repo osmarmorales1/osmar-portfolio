@@ -18,12 +18,12 @@ const desktopCamera: Camera[] = [
 ];
 const mobileCamera: Camera[] = [
   { at: 0, x: 0, y: 0, scale: 1 },
-  { at: 1600, x: -9, y: -1, scale: 1.22 },
-  { at: 4700, x: -9, y: -1, scale: 1.22 },
+  { at: 1600, x: -5, y: -1, scale: 1.14 },
+  { at: 4700, x: -5, y: -1, scale: 1.14 },
   { at: 6500, x: 0, y: 0, scale: 1 },
-  { at: 9200, x: -30, y: 48, scale: 3 },
-  { at: 12500, x: -32, y: -20, scale: 2.5 },
-  { at: 15500, x: -10, y: -3, scale: 1.4 },
+  { at: 9200, x: -7, y: 3, scale: 1.18 },
+  { at: 12500, x: -8, y: -5, scale: 1.22 },
+  { at: 15500, x: -3, y: -2, scale: 1.08 },
   { at: HERO_FILM_DURATION, x: 0, y: 0, scale: 1 },
 ];
 const clamp = (value: number) => Math.max(0, Math.min(1, value));
@@ -239,9 +239,7 @@ export default function HeroFilm({
                 </p>
               </div>
             </div>
-            <span className="hero-film-chat-note">
-              Example workspace
-            </span>
+            <span className="hero-film-chat-note">Example workspace</span>
           </div>
         </div>
       </div>

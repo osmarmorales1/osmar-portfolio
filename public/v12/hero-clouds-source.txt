@@ -1,0 +1,11 @@
+Original artwork generated with built-in ImageGen on September 12, 2026.
+
+Mode: Built-in image_gen tool. Intent: generate. Original preserved.
+
+Use case: photorealistic-natural
+Asset type: responsive full-bleed portfolio website hero background, landscape 2048x1152 approximately, 16:9.
+Primary request: A cheerful, clear cyan sky with large soft white cumulus clouds visibly near the TOP of the image, with the airy premium editorial technology-website feel of Aside.com. Create only a sky photograph-style background, never a screenshot or website mockup.
+Scene/backdrop: Clean bright cyan sky, close to #79e3f2, luminous soft daylight and realistic dimensional fluffy white clouds with gentle pale blue shadowing.
+Composition/framing: The upper third is cloud-rich, including the central corridor between 35% and 65% of image width. Several large recognizable puffy cloud forms stretch across the top and visibly continue into the upper center, with generous rounded white billows around x=50% and y=15%-30%. Clouds at both side edges are welcome but do not put all the clouds at the edges: a narrow vertical crop of the central 30% MUST still show large obvious puffy white clouds near its top. Maintain some soft airy cloud shapes across the middle too, without an enormous empty blue center. The lower half can be more open cyan. Keep tones light and serene for black headline legibility when text is later overlaid by code.
+Lighting/mood: Fresh, optimistic, clean, soft sunny daylight, restrained and high-end, naturally photographic.
+Constraints: Background asset only. No text, no logos, no UI, no typography, no people, no watermark, no sun disk, no lens flare, no buildings, no land, no horizon objects, no birds, no objects. Avoid dark clouds, storm mood, busy texture, overly saturated deep blue, flat painted cotton-cloud icons, and an empty central strip.
