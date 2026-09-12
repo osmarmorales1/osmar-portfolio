@@ -50,7 +50,6 @@ export default function FrontierLab({
       <div className="lab-experiences">
         <article>
           <div className="lab-visual lab-browser lab-team" aria-hidden="true">
-            <span className="lab-task-bubble">Build a brief about Osmar.</span>
             <div className="lab-browser-frame">
               <div>
                 <i />
@@ -68,7 +67,6 @@ export default function FrontierLab({
                 height="720"
               />
             </div>
-            <small>Independent contexts · Shared evidence</small>
           </div>
           <span className="lab-label">CLOUD AGENTS · COLLABORATION</span>
           <h3>Meet the team behind the task.</h3>

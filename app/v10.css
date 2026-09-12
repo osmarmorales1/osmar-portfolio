@@ -938,26 +938,46 @@
   border: 0;
   box-shadow: none;
 }
-.aside-portfolio .lab-experiences .lab-visual > small {
-  background: transparent;
-  border: 0;
-  box-shadow: none;
+.aside-portfolio .lab-experiences .lab-visual {
+  display: flex;
+  align-items: stretch;
+  padding: 24px;
 }
-.aside-portfolio .lab-experiences .lab-team {
+.aside-portfolio .lab-experiences :is(.lab-browser-frame, .computer-preview-window) {
   display: flex;
   flex-direction: column;
-  gap: 18px;
-  padding-bottom: 38px;
-}
-.aside-portfolio .lab-experiences .lab-team .lab-browser-frame {
   flex: 1;
   min-height: 0;
-  margin: 0 5px;
-}
-.aside-portfolio .lab-experiences .lab-team > small {
-  height: 38px;
+  height: 100%;
   margin: 0;
-  padding: 10px;
+  border: 1px solid #dfe1e4;
+  border-radius: 10px;
+}
+.aside-portfolio .lab-experiences .lab-browser-frame > div {
+  flex: 0 0 32px;
+  height: 32px;
+  padding: 8px 11px;
+}
+.aside-portfolio .lab-experiences .lab-browser-frame > img {
+  flex: 1;
+  min-height: 0;
+  height: 0;
+  width: 100%;
+  object-fit: cover;
+  object-position: left top;
+}
+.aside-portfolio .lab-experiences .computer-preview-bar {
+  flex: 0 0 32px;
+}
+.aside-portfolio .lab-experiences .computer-preview-viewport {
+  flex: 1;
+  justify-content: center;
+  min-height: 0;
+}
+@media (max-width: 639px) {
+  .aside-portfolio .lab-experiences .lab-visual {
+    padding: 16px;
+  }
 }
 .aside-portfolio .aside-nav > .nav-download,
 .aside-portfolio .aside-nav.pinned > .nav-download {
