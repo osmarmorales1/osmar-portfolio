@@ -13,6 +13,14 @@ import {
 } from '../lib/infrastructure-data.ts';
 const records = [
   {
+    id: 'skills-to-operations',
+    title:
+      'Operating model: capture know-how, assign ownership, orchestrate outcomes',
+    text: 'The candidate’s supplied Agent Factory slide describes Skillify, Agentify and Operate: capture reusable know-how from completed work or teammate contributions; assign governed skills an owner agent, triggers, inputs, measurable outcomes and handoffs; coordinate end-to-end delivery with checks and exception escalation. This supports a systems-design and operating-model narrative. Its data-intake, pipeline, modeling, validation and monitoring team is explicitly illustrative, not a verified deployed org chart. Explain the method in plain language and do not add new performance claims from the diagram.',
+    source:
+      'User-supplied Agent Factory operating-model slide, reviewed September 12, 2026; no raw slide republished.',
+  },
+  {
     id: 'self-hosted-open-models',
     title: 'Shared compute and self-hosted open models',
     text: 'Osmar identifies shared compute and self-hosting open models as important to his Visa work and independent Elygent lab, names Kimi and GLM as model-family examples, and confirms having deployed self-hosted models. Present the capability prominently as shared inference and self-hosted open-source/open-weight models. Do not invent specific model versions, per-employer deployments, serving frameworks, hardware topology, cost savings or public availability. The public demo remains distinct from this broader experience. Agent Factory is retained as the preferred platform name.',
@@ -201,7 +209,7 @@ await writeFile(
   new URL('../public/portfolio-evidence.json', import.meta.url),
   JSON.stringify(
     {
-      version: '2026-09-12-engineering-impact',
+      version: '2026-09-12-operating-model',
       records,
       limits: records.at(-1).text,
     },

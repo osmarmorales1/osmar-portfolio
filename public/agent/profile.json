@@ -135,9 +135,9 @@
       "context": "VISA · ENTERPRISE AI",
       "ownership": "Lead a team of 10 and deploy and orchestrate hundreds of agents. Created Agent Factory, an AI enablement platform, with V Agent (Visa super agent) orchestrating agents, tools and workflows across connected Visa systems, a Second Brain for shared business knowledge, and a continuous learning loop for reusable skills. Connected shared compute, self-hosted open models, and local, remote, cloud and Windows VDI execution so teams can reuse model access and delegate without managing the underlying systems.",
       "decisions": [
-        "Capture business workflows as skills; learn from recurring patterns and recommend relevant skills at runtime.",
-        "Share project context and observations so teams build on collective knowledge instead of repeating discovery.",
-        "Give business users one simple way to delegate across platforms, including agents working for hours and days.",
+        "Capture reusable know-how from completed work and team contributions; recommend relevant skills at runtime.",
+        "Assign skills to agent owners with clear triggers, inputs, measurable outcomes and handoffs.",
+        "Orchestrate end-to-end delivery, check handoffs and escalate exceptions; retain learning in a shared Second Brain.",
         "Connect people and agents through Agentic Slack; support long-running work with security monitoring, scoped access and human review."
       ],
       "outcome": "Transformed data-science teams into an AI-native organization; enabled 3× delivery pace with the same resources. Built locally and adopted globally by 500+ total users across five regions and multiple teams at Visa.",
@@ -356,6 +356,11 @@
     },
     "capabilities": [
       {
+        "id": "operating-model",
+        "title": "From reusable skills to accountable delivery",
+        "text": "Osmar’s operating approach is to capture know-how as reusable skills, assign each skill an agent owner with a trigger, inputs and a measurable outcome, then orchestrate handoffs and exception handling across the workflow. Skillify, Agentify and Operate name these stages. Skills may be learned from completed work or contributed by teammates. The supplied September 2026 slide illustrates possible data-science roles; it is not evidence that the entire pictured team structure is deployed."
+      },
+      {
         "id": "skills-loop",
         "title": "Continuous learning and reusable skills",
         "text": "Converted business workflows into reusable agent skills. The continuous learning loop identifies recurring user patterns, creates and improves skills from collective knowledge, and recommends them at runtime to increase reuse, standardization and adoption. Platform capability grows through shared skills and knowledge; this does not establish model-weight training or unrestricted self-modifying production code."
@@ -400,18 +405,18 @@
     },
     {
       "label": "Package",
-      "verb": "Turn discovery into capability.",
-      "body": "Bring the useful part into a reusable skill, tool, workflow, or platform feature with an owner and a clear boundary."
+      "verb": "Capture reusable know-how.",
+      "body": "Turn completed work and team contributions into governed skills that people and agents can reuse across workflows."
     },
     {
       "label": "Enable",
-      "verb": "Raise the team’s baseline.",
-      "body": "Make the capability accessible through familiar interfaces, hands-on guidance, and examples people can apply immediately."
+      "verb": "Give agents accountable work.",
+      "body": "Assign an owner, a trigger, inputs and a measurable outcome. Make handoffs explicit so work can move through the system."
     },
     {
       "label": "Improve",
-      "verb": "Let real use teach us.",
-      "body": "Use feedback and operational evidence to refine the workflow, retain a reusable lesson, or retire what no longer helps."
+      "verb": "Operate and learn.",
+      "body": "Orchestrate the workflow, check handoffs and escalate exceptions. Feed completed work back into reusable skills and shared knowledge."
     }
   ],
   "frontierAgenda": [

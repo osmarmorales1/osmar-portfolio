@@ -1,0 +1,9 @@
+Original hero sky generated with built-in ImageGen, September 12, 2026.
+
+Use case: lighting-weather
+Asset type: wide portfolio website hero sky background, also used as a narrow centered mobile crop.
+Input image: existing hero-clouds.webp is the edit target.
+Primary request: Replace the dense cloudy atmosphere with a very sparse bright cyan sky. Preserve the cheerful bright cyan/turquoise palette and natural soft photographic cloud texture, but remove all existing large cloud banks. The final image should be 85-90 percent completely clear cyan sky.
+Composition: landscape approximately 16:9, preferably 1672x941 or similar. Only TWO small isolated cloud forms in the entire image: one small soft PURE WHITE cloud puff near x60%, y18%, about 13% of image width; one smaller slender PURE WHITE wisp near x48%, y82%, about 10% of image width. They must be small, airy and separate. Keep the middle area y30%-70% entirely clear for dark hero text. This placement should allow a narrow center crop to retain a little white cloud near top and bottom.
+Lighting and palette: luminous bright cyan blue sky, gentle cyan gradient, crisp pure white cloud bodies with delicately soft feathered edges. High key lighting with no visible gray or blue shadows within clouds. Airy, restrained, premium original artwork.
+Avoid: massive cumulus banks, big clouds, numerous clouds, gray cloud shadows, dark blue sky, horizon, buildings, objects, sun disk, text, logos, watermark, borders, or UI. Cloud coverage must be no more than 10-15 percent.

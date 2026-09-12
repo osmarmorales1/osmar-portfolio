@@ -16,7 +16,7 @@ export default function LeadershipMethod() {
           <br />
           The team gets the <em>advantage.</em>
         </MotionHeading>
-        <p>Learning only becomes valuable when other people can use it.</p>
+        <p>Capture know-how. Give agents ownership. Orchestrate the outcome.</p>
       </div>
       <Tabs
         value={selected}

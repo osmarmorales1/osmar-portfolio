@@ -58,8 +58,8 @@
 }
 .aside-portfolio .aside-sky {
   object-position: center top;
-  opacity: 0.42;
-  filter: blur(2px) saturate(0.85);
+  opacity: 0.9;
+  filter: none;
   mix-blend-mode: screen;
 }
 .aside-portfolio .hero-eyebrow {
@@ -1008,5 +1008,27 @@
 @media (max-width: 639px) {
   .aside-portfolio .aside-nav > .nav-download {
     display: none;
+  }
+}
+
+/* The scrolled navigation is a flush white header, not a floating card. */
+.aside-portfolio .aside-nav.pinned {
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 76px;
+  padding: 0 max(32px, calc((100vw - 1160px) / 2));
+  border: 0;
+  border-bottom: 1px solid #ededed;
+  border-radius: 0;
+  background: #fff;
+  box-shadow: none;
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+}
+@media (max-width: 639px) {
+  .aside-portfolio .aside-nav.pinned {
+    height: 64px;
+    padding: 0 22px;
   }
 }

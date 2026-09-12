@@ -8,9 +8,9 @@
       "context": "VISA · ENTERPRISE AI",
       "ownership": "Lead a team of 10 and deploy and orchestrate hundreds of agents. Created Agent Factory, an AI enablement platform, with V Agent (Visa super agent) orchestrating agents, tools and workflows across connected Visa systems, a Second Brain for shared business knowledge, and a continuous learning loop for reusable skills. Connected shared compute, self-hosted open models, and local, remote, cloud and Windows VDI execution so teams can reuse model access and delegate without managing the underlying systems.",
       "decisions": [
-        "Capture business workflows as skills; learn from recurring patterns and recommend relevant skills at runtime.",
-        "Share project context and observations so teams build on collective knowledge instead of repeating discovery.",
-        "Give business users one simple way to delegate across platforms, including agents working for hours and days.",
+        "Capture reusable know-how from completed work and team contributions; recommend relevant skills at runtime.",
+        "Assign skills to agent owners with clear triggers, inputs, measurable outcomes and handoffs.",
+        "Orchestrate end-to-end delivery, check handoffs and escalate exceptions; retain learning in a shared Second Brain.",
         "Connect people and agents through Agentic Slack; support long-running work with security monitoring, scoped access and human review."
       ],
       "outcome": "Transformed data-science teams into an AI-native organization; enabled 3× delivery pace with the same resources. Built locally and adopted globally by 500+ total users across five regions and multiple teams at Visa.",

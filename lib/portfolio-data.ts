@@ -37,9 +37,9 @@ export const cases = [
     ownership:
       'Lead a team of 10 and deploy and orchestrate hundreds of agents. Created Agent Factory, an AI enablement platform, with V Agent (Visa super agent) orchestrating agents, tools and workflows across connected Visa systems, a Second Brain for shared business knowledge, and a continuous learning loop for reusable skills. Connected shared compute, self-hosted open models, and local, remote, cloud and Windows VDI execution so teams can reuse model access and delegate without managing the underlying systems.',
     decisions: [
-      'Capture business workflows as skills; learn from recurring patterns and recommend relevant skills at runtime.',
-      'Share project context and observations so teams build on collective knowledge instead of repeating discovery.',
-      'Give business users one simple way to delegate across platforms, including agents working for hours and days.',
+      'Capture reusable know-how from completed work and team contributions; recommend relevant skills at runtime.',
+      'Assign skills to agent owners with clear triggers, inputs, measurable outcomes and handoffs.',
+      'Orchestrate end-to-end delivery, check handoffs and escalate exceptions; retain learning in a shared Second Brain.',
       'Connect people and agents through Agentic Slack; support long-running work with security monitoring, scoped access and human review.',
     ],
     outcome:
@@ -192,18 +192,18 @@ export const learningLoop = [
   },
   {
     label: 'Package',
-    verb: 'Turn discovery into capability.',
-    body: 'Bring the useful part into a reusable skill, tool, workflow, or platform feature with an owner and a clear boundary.',
+    verb: 'Capture reusable know-how.',
+    body: 'Turn completed work and team contributions into governed skills that people and agents can reuse across workflows.',
   },
   {
     label: 'Enable',
-    verb: 'Raise the team’s baseline.',
-    body: 'Make the capability accessible through familiar interfaces, hands-on guidance, and examples people can apply immediately.',
+    verb: 'Give agents accountable work.',
+    body: 'Assign an owner, a trigger, inputs and a measurable outcome. Make handoffs explicit so work can move through the system.',
   },
   {
     label: 'Improve',
-    verb: 'Let real use teach us.',
-    body: 'Use feedback and operational evidence to refine the workflow, retain a reusable lesson, or retire what no longer helps.',
+    verb: 'Operate and learn.',
+    body: 'Orchestrate the workflow, check handoffs and escalate exceptions. Feed completed work back into reusable skills and shared knowledge.',
   },
 ];
 export const publicEvidence = `OSMAR MORALES — PUBLIC PORTFOLIO BRIEF\nObserved September 2026.\n${profile.thesis}\n${profile.approach}\nCurrent title: ${profile.title}; October 2024–present. Miami.\nVisa Agent Factory: 500+ users, organic adoption, confirmed by the candidate September 2026. This is total users, not a DAU or concurrency claim. Delivered through container, macOS desktop, and private-cloud environments; platform built around an existing agent engine.\nVisa Director, Data Engineering: November 2020–September 2024. Led a team of 7 data engineers and built an end-to-end automation platform for petabyte-scale data, covering pipelines, transformations and recurring data processes. Standardized analytics and ML delivery through reusable workflows, MLOps and CI/CD. Migrated 1k+ repositories and 500+ pipelines without disrupting business workflows.\nVisa Manager, Data Analytics: November 2018–November 2020. Turned weeks of analytics preparation into hours. Azure DevOps self-service automation for 40+ colleagues.\nEarlier: FedEx Express Data Scientist, August 2016–November 2018; TracFone Revenue Systems Analyst, February 2013–August 2016; FedEx Process Automation Developer, March 2012–February 2013; Davis Quality Systems Accountant, January 2007–January 2012.\nElygent: company founded by Osmar Morales in October 2025, used as an independent AI lab to deepen hands-on expertise through working experiments. He designs and builds the research platform. Founder/company status and founding date were explicitly confirmed in September 2026; commercial adoption metrics were not supplied. Shared identity-scoped MCP tools, governed provenance-bearing knowledge, established agent runtimes, operational probes and recovery. Its component approach includes OpenClaw for conversation/runtime UX, Paperclip for accountable work, Hermes for selected workers, GBrain for curated knowledge, GStack for Software Factory methods, and Buzz for collaboration. Node.js/JavaScript, Python integration workers, Linux, Docker Compose, systemd and PostgreSQL-backed services. This is distinct from Visa; do not transfer Visa adoption metrics to Elygent.\n${visaPlatformEvidence}\n${infrastructureEvidence}\nAI factory approach: ${aiFactoryApproach}\nShared compute and self-hosted models: ${sharedComputeAgenda}\nElygent uses PostgreSQL and Redis in its Buzz deployment. GBrain supports scoped, provenance-bearing agent retrieval and knowledge relationships; a GraphRAG engine is not claimed.\nLanguages: ${profile.languages.join('; ')}\nEducation: ${profile.education}\nRecognition: Visa LAC Support Excellence Award 2026; FedEx LAC Professional of the Year 2017; five Visa Technical Innovation TEAM awards 2023–2025.\nLimits: personal ownership of GPU fleets, hardware procurement/RFPs, power/cooling and infrastructure budgets is not established by this brief. Do not invent it. Do not infer an engineering degree. Capacity calculators on the site are design exercises, not observed production results.\nContact: ${profile.email}. LinkedIn: https://www.linkedin.com/in/osmarmorales/\nUse only these facts. Separate candidate-reported career outcomes from independently verified results. If information is missing, say so. Never invent credentials, clients, achievements or confidential detail.`;

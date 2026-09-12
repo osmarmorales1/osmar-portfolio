@@ -18,6 +18,11 @@ export const visaPlatform = {
   },
   capabilities: [
     {
+      id: 'operating-model',
+      title: 'From reusable skills to accountable delivery',
+      text: 'Osmar’s operating approach is to capture know-how as reusable skills, assign each skill an agent owner with a trigger, inputs and a measurable outcome, then orchestrate handoffs and exception handling across the workflow. Skillify, Agentify and Operate name these stages. Skills may be learned from completed work or contributed by teammates. The supplied September 2026 slide illustrates possible data-science roles; it is not evidence that the entire pictured team structure is deployed.',
+    },
+    {
       id: 'skills-loop',
       title: 'Continuous learning and reusable skills',
       text: 'Converted business workflows into reusable agent skills. The continuous learning loop identifies recurring user patterns, creates and improves skills from collective knowledge, and recommends them at runtime to increase reuse, standardization and adoption. Platform capability grows through shared skills and knowledge; this does not establish model-weight training or unrestricted self-modifying production code.',

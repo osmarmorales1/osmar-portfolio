@@ -251,7 +251,7 @@ export default function Home() {
     setMobileNav(false);
   }
   useEffect(() => {
-    const scroll = () => setPinned(window.scrollY > 450);
+    const scroll = () => setPinned(window.scrollY > 32);
     scroll();
     window.addEventListener('scroll', scroll, { passive: true });
     const key = (e: KeyboardEvent) => {
@@ -302,10 +302,11 @@ export default function Home() {
         </nav>
         <a
           className="nav-download"
+          aria-label="Download resume"
           href="/Osmar_Morales_Mastercard_Resume.pdf"
           download
         >
-          Download resume <Download size={14} />
+          Download
         </a>
         <Button
           variant="ghost"
@@ -381,7 +382,7 @@ export default function Home() {
         <section className="aside-hero">
           <img
             className="aside-sky"
-            src="/v12/hero-clouds.webp"
+            src="/v13/hero-sparse-clouds.webp"
             alt=""
             width="1672"
             height="941"
