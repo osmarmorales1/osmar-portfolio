@@ -88,7 +88,7 @@ export default function EvidenceDashboard({
                 <strong>
                   500<span>+</span>
                 </strong>
-                <p>Total users of Agent Factory at Visa.</p>
+                <p>Users of the AI enablement platform at Visa.</p>
                 <button onClick={() => onInspect('factory')}>
                   How I made it useful <ArrowUpRight size={14} />
                 </button>
@@ -129,8 +129,8 @@ export default function EvidenceDashboard({
                 <GitBranch size={23} />
                 <h3>Modernization without disrupting delivery.</h3>
                 <p>
-                  Faster model preparation and client insights, with
-                  continuity through platform modernization.
+                  Faster model preparation and client insights, with continuity
+                  through platform modernization.
                 </p>
               </div>
               <div

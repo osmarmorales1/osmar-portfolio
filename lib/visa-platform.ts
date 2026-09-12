@@ -8,7 +8,7 @@ export const visaPlatform = {
   leadership:
     'Led 15+ people and orchestrated hundreds of agents, both deployed and running concurrently. Candidate-confirmed September 12, 2026; no exact concurrency peak, duration or reporting-line breakdown was supplied. This is separate from the earlier seven-person data engineering team and six-person AI workstream.',
   summary:
-    'Created Agent Factory to transform data-science teams into an AI-native organization, standardizing business workflows and enabling 3× delivery pace with the same resources. Built locally and adopted globally by 500+ total users across five regions and multiple teams at Visa.',
+    'Created an AI enablement platform to transform data-science teams into an AI-native organization, standardizing business workflows and enabling 3× delivery pace with the same resources. Built locally and adopted globally by 500+ total users across five regions and multiple teams at Visa.',
   delivery: {
     display: '3×',
     measure: 'delivery pace',
@@ -19,18 +19,18 @@ export const visaPlatform = {
   capabilities: [
     {
       id: 'skills-loop',
-      title: 'AI Loop and reusable skills',
-      text: 'Converted business workflows into reusable agent skills. The AI Loop learns recurring user patterns, creates and improves skills from collective knowledge, and recommends them at runtime to increase reuse, standardization and adoption. Platform capability grows through shared skills and knowledge; this does not establish model-weight training or unrestricted self-modifying production code.',
+      title: 'Continuous learning and reusable skills',
+      text: 'Converted business workflows into reusable agent skills. The continuous learning loop identifies recurring user patterns, creates and improves skills from collective knowledge, and recommends them at runtime to increase reuse, standardization and adoption. Platform capability grows through shared skills and knowledge; this does not establish model-weight training or unrestricted self-modifying production code.',
     },
     {
       id: 'v-agent',
-      title: 'AI orchestration: one way to delegate',
-      text: 'Built a super-agent simplification layer that gives business users one way to delegate across platforms, surfaces and tools without managing the underlying systems. Named V Agent, Visa’s super agent; V stands for Visa. It connects human-agent collaboration, the AI orchestration backend, cloud agents and assistant instances, implemented across Buzz, Paperclip and OpenClaw. This definition was explicitly corrected by Osmar on September 10, 2026.',
+      title: 'V Agent (Visa super agent)',
+      text: 'Built V Agent (Visa super agent), an orchestration and simplification layer connecting agents, platforms, tools and enterprise systems. It gives business users one way to delegate across connected Visa environments without managing the underlying systems. It connects human-agent collaboration, the AI orchestration backend, cloud agents and assistant instances, implemented across Buzz, Paperclip and OpenClaw. This definition was explicitly corrected by Osmar on September 10, 2026.',
     },
     {
-      id: 'vca-brain',
-      title: 'Shared business memory and knowledge reuse',
-      text: 'Created VCA Brain to share project context, observations and collective knowledge across people using Agent Factory. Teams and agents can discover prior work, understand what colleagues are working on and reuse learning instead of starting from zero. VCA Brain is Visa work; do not equate it with the independent Elygent GBrain deployment or imply public access to Visa knowledge.',
+      id: 'second-brain',
+      title: 'Second Brain: shared business knowledge',
+      text: 'Created a shared Second Brain so teams and agents can reuse project context, observations and collective business knowledge. Teams and agents can discover prior work, understand what colleagues are working on and reuse learning instead of starting from zero. This shared knowledge system is Visa work; do not equate it with the independent Elygent knowledge system or imply public access to Visa knowledge.',
     },
     {
       id: 'distributed-compute',

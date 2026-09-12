@@ -15,7 +15,8 @@ export const showcaseRun = {
       calls: 2,
       color: '#418caf',
       task: 'Find the evidence behind the platform.',
-      result: 'Reviewed Agent Factory adoption and Osmar’s platform ownership.',
+      result:
+        'Reviewed AI enablement platform adoption and Osmar’s platform ownership.',
     },
     {
       id: 'strategist',

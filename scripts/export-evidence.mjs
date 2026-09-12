@@ -13,6 +13,12 @@ import {
 } from '../lib/infrastructure-data.ts';
 const records = [
   {
+    id: 'plain-language-internal-initiatives',
+    title: 'Second Brain and V Agent terminology',
+    text: 'Use Second Brain to explain the shared company knowledge system, AI enablement platform for the broader team-transformation platform, and continuous learning loop for skills improvement. Retain V Agent (Visa super agent) as the named orchestration and simplification layer connecting agents, tools, platforms and enterprise systems. Connected Visa environments is the supported scope; do not infer deployment across every Visa system or transfer the platform adoption count to V Agent alone.',
+    source: 'Direct candidate naming correction, September 12, 2026.',
+  },
+  {
     id: 'human-centered-independent-research',
     title:
       'Built for humans; independent experimentation supports professional growth',
@@ -43,7 +49,7 @@ const records = [
   {
     id: 'global-adoption',
     title: 'Built locally, used globally across five regions',
-    text: 'Osmar describes Agent Factory as built locally and used globally by 500+ total users across five regions and multiple teams at Visa. This is the current candidate-confirmed adoption scope and supersedes previous geography wording. Built locally describes the origin of the initiative; it does not imply that every deployment, model, data store or user is hosted on Osmar’s personal computer. Total users are distinct from the human leadership and concurrent-agent scope confirmed September 12. No regional user breakdown, concurrent-user or daily-active-user metric was supplied.',
+    text: 'Osmar describes the AI enablement platform as built locally and used globally by 500+ total users across five regions and multiple teams at Visa. This is the current candidate-confirmed adoption scope and supersedes previous geography wording. Built locally describes the origin of the initiative; it does not imply that every deployment, model, data store or user is hosted on Osmar’s personal computer. Total users are distinct from the human leadership and concurrent-agent scope confirmed September 12. No regional user breakdown, concurrent-user or daily-active-user metric was supplied.',
     source:
       'Direct candidate correction in the website review, September 2026.',
   },
@@ -64,7 +70,7 @@ const records = [
   {
     id: 'systems-builder-career',
     title: 'Systems and process creation across the career',
-    text: 'Osmar positions his career as creating systems and processes that automate complex work and scale delivery. At FedEx as Data Scientist, he led end-to-end BI platform delivery and rebuilt executive financial-close reporting. At TracFone, he rebuilt ETL and revenue-recognition reporting, and created analytical models that reduced analysis time by two-thirds. In his earlier FedEx automation role, he designed a reconciliation application that reduced processing time 70% across Latin America and the Caribbean, and automated and standardized financial reporting. At Davis Quality, he modernized accounting systems and built digital data infrastructure for financial visibility and business planning. These earlier systems complement later self-service analytics, MLOps, Agent Factory and Elygent work; do not label the earlier roles generative AI or attribute later technology stacks to them.',
+    text: 'Osmar positions his career as creating systems and processes that automate complex work and scale delivery. At FedEx as Data Scientist, he led end-to-end BI platform delivery and rebuilt executive financial-close reporting. At TracFone, he rebuilt ETL and revenue-recognition reporting, and created analytical models that reduced analysis time by two-thirds. In his earlier FedEx automation role, he designed a reconciliation application that reduced processing time 70% across Latin America and the Caribbean, and automated and standardized financial reporting. At Davis Quality, he modernized accounting systems and built digital data infrastructure for financial visibility and business planning. These earlier systems complement later self-service analytics, MLOps, AI enablement platform and Elygent work; do not label the earlier roles generative AI or attribute later technology stacks to them.',
     source:
       'Candidate-supplied career photos 3568-3570, visually reviewed; source facts recorded in the private career-evidence review. Systems-and-processes positioning explicitly requested by Osmar on September 10, 2026. Outcomes are candidate-reported, not independently employer-verified.',
   },
@@ -98,7 +104,7 @@ const records = [
   },
   {
     id: 'visa-ai-native-transformation',
-    title: 'Agent Factory transformation and corrected role dates',
+    title: 'AI enablement and corrected role dates',
     text: visaPlatformEvidence,
     source: visaPlatform.source,
   },
@@ -128,10 +134,10 @@ const records = [
   },
   {
     id: 'agent-factory',
-    title: 'Visa Agent Factory',
+    title: 'Visa AI enablement platform',
     text: cases[0].ownership + ' ' + cases[0].outcome + ' ' + cases[0].note,
     source:
-      'Candidate confirmed adoption on 2026-09-09 and described AI-native transformation, 3× delivery pace, AI Loop, V Agent and VCA Brain on 2026-09-10.',
+      'Candidate confirmed adoption on 2026-09-09 and described AI-native transformation, 3× delivery pace, continuous learning loop, V Agent and Second Brain on 2026-09-10.',
   },
   {
     id: 'mlops',
@@ -188,7 +194,7 @@ await writeFile(
   new URL('../public/portfolio-evidence.json', import.meta.url),
   JSON.stringify(
     {
-      version: '2026-09-12-independent-ai-lab',
+      version: '2026-09-12-plain-language',
       records,
       limits: records.at(-1).text,
     },

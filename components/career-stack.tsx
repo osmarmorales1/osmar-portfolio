@@ -17,7 +17,7 @@ const career = [
     '2024 — NOW',
     'Visa',
     'Director, AI Agent Platform',
-    'Created Agent Factory. AI-native teams delivering at 3× the pace with the same resources.',
+    'Built an AI enablement platform. AI-native teams delivering at 3× the pace with the same resources.',
   ],
   [
     '2020 — 2024',
