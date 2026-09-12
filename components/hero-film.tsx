@@ -1,19 +1,13 @@
 'use client';
 /* eslint-disable next/no-img-element -- The app film uses a fixed local screenshot asset. */
 import { useEffect, useId, useRef, useState, type CSSProperties } from 'react';
-import { ArrowUp, Check, Pause, Play, RotateCcw } from 'lucide-react';
+import { ArrowUp, Check, Pause, Play } from 'lucide-react';
 
 export const HERO_FILM_DURATION = 18000;
 const REQUEST = 'Show me the repository story.';
 type Camera = { at: number; x: number; y: number; scale: number };
 const desktopCamera: Camera[] = [
   { at: 0, x: 0, y: 0, scale: 1 },
-  { at: 1600, x: -2, y: -1, scale: 1.07 },
-  { at: 4700, x: -2, y: -1, scale: 1.07 },
-  { at: 6500, x: 0, y: 0, scale: 1 },
-  { at: 9200, x: -5, y: 5, scale: 1.16 },
-  { at: 12500, x: -7, y: -8, scale: 1.2 },
-  { at: 15500, x: -2, y: -2, scale: 1.06 },
   { at: HERO_FILM_DURATION, x: 0, y: 0, scale: 1 },
 ];
 const mobileCamera: Camera[] = [
@@ -190,58 +184,81 @@ export default function HeroFilm({
       data-playing={playing && visible && documentVisible && !reduced}
       aria-describedby={descriptionId}
     >
-      <div className="hero-film-viewport" aria-hidden="true">
-        <div className="hero-film-camera">
-          <img
-            ref={image}
-            className="hero-film-image"
-            src={dashboardSrc}
-            alt=""
-            width="1416"
-            height="1111"
-            fetchPriority="high"
-            onLoad={() => setImageReady(true)}
-          />
-          <div className="hero-film-chat">
-            <div className="hero-film-chat-header">
-              <span className="hero-film-agent-mark">C</span>
-              <span>
-                Cloud agent<small>Osmar’s workspace</small>
-              </span>
-            </div>
-            <div className="hero-film-conversation">
-              <p className="hero-film-greeting">
-                A clear view starts
-                <br />
-                with a question.
-              </p>
-              <div className="hero-film-request">
+      <div className="hero-film-stage">
+        <div className="hero-film-viewport" aria-hidden="true">
+          <div className="hero-film-camera">
+            <img
+              ref={image}
+              className="hero-film-image"
+              src={dashboardSrc}
+              alt=""
+              width="1416"
+              height="1111"
+              fetchPriority="high"
+              onLoad={() => setImageReady(true)}
+            />
+            <div className="hero-film-chat">
+              <div className="hero-film-chat-header">
+                <span className="hero-film-agent-mark">C</span>
                 <span>
-                  {frame.request}
-                  <i className="hero-film-caret" />
-                </span>
-                <span className="hero-film-send">
-                  <ArrowUp size={15} />
+                  Cloud agent<small>Osmar’s workspace</small>
                 </span>
               </div>
-              <div className="hero-film-response">
-                <span className="hero-film-response-mark">
-                  {frame.responseReady ? (
-                    <Check size={13} />
-                  ) : (
-                    <span className="hero-film-thinking" />
-                  )}
-                </span>
-                <p>
-                  {frame.responseReady
-                    ? 'Code, tests, and delivery. In one view.'
-                    : 'Reading the example repository…'}
+              <div className="hero-film-conversation">
+                <p className="hero-film-greeting">
+                  A clear view starts
+                  <br />
+                  with a question.
                 </p>
+                <div className="hero-film-request">
+                  <span>
+                    {frame.request}
+                    <i className="hero-film-caret" />
+                  </span>
+                  <span className="hero-film-send">
+                    <ArrowUp size={15} />
+                  </span>
+                </div>
+                <div className="hero-film-response">
+                  <span className="hero-film-response-mark">
+                    {frame.responseReady ? (
+                      <Check size={13} />
+                    ) : (
+                      <span className="hero-film-thinking" />
+                    )}
+                  </span>
+                  <p>
+                    {frame.responseReady
+                      ? 'Code, tests, and delivery. In one view.'
+                      : 'Reading the example repository…'}
+                  </p>
+                </div>
               </div>
+              <span className="hero-film-chat-note">Example workspace</span>
             </div>
-            <span className="hero-film-chat-note">Example workspace</span>
           </div>
         </div>
+        {!reduced && (
+          <button
+            className="hero-film-toggle"
+            onClick={toggle}
+            disabled={!imageReady}
+            aria-label={
+              ended
+                ? 'Replay app film'
+                : playing
+                  ? 'Pause app film'
+                  : 'Play app film'
+            }
+            title={ended ? 'Replay' : playing ? 'Pause' : 'Play'}
+          >
+            {playing && !ended ? (
+              <Pause size={20} fill="currentColor" />
+            ) : (
+              <Play size={20} fill="currentColor" />
+            )}
+          </button>
+        )}
       </div>
       <figcaption className="hero-film-caption">
         <div className="hero-film-caption-copy">
@@ -250,50 +267,17 @@ export default function HeroFilm({
           </span>
           <span>Example dashboard</span>
         </div>
-        {!reduced && (
-          <div className="hero-film-controls">
-            <button
-              onClick={toggle}
-              disabled={!imageReady}
-              aria-label={
-                ended
-                  ? 'Replay app film'
-                  : playing
-                    ? 'Pause app film'
-                    : 'Play app film'
-              }
-            >
-              {ended ? (
-                <RotateCcw size={14} />
-              ) : playing ? (
-                <Pause size={14} />
-              ) : (
-                <Play size={14} />
-              )}
-              <span>{ended ? 'Replay' : playing ? 'Pause' : 'Play'}</span>
-            </button>
-            {!ended && (
-              <button
-                onClick={replay}
-                disabled={!imageReady}
-                aria-label="Replay app film from the beginning"
-              >
-                <RotateCcw size={14} />
-              </button>
-            )}
-          </div>
-        )}
       </figcaption>
       <div className="hero-film-progress" aria-hidden="true">
         <span />
       </div>
       <p id={descriptionId} className="hero-film-description">
         A short illustrative app film shows a typed request, then a light
-        software delivery dashboard. The camera moves through its metrics and
-        chart before returning to the complete window. Repository numbers are
-        example data, not Osmar’s career metrics or live activity. Animation
-        plays once and can be paused or replayed. Reduced-motion settings show
-        the complete dashboard without animation.
+        software delivery dashboard. Desktop playback keeps the complete window
+        in view; mobile uses a gentle camera move through the dashboard.
+        Repository numbers are example data, not Osmar’s career metrics or live
+        activity. Animation plays once and can be paused or replayed.
+        Reduced-motion settings show the complete dashboard without animation.
       </p>
     </figure>
   );

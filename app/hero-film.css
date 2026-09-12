@@ -193,39 +193,57 @@
   color: #41464b;
   font-weight: 500;
 }
-.hero-film-controls {
-  display: flex;
-  flex: 0 0 auto;
-  align-items: center;
-  gap: 4px;
+.hero-film-stage {
+  position: relative;
 }
-.hero-film-controls button {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 7px;
-  min-height: 40px;
-  min-width: 40px;
-  padding: 8px;
-  border: 0;
-  border-radius: 8px;
-  background: transparent;
-  color: #51565b;
-  font: inherit;
-  font-size: 11px;
+.hero-film-toggle {
+  position: absolute;
+  z-index: 2;
+  right: 20px;
+  bottom: 20px;
+  display: grid;
+  place-items: center;
+  width: 48px;
+  height: 48px;
+  padding: 0;
+  border: 1px solid #ffffffc9;
+  border-radius: 50%;
+  background: #fffffff0;
+  color: #1c2c30;
+  box-shadow: 0 3px 12px #142c3426;
   cursor: pointer;
+  transition:
+    transform 180ms ease,
+    background 180ms ease,
+    box-shadow 180ms ease,
+    opacity 180ms ease;
 }
-.hero-film-controls button:hover {
-  background: #f0f2f3;
-  color: #171a1d;
+.hero-film-toggle:hover {
+  transform: scale(1.08);
+  background: #fff;
+  box-shadow: 0 5px 18px #142c3438;
 }
-.hero-film-controls button:focus-visible {
-  outline: 2px solid #536574;
-  outline-offset: 2px;
+.hero-film-toggle:active {
+  transform: scale(0.96);
 }
-.hero-film-controls button:disabled {
+.hero-film-toggle:focus-visible {
+  outline: 2px solid #245f79;
+  outline-offset: 4px;
+}
+.hero-film-toggle:disabled {
   opacity: 0.4;
   cursor: default;
+}
+@media (hover: hover) and (pointer: fine) {
+  .hero-film[data-playing='true'] .hero-film-toggle {
+    opacity: 0;
+  }
+  .hero-film[data-playing='true'] .hero-film-stage:hover .hero-film-toggle,
+  .hero-film[data-playing='true']
+    .hero-film-stage:focus-within
+    .hero-film-toggle {
+    opacity: 1;
+  }
 }
 .hero-film-progress {
   height: 1px;
@@ -333,11 +351,13 @@
     gap: 2px;
     font-size: 9px;
   }
-  .hero-film-controls button {
-    min-width: 44px;
-    min-height: 44px;
-    padding: 7px;
-    font-size: 10px;
+  .hero-film-toggle {
+    left: calc(100vw - 120px);
+    right: auto;
+    bottom: 18px;
+  }
+  .hero-film[data-playing='true'] .hero-film-toggle {
+    opacity: 1;
   }
 }
 @media (prefers-reduced-motion: reduce) {
@@ -350,5 +370,8 @@
   }
   .hero-film-caret {
     animation: none;
+  }
+  .hero-film-toggle {
+    transition: none;
   }
 }

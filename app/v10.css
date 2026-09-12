@@ -22,6 +22,8 @@
 }
 .aside-portfolio .aside-hero {
   padding: 140px 0 0;
+  isolation: isolate;
+  background: linear-gradient(165deg, #5ddff5 0%, #95eaf7 58%, #c6f5fb 100%);
 }
 .aside-portfolio .aside-hero h1 {
   max-width: 850px;
@@ -58,6 +60,7 @@
   object-position: center top;
   opacity: 0.42;
   filter: blur(2px) saturate(0.85);
+  mix-blend-mode: screen;
 }
 .aside-portfolio .hero-eyebrow {
   display: inline-flex;
@@ -135,7 +138,7 @@
   margin: 58px auto -24px;
   padding: 0;
   overflow: visible;
-  transform: translateX(32px);
+  transform: none;
 }
 .aside-portfolio .identity-pill,
 .aside-portfolio .aside-nav.pinned {
@@ -927,5 +930,83 @@
     background: #fff !important;
     -webkit-backdrop-filter: none;
     backdrop-filter: none;
+  }
+}
+
+/* Continuous colored stages: no white rim or caption strip. */
+.aside-portfolio .lab-experiences .lab-visual {
+  border: 0;
+  box-shadow: none;
+}
+.aside-portfolio .lab-experiences .lab-visual > small {
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+}
+.aside-portfolio .lab-experiences .lab-team {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding-bottom: 38px;
+}
+.aside-portfolio .lab-experiences .lab-team .lab-browser-frame {
+  flex: 1;
+  min-height: 0;
+  margin: 0 5px;
+}
+.aside-portfolio .lab-experiences .lab-team > small {
+  height: 38px;
+  margin: 0;
+  padding: 10px;
+}
+.aside-portfolio .aside-nav > .nav-download,
+.aside-portfolio .aside-nav.pinned > .nav-download {
+  margin-left: auto;
+  background: #111719;
+  color: #fff;
+  border: 0;
+  border-radius: 14px;
+  padding: 10px 15px;
+  min-height: 40px;
+  font-size: 13px;
+  transition: background 160ms ease;
+}
+.aside-portfolio .aside-nav > .nav-download:hover {
+  background: #29373b;
+}
+/* Shared native window chrome, including windows in portaled previews. */
+:is(
+    .traffic,
+    .console-dots,
+    .computer-preview-dots,
+    .static-window-bar,
+    .lab-browser-frame > div
+  )
+  > i:nth-child(1) {
+  background: #ff5f57;
+}
+:is(
+    .traffic,
+    .console-dots,
+    .computer-preview-dots,
+    .static-window-bar,
+    .lab-browser-frame > div
+  )
+  > i:nth-child(2) {
+  background: #febc2e;
+}
+:is(
+    .traffic,
+    .console-dots,
+    .computer-preview-dots,
+    .static-window-bar,
+    .lab-browser-frame > div
+  )
+  > i:nth-child(3) {
+  background: #28c840;
+}
+@media (max-width: 639px) {
+  .aside-portfolio .aside-nav > .nav-download {
+    display: none;
   }
 }

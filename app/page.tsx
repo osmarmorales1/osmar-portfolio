@@ -300,6 +300,13 @@ export default function Home() {
             GitHub <ArrowUpRight size={11} />
           </a>
         </nav>
+        <a
+          className="nav-download"
+          href="/Osmar_Morales_Mastercard_Resume.pdf"
+          download
+        >
+          Download resume <Download size={14} />
+        </a>
         <Button
           variant="ghost"
           className="aside-menu-button"
@@ -531,15 +538,15 @@ export default function Home() {
               <br />
               <em>team forward.</em>
             </MotionHeading>
-            <a className="black-pill" href="mailto:osmarmorales1@gmail.com">
-              Get in touch <ArrowUpRight size={15} />
-            </a>
             <a
-              className="closing-resume"
+              className="black-pill"
               href="/Osmar_Morales_Mastercard_Resume.pdf"
               download
             >
-              Download resume <Download size={14} />
+              Download resume <Download size={15} />
+            </a>
+            <a className="closing-resume" href="mailto:osmarmorales1@gmail.com">
+              Get in touch <ArrowUpRight size={14} />
             </a>
           </div>
         </section>
