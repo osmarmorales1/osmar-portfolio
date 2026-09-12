@@ -138,9 +138,9 @@ const apps = [
     detail: 'Packaged services and repeatable deployment.',
   },
   {
-    name: 'Codex',
+    name: 'ChatGPT',
     icon: Code2,
-    color: '#6366f1',
+    color: '#34383d',
     role: 'Agentic engineering',
     detail: 'Building, reviewing, and validating software with a coding agent.',
   },
@@ -168,12 +168,11 @@ const apps = [
       'Container and namespace services for enterprise application delivery.',
   },
   {
-    name: 'WebMCP',
-    icon: Globe,
-    color: '#397d9f',
-    role: 'An interface for agents',
-    detail:
-      'This page exposes public profile and capacity tools to compatible browser agents.',
+    name: 'LangChain',
+    icon: Workflow,
+    color: '#1c3c3c',
+    role: 'Agent development',
+    detail: 'Connect models, tools and context into reusable agent workflows.',
   },
 ];
 const brandIcons: Record<string, string> = {
@@ -181,7 +180,7 @@ const brandIcons: Record<string, string> = {
   Hermes: 'hermes.png',
   Buzz: 'buzz.png',
   Paperclip: 'paperclip-light.svg',
-  Codex: 'codex.png',
+  ChatGPT: 'chatgpt-app.png',
   'Claude Code': 'claude.svg',
   'Grok Bot': 'grok-bot.svg',
   MCP: 'mcp.svg',
@@ -194,7 +193,7 @@ const brandIcons: Record<string, string> = {
   Airflow: 'airflow.png',
   Redis: 'redis.svg',
   Kubernetes: 'kubernetes.svg',
-  WebMCP: 'webmcp.png',
+  LangChain: 'langchain.svg',
 };
 const productScreens = [
   {
@@ -202,7 +201,7 @@ const productScreens = [
     name: 'Elygent',
     task: 'Bring in specialists. Show me the result.',
     title: 'Make collaboration visible.',
-    description: 'A working view of agents, evidence, and a completed brief.',
+    description: 'Delegate research and synthesis. Review one coordinated result.',
     image: null,
     source: null,
   },
@@ -221,7 +220,7 @@ const productScreens = [
     task: 'Turn the goal into accountable work.',
     title: 'Turn conversations into execution.',
     description:
-      'My agent orchestration backend: goals, delegation and accountable work.',
+      'Turn goals into delegated tasks with clear ownership and review.',
     image: '/v5/paperclip-light-app.png',
     source: 'https://github.com/paperclipai/paperclip',
   },
@@ -452,7 +451,7 @@ export default function Home() {
                   >
                     {brandIcons[app.name] ? (
                       <img
-                        className="app-brand-icon"
+                        className={`app-brand-icon${app.name === 'ChatGPT' ? ' app-brand-icon--large' : ''}`}
                         src={`/v5/icons/${brandIcons[app.name]}`}
                         alt=""
                         width="32"

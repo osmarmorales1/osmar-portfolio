@@ -133,8 +133,8 @@ export default function EvidenceDashboard({
                 <GitBranch size={23} />
                 <h3>Modernization without disrupting delivery.</h3>
                 <p>
-                  An MLOps foundation spanning reproducible pipelines, model
-                  management, features, and data quality.
+                  Faster model preparation and client insights, with
+                  continuity through platform modernization.
                 </p>
               </div>
               <div

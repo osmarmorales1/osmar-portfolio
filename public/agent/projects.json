@@ -1,12 +1,12 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-09-10",
+  "updatedAt": "2026-09-12",
   "projects": [
     {
       "id": "factory",
       "name": "Agent Factory",
       "context": "VISA · ENTERPRISE AI",
-      "ownership": "Created and operate Agent Factory: V Agent, Visa’s super agent, packages agents and connects platforms, surfaces and tools behind one simple interface. VCA Brain shares business memory, and an AI Loop turns recurring work into reusable skills and runtime recommendations. Connect Buzz, Paperclip, the OpenClaw assistant and cloud agents through on-premises orchestration across local, remote, cloud and Windows VDI execution.",
+      "ownership": "Led 15+ people and orchestrated hundreds of agents, including concurrent execution. Created and operate Agent Factory: V Agent simplifies business-user adoption across platforms and tools; VCA Brain lets teams build on shared project knowledge; the AI Loop standardizes recurring work through reusable skills. Connected local, remote, cloud and Windows VDI execution through on-premises orchestration.",
       "decisions": [
         "Capture business workflows as skills; learn from recurring patterns and recommend relevant skills at runtime.",
         "Use VCA Brain to share project context and observations so teams build on collective knowledge.",
@@ -27,7 +27,7 @@
         "Bring model registry, feature-store, and data-quality practices together.",
         "Sequence migration around continuity of delivery."
       ],
-      "outcome": "1k+ repositories and 500+ pipelines migrated without disrupting delivery. Team scope: seven data engineers and a six-person AI workstream.",
+      "outcome": "Feature-store creation fell from one week to 12 hours; agent-driven benchmarking from 1–3 days to 1–3 hours. Migrated 1k+ repositories and 500+ pipelines without disrupting delivery. Led seven data engineers and a six-person AI workstream across 20 concurrent cross-market projects.",
       "stage": "Career results from candidate-provided professional record.",
       "evidenceUrl": "https://osmarmorales.io/Osmar_Morales_Mastercard_Resume.pdf"
     },

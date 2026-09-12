@@ -1,5 +1,5 @@
 {
-  "observed": "2026-09-10",
+  "observed": "2026-09-12",
   "assets": [
     {
       "file": "hermes.png",
@@ -224,6 +224,27 @@
       "modified": false,
       "note": "Current WebMCP ecosystem site icon; 128x128 RGBA artwork unchanged.",
       "sha256": "7ded25a82c777a98ee79401c9a518e5ee9abbc5d113a75bbe2568a50a931d1b0"
+    },
+    {
+      "file": "langchain.svg",
+      "name": "LangChain",
+      "source": "https://cdn.prod.website-files.com/65b8cd72835ceeacd4449a53/69981d0819e88e3d4dd7b917_langchain%20icon.svg",
+      "source_page": "https://www.langchain.com/langchain",
+      "license": "LangChain product artwork and trademark guidelines",
+      "license_file": "platform-brand-NOTICE.txt",
+      "modified": false,
+      "note": "Current official LangChain framework product mark; SVG geometry and colors unchanged.",
+      "sha256": "25858f9899de62c6cf5ebe0722b6f67dadd7f98d8a1bc2e0c7fbc9a30266bab9"
+    },
+    {
+      "file": "chatgpt-app.png",
+      "name": "ChatGPT",
+      "source": "https://openai.com/brand/",
+      "license": "OpenAI product artwork and trademark guidelines",
+      "license_file": "platform-brand-NOTICE.txt",
+      "modified": true,
+      "note": "Official icon-chatgpt.png bundled with the installed ChatGPT desktop application. Proportionally resized to256x256 without crop or recoloring; matches the requested app icon.",
+      "sha256": "29a63f80864a00daa15dd1a721b81e0aea59d10cb1827fb023e7587ebcd90c1e"
     }
   ],
   "not_found": [

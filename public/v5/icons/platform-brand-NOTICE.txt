@@ -1,0 +1,5 @@
+LangChain: product artwork and trademarks of LangChain, Inc. Official framework icon from https://www.langchain.com/langchain ; brand guidance https://www.langchain.com/brand-assets . Artwork unchanged.
+
+ChatGPT: product artwork and trademarks of OpenAI. Official icon-chatgpt.png from the ChatGPT desktop application, proportionally resized to256px. Brand guidance https://openai.com/brand/ .
+
+Marks identify the corresponding products; no endorsement or affiliation is implied.

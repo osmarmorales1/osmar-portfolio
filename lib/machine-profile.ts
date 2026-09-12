@@ -27,7 +27,7 @@ export const publicCareer = [
     start: '2025-10',
     end: null,
     summary:
-      'Founded the AI platform company; built Agentic Slack, agent orchestration, cloud agents and model-agnostic integrations.',
+      'Founded Elygent to simplify delegation and enable tool and knowledge reuse across AI environments; built Agentic Slack, orchestration and controlled computer use.',
   },
   {
     employer: 'Visa',
@@ -35,7 +35,7 @@ export const publicCareer = [
     start: '2024-10',
     end: null,
     summary:
-      'Created Agent Factory, V Agent and VCA Brain; enabled AI-native data-science teams, 3× delivery pace with the same resources, and 500+ total users.',
+      'Tripled delivery pace with the same resources through Agent Factory, serving 500+ total users. Led 15+ people and hundreds of deployed and concurrently running agents.',
   },
   {
     employer: 'Visa',
@@ -43,7 +43,7 @@ export const publicCareer = [
     start: '2020-11',
     end: '2024-09',
     summary:
-      'Data engineering and AI workstream leadership; MLOps modernization across 1k+ repositories and 500+ pipelines.',
+      'Accelerated model preparation and client analytics: feature-store creation from one week to 12 hours and benchmarking from days to hours. Preserved delivery while migrating 1k+ repositories and 500+ pipelines.',
   },
   {
     employer: 'Visa',
@@ -51,7 +51,7 @@ export const publicCareer = [
     start: '2018-11',
     end: '2020-11',
     summary:
-      'Built Azure DevOps self-service automation for 40+ colleagues and modernized analytics foundations.',
+      'Cut analytics-cube preparation from three weeks to five hours and data refresh from days to three hours; enabled 40+ colleagues through Azure DevOps self-service automation.',
   },
   {
     employer: 'FedEx Express',
@@ -59,28 +59,31 @@ export const publicCareer = [
     start: '2016-08',
     end: '2018-11',
     summary:
-      'Built BI platforms and executive financial-close reporting to support leadership decisions.',
+      'Built executive reporting and BI platforms that gave leaders financial visibility across a $1.5B business.',
   },
   {
     employer: 'TracFone Wireless',
     title: 'Revenue Systems Analyst',
     start: '2013-02',
     end: '2016-08',
-    summary: 'Rebuilt revenue ETL and reporting; created analytical models that cut analysis time by two-thirds.',
+    summary:
+      'Cut revenue analysis time by two-thirds with analytical models and rebuilt ETL for a 25M-subscriber business.',
   },
   {
     employer: 'FedEx Express',
     title: 'Process Automation Developer',
     start: '2012-03',
     end: '2013-02',
-    summary: 'Built reconciliation software and standardized reporting, cutting reconciliation time 70%.',
+    summary:
+      'Cut reconciliation time 70% with custom software and standardized reporting across Latin America and the Caribbean.',
   },
   {
     employer: 'Davis Quality',
     title: 'Systems Accountant',
     start: '2007-01',
     end: '2012-01',
-    summary: 'Built digital data infrastructure and modernized accounting systems for financial planning.',
+    summary:
+      'Built accounting and data systems that improved financial visibility and planning.',
   },
 ];
 
@@ -112,6 +115,8 @@ export const publicStack = [
       'Numbat',
       'Docker',
       'MCP',
+      'A2A',
+      'LangChain ecosystem',
       'RAG',
       'Spark',
       'Apache Airflow',
@@ -196,7 +201,7 @@ export const publicStack = [
 
 export const machineProfile = {
   schemaVersion: '1.0',
-  updatedAt: '2026-09-10',
+  updatedAt: '2026-09-12',
   canonicalUrl: 'https://osmarmorales.io/',
   person: {
     name: profile.name,

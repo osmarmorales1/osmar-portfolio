@@ -23,44 +23,44 @@ const career = [
     '2020 — 2024',
     'Visa',
     'Director, Data Engineering',
-    'Led data engineering and an AI workstream. Built MLOps foundations and coordinated cross-market delivery.',
+    'Cut benchmarking from days to hours. Preserved delivery through a 1k+ repository migration.',
   ],
   [
     '2018 — 2020',
     'Visa',
     'Manager, Data Analytics',
-    'Built Azure DevOps self-service automation for 40+ colleagues and modernized analytics foundations.',
+    'Cut analytics preparation from three weeks to five hours. Enabled 40+ colleagues through self-service automation.',
   ],
   [
     '2016 — 2018',
     'FedEx Express',
     'Data Scientist',
-    'Built BI platforms and executive financial-close reporting to support leadership decisions.',
+    'Built executive reporting and BI platforms that gave leaders financial visibility across a $1.5B business.',
   ],
   [
     '2013 — 2016',
     'TracFone Wireless',
     'Revenue Systems Analyst',
-    'Rebuilt revenue ETL and reporting. Created analytical models that cut analysis time by two-thirds.',
+    'Cut revenue analysis time by two-thirds with analytical models and rebuilt ETL for a 25M-subscriber business.',
   ],
   [
     '2012 — 2013',
     'FedEx Express',
     'Process Automation Developer',
-    'Built reconciliation software and standardized reporting, cutting reconciliation time 70%.',
+    'Cut reconciliation time 70% with custom software and standardized reporting across Latin America and the Caribbean.',
   ],
   [
     '2007 — 2012',
     'Davis Quality',
     'Systems Accountant',
-    'Built digital data infrastructure and modernized accounting systems for financial planning.',
+    'Built accounting and data systems that improved financial visibility and planning.',
   ],
 ];
 const groups = {
   visa: [
     [
       'Agentic AI & harnesses',
-      'Claude Code · Codex · APIs · CLIs · MCP · Terminal workflows · Computer use',
+      'Claude Code · Codex · LangChain ecosystem · APIs · CLIs · MCP · A2A · Computer use',
       Network,
     ],
     [

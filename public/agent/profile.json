@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-09-10",
+  "updatedAt": "2026-09-12",
   "canonicalUrl": "https://osmarmorales.io/",
   "person": {
     "name": "Osmar Morales",
@@ -33,56 +33,56 @@
       "title": "Founder & AI Platform Architect",
       "start": "2025-10",
       "end": null,
-      "summary": "Founded the AI platform company; built Agentic Slack, agent orchestration, cloud agents and model-agnostic integrations."
+      "summary": "Founded Elygent to simplify delegation and enable tool and knowledge reuse across AI environments; built Agentic Slack, orchestration and controlled computer use."
     },
     {
       "employer": "Visa",
       "title": "Director, AI Agent Platform",
       "start": "2024-10",
       "end": null,
-      "summary": "Created Agent Factory, V Agent and VCA Brain; enabled AI-native data-science teams, 3× delivery pace with the same resources, and 500+ total users."
+      "summary": "Tripled delivery pace with the same resources through Agent Factory, serving 500+ total users. Led 15+ people and hundreds of deployed and concurrently running agents."
     },
     {
       "employer": "Visa",
       "title": "Director, Data Engineering",
       "start": "2020-11",
       "end": "2024-09",
-      "summary": "Data engineering and AI workstream leadership; MLOps modernization across 1k+ repositories and 500+ pipelines."
+      "summary": "Accelerated model preparation and client analytics: feature-store creation from one week to 12 hours and benchmarking from days to hours. Preserved delivery while migrating 1k+ repositories and 500+ pipelines."
     },
     {
       "employer": "Visa",
       "title": "Manager, Data Analytics",
       "start": "2018-11",
       "end": "2020-11",
-      "summary": "Built Azure DevOps self-service automation for 40+ colleagues and modernized analytics foundations."
+      "summary": "Cut analytics-cube preparation from three weeks to five hours and data refresh from days to three hours; enabled 40+ colleagues through Azure DevOps self-service automation."
     },
     {
       "employer": "FedEx Express",
       "title": "Data Scientist",
       "start": "2016-08",
       "end": "2018-11",
-      "summary": "Built BI platforms and executive financial-close reporting to support leadership decisions."
+      "summary": "Built executive reporting and BI platforms that gave leaders financial visibility across a $1.5B business."
     },
     {
       "employer": "TracFone Wireless",
       "title": "Revenue Systems Analyst",
       "start": "2013-02",
       "end": "2016-08",
-      "summary": "Rebuilt revenue ETL and reporting; created analytical models that cut analysis time by two-thirds."
+      "summary": "Cut revenue analysis time by two-thirds with analytical models and rebuilt ETL for a 25M-subscriber business."
     },
     {
       "employer": "FedEx Express",
       "title": "Process Automation Developer",
       "start": "2012-03",
       "end": "2013-02",
-      "summary": "Built reconciliation software and standardized reporting, cutting reconciliation time 70%."
+      "summary": "Cut reconciliation time 70% with custom software and standardized reporting across Latin America and the Caribbean."
     },
     {
       "employer": "Davis Quality",
       "title": "Systems Accountant",
       "start": "2007-01",
       "end": "2012-01",
-      "summary": "Built digital data infrastructure and modernized accounting systems for financial planning."
+      "summary": "Built accounting and data systems that improved financial visibility and planning."
     }
   ],
   "milestones": [
@@ -133,7 +133,7 @@
       "id": "factory",
       "name": "Agent Factory",
       "context": "VISA · ENTERPRISE AI",
-      "ownership": "Created and operate Agent Factory: V Agent, Visa’s super agent, packages agents and connects platforms, surfaces and tools behind one simple interface. VCA Brain shares business memory, and an AI Loop turns recurring work into reusable skills and runtime recommendations. Connect Buzz, Paperclip, the OpenClaw assistant and cloud agents through on-premises orchestration across local, remote, cloud and Windows VDI execution.",
+      "ownership": "Led 15+ people and orchestrated hundreds of agents, including concurrent execution. Created and operate Agent Factory: V Agent simplifies business-user adoption across platforms and tools; VCA Brain lets teams build on shared project knowledge; the AI Loop standardizes recurring work through reusable skills. Connected local, remote, cloud and Windows VDI execution through on-premises orchestration.",
       "decisions": [
         "Capture business workflows as skills; learn from recurring patterns and recommend relevant skills at runtime.",
         "Use VCA Brain to share project context and observations so teams build on collective knowledge.",
@@ -154,7 +154,7 @@
         "Bring model registry, feature-store, and data-quality practices together.",
         "Sequence migration around continuity of delivery."
       ],
-      "outcome": "1k+ repositories and 500+ pipelines migrated without disrupting delivery. Team scope: seven data engineers and a six-person AI workstream.",
+      "outcome": "Feature-store creation fell from one week to 12 hours; agent-driven benchmarking from 1–3 days to 1–3 hours. Migrated 1k+ repositories and 500+ pipelines without disrupting delivery. Led seven data engineers and a six-person AI workstream across 20 concurrent cross-market projects.",
       "stage": "Career results from candidate-provided professional record.",
       "evidenceUrl": "https://osmarmorales.io/Osmar_Morales_Mastercard_Resume.pdf"
     },
@@ -201,6 +201,8 @@
         "Numbat",
         "Docker",
         "MCP",
+        "A2A",
+        "LangChain ecosystem",
         "RAG",
         "Spark",
         "Apache Airflow",
@@ -341,6 +343,7 @@
     "source": "Direct candidate corrections and platform description, September 2026. Current role starts October 2024; latest adoption scope is five regions and multiple teams at Visa. This supersedes earlier role-date and geography wording.",
     "roleStart": "2024-10",
     "previousRoleEnd": "2024-09",
+    "leadership": "Led 15+ people and orchestrated hundreds of agents, both deployed and running concurrently. Candidate-confirmed September 12, 2026; no exact concurrency peak, duration or reporting-line breakdown was supplied. This is separate from the earlier seven-person data engineering team and six-person AI workstream.",
     "summary": "Created Agent Factory to transform data-science teams into an AI-native organization, standardizing business workflows and enabling 3× delivery pace with the same resources. Built locally and adopted globally by 500+ total users across five regions and multiple teams at Visa.",
     "delivery": {
       "display": "3×",

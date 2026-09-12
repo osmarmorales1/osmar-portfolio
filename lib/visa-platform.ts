@@ -5,6 +5,8 @@ export const visaPlatform = {
     'Direct candidate corrections and platform description, September 2026. Current role starts October 2024; latest adoption scope is five regions and multiple teams at Visa. This supersedes earlier role-date and geography wording.',
   roleStart: '2024-10',
   previousRoleEnd: '2024-09',
+  leadership:
+    'Led 15+ people and orchestrated hundreds of agents, both deployed and running concurrently. Candidate-confirmed September 12, 2026; no exact concurrency peak, duration or reporting-line breakdown was supplied. This is separate from the earlier seven-person data engineering team and six-person AI workstream.',
   summary:
     'Created Agent Factory to transform data-science teams into an AI-native organization, standardizing business workflows and enabling 3× delivery pace with the same resources. Built locally and adopted globally by 500+ total users across five regions and multiple teams at Visa.',
   delivery: {
@@ -50,6 +52,7 @@ export const visaPlatform = {
 
 export const visaPlatformEvidence = [
   visaPlatform.summary,
+  `Leadership scope: ${visaPlatform.leadership}`,
   `Corrected role dates: Director, AI Agent Platform, October 2024 to present; Director, Data Engineering, November 2020 to September 2024. ${visaPlatform.source}`,
   `Delivery result: ${visaPlatform.delivery.provenance}`,
   ...visaPlatform.capabilities.map((item) => `${item.title}: ${item.text}`),

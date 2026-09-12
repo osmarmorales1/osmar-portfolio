@@ -13,9 +13,21 @@ import {
 } from '../lib/infrastructure-data.ts';
 const records = [
   {
+    id: 'business-impact-and-leadership',
+    title: 'Business impact and human-agent leadership',
+    text: 'Osmar confirms leading 15+ people at Visa and orchestrating hundreds of agents, both deployed and running concurrently. This is candidate-reported scope, not an audited concurrency benchmark or a statement that all people are direct reports. It is distinct from the earlier seven data engineers and six-person AI workstream. His supplied career evidence also reports feature-store creation reduced from one week to 12 hours and benchmarking from 1–3 days to 1–3 hours in Data Engineering; analytics cubes from three weeks to five hours and core refresh from days to three hours in Data Analytics. These are operational efficiency outcomes; do not convert them into invented dollar savings, revenue or employee reductions. Earlier FedEx reporting covered a $1.5B business and TracFone analytical work covered 25M subscribers; these are business scope, not revenue or customer acquisition attributed to Osmar.',
+    source: 'Direct leadership and concurrent-agent confirmation, September 12, 2026. Operational and earlier-career scope from candidate-supplied career materials, reviewed against the existing source evidence; no new employer audit.',
+  },
+  {
+    id: 'agent-interoperability-stack',
+    title: 'A2A and the LangChain ecosystem',
+    text: 'Osmar includes A2A and the LangChain ecosystem in his AI engineering stack. A2A denotes the Agent2Agent interoperability protocol; LangChain denotes the agent-development ecosystem. This is candidate-listed technical scope. No specific A2A deployment, LangGraph architecture, LangSmith evaluation result or production-performance claim was supplied. The site uses the requested ChatGPT app icon; references to Codex coding harnesses remain valid distinct tooling references.',
+    source: 'Direct candidate addition, September 12, 2026; terminology checked against https://a2a-protocol.org/latest/ and https://www.langchain.com/langchain .',
+  },
+  {
     id: 'global-adoption',
     title: 'Built locally, used globally across five regions',
-    text: 'Osmar describes Agent Factory as built locally and used globally by 500+ total users across five regions and multiple teams at Visa. This is the current candidate-confirmed adoption scope and supersedes previous geography wording. Built locally describes the origin of the initiative; it does not imply that every deployment, model, data store or user is hosted on Osmar’s personal computer. No additional team count, regional breakdown, concurrency or daily-active-user metric was supplied.',
+    text: 'Osmar describes Agent Factory as built locally and used globally by 500+ total users across five regions and multiple teams at Visa. This is the current candidate-confirmed adoption scope and supersedes previous geography wording. Built locally describes the origin of the initiative; it does not imply that every deployment, model, data store or user is hosted on Osmar’s personal computer. Total users are distinct from the human leadership and concurrent-agent scope confirmed September 12. No regional user breakdown, concurrent-user or daily-active-user metric was supplied.',
     source:
       'Direct candidate correction in the website review, September 2026.',
   },
@@ -159,7 +171,7 @@ await writeFile(
 await writeFile(
   new URL('../public/portfolio-evidence.json', import.meta.url),
   JSON.stringify(
-    { version: '2026-09-10-v27', records, limits: records.at(-1).text },
+    { version: '2026-09-12-business-value', records, limits: records.at(-1).text },
     null,
     2,
   ) + '\n',
