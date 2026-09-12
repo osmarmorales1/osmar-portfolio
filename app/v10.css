@@ -56,6 +56,8 @@
 }
 .aside-portfolio .aside-sky {
   object-position: center top;
+  opacity: 0.42;
+  filter: blur(2px) saturate(0.85);
 }
 .aside-portfolio .hero-eyebrow {
   display: inline-flex;
