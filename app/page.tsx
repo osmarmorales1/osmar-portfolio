@@ -424,7 +424,7 @@ export default function Home() {
             <div>
               <p>
                 <strong>I build systems that multiply output.</strong> From
-                petabyte-scale data automation to agents that work for days, I
+                global-scale data automation to agents that work for days, I
                 turn complex work into shared capability.
               </p>
               <p>

@@ -127,9 +127,9 @@ export default function EvidenceDashboard({
             <div className="delivery-dashboard">
               <div className="delivery-stat">
                 <GitBranch size={23} />
-                <h3>Petabyte-scale data. Automated end to end.</h3>
+                <h3>Global payments data. Automated end to end.</h3>
                 <p>
-                  An automation platform for pipelines, transformations and
+                  Automation at VisaNet scale for pipelines, transformations and
                   recurring data processes.
                 </p>
               </div>

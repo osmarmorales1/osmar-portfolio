@@ -13,6 +13,13 @@ import {
 } from '../lib/infrastructure-data.ts';
 const records = [
   {
+    id: 'payments-scale-client-performance',
+    title: 'Global payments data and client-performance enablement',
+    text: 'Preferred recruiter wording is global payments data at VisaNet scale, with global-scale data automation in the general introduction. This expresses the candidate-described data context and engineering scale, not ownership of the entire VisaNet processing network or a measured transaction rate. The Data Analytics Manager role enabled faster analytics through self-service automation; connect that to VCA’s purpose of providing insights that help clients improve performance. Do not attribute Visa’s published client case-study revenue or performance percentages to Osmar.',
+    source:
+      'Candidate wording request September 12, 2026. VCA value proposition and VisaNet data context verified at https://www.visa.com/en-us/solutions/visa-consulting-analytics and https://corporate.visa.com/en/careers/teams/advisory-services/join-vca-advisory-services.html .',
+  },
+  {
     id: 'skills-to-operations',
     title:
       'Operating model: capture know-how, assign ownership, orchestrate outcomes',
@@ -50,9 +57,9 @@ const records = [
   {
     id: 'business-impact-and-leadership',
     title: 'Business impact and human-agent leadership',
-    text: 'Osmar’s latest requested AI Agent Platform scope is Led 9 people; hundreds of agents deployed and running concurrently. The preceding Data Engineering Director role led 7 data engineers, with remote colleagues in Mexico and India. These September 12, 2026 wording corrections supersede earlier recruiter-copy team descriptions. He deploys and orchestrates hundreds of agents, both deployed and running concurrently; no exact concurrency benchmark or direct-report structure was supplied. He built end-to-end automation for petabyte-scale data: pipelines, transformations and recurring data processes. Present this as engineering ownership and repeatable business capability, not ownership of all Visa data or an invented daily volume. Prior supplied evidence supports weeks-to-hours analytics preparation and faster model preparation; do not stretch it into months-to-hours or a literal 10× result. Earlier FedEx reporting covered a $1.5B business and TracFone analytical work covered 25M subscribers; these are business scope, not revenue or customer acquisition attributed to Osmar.',
+    text: 'Osmar’s latest requested AI Agent Platform scope is Led 9 people; hundreds of agents deployed and running concurrently. The preceding Data Engineering Director role led 7 data engineers, with remote colleagues in Mexico and India. These September 12, 2026 wording corrections supersede earlier recruiter-copy team descriptions. He deploys and orchestrates hundreds of agents, both deployed and running concurrently; no exact concurrency benchmark or direct-report structure was supplied. He built end-to-end automation for global-scale payments data: pipelines, transformations and recurring data processes. Present this as engineering ownership and repeatable business capability, not ownership of all Visa data or an invented daily volume. Prior supplied evidence supports weeks-to-hours analytics preparation and faster model preparation; do not stretch it into months-to-hours or a literal 10× result. Earlier FedEx reporting covered a $1.5B business and TracFone analytical work covered 25M subscribers; these are business scope, not revenue or customer acquisition attributed to Osmar.',
     source:
-      'Direct role-specific team corrections and petabyte-scale automation description, September 12, 2026. Other scope and outcomes from the supplied career record.',
+      'Direct role-specific team corrections and global-scale payments automation description, September 12, 2026. Other scope and outcomes from the supplied career record.',
   },
   {
     id: 'agent-interoperability-stack',
@@ -156,12 +163,12 @@ const records = [
   },
   {
     id: 'mlops',
-    title: 'Visa petabyte-scale data automation',
+    title: 'Visa global-scale payments data automation',
     text:
       cases[1].ownership +
       ' ' +
       cases[1].outcome +
-      ' Automated petabyte-scale pipelines, transformations and data processes end to end.',
+      ' Automated global-scale payments pipelines, transformations and data processes end to end.',
     source:
       'Candidate-provided career record; migration counts updated by Osmar to 1k+ repositories and 500+ pipelines on 2026-09-09.',
   },
@@ -209,7 +216,7 @@ await writeFile(
   new URL('../public/portfolio-evidence.json', import.meta.url),
   JSON.stringify(
     {
-      version: '2026-09-12-distributed-leadership',
+      version: '2026-09-12-client-performance',
       records,
       limits: records.at(-1).text,
     },

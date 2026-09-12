@@ -23,13 +23,13 @@ const career = [
     '2020 — 2024',
     'Visa',
     'Director, Data Engineering',
-    'Built petabyte-scale data automation. Led 7 engineers, including remote colleagues in Mexico and India.',
+    'Automated global payments data at VisaNet scale. Led 7 engineers, including remote colleagues in Mexico and India.',
   ],
   [
     '2018 — 2020',
     'Visa',
     'Manager, Data Analytics',
-    'Turned weeks of analytics preparation into hours. Enabled 40+ colleagues through self-service automation.',
+    'Turned weeks of analytics preparation into hours. Enabled 40+ colleagues to deliver faster insights for better client performance.',
   ],
   [
     '2016 — 2018',
