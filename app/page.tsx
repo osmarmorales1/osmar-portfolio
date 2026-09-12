@@ -415,9 +415,9 @@ export default function Home() {
             </a>
             <div>
               <p>
-                <strong>I create systems and processes.</strong> From financial
-                automation to AI platforms, I build reusable ways for teams to
-                work.
+                <strong>I build systems that multiply output.</strong> From
+                petabyte-scale data automation to agents that work for days, I
+                turn complex work into shared capability.
               </p>
               <p>
                 <strong>Built for humans.</strong> One simple way to delegate
@@ -729,7 +729,6 @@ export default function Home() {
               <p>{selected.ownership}</p>
               <h3>What changed</h3>
               <p>{selected.outcome}</p>
-              <small>{selected.note}</small>
               <button
                 className="black-pill"
                 onClick={() => {

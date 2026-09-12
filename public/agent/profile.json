@@ -21,7 +21,7 @@
       "Portuguese (beginner)"
     ]
   },
-  "story": "Osmar creates systems and processes that automate complex work and scale delivery. His career spans financial automation, business intelligence, data platforms and enterprise AI. Today, he builds AI-native teams through agents, reusable skills, shared knowledge and distributed execution. He founded Elygent, an independent AI platform company, and leads its product and platform architecture.",
+  "story": "Osmar builds systems that multiply team output: petabyte-scale data automation, Agent Factory and shared AI infrastructure. He combines hands-on engineering with leadership of AI-native teams. Elygent, the company he founded, is his independent lab for deepening AI expertise through working experiments.",
   "aspirations": [
     "Principal AI Platform Engineer",
     "Senior Director",
@@ -33,21 +33,21 @@
       "title": "Director, AI Agent Platform",
       "start": "2024-10",
       "end": null,
-      "summary": "Tripled delivery pace with the same resources through Agent Factory, serving 500+ total users. Led 15+ people and hundreds of deployed and concurrently running agents."
+      "summary": "Created Agent Factory and tripled delivery pace with the same resources for 500+ users. Leads a team of 10 and deploys and orchestrates hundreds of agents."
     },
     {
       "employer": "Visa",
       "title": "Director, Data Engineering",
       "start": "2020-11",
       "end": "2024-09",
-      "summary": "Accelerated model preparation and client analytics: feature-store creation from one week to 12 hours and benchmarking from days to hours. Preserved delivery while migrating 1k+ repositories and 500+ pipelines."
+      "summary": "Built an end-to-end automation platform for petabyte-scale data and led 7 data engineers. Standardized pipelines, transformations and data processes; migrated 1k+ repositories and 500+ pipelines without disrupting business workflows."
     },
     {
       "employer": "Visa",
       "title": "Manager, Data Analytics",
       "start": "2018-11",
       "end": "2020-11",
-      "summary": "Cut analytics-cube preparation from three weeks to five hours and data refresh from days to three hours; enabled 40+ colleagues through Azure DevOps self-service automation."
+      "summary": "Turned weeks of analytics preparation into hours and enabled 40+ colleagues through Azure DevOps self-service automation."
     },
     {
       "employer": "FedEx Express",
@@ -133,7 +133,7 @@
       "id": "factory",
       "name": "Agent Factory",
       "context": "VISA · ENTERPRISE AI",
-      "ownership": "Led 15+ people and orchestrated hundreds of agents, including concurrent execution. Created Agent Factory, an AI enablement platform, with V Agent (Visa super agent) orchestrating agents, tools and workflows across connected Visa systems, a Second Brain for shared business knowledge, and a continuous learning loop for reusable skills. Connected shared compute, self-hosted open models, and local, remote, cloud and Windows VDI execution so teams can reuse model access and delegate without managing the underlying systems.",
+      "ownership": "Lead a team of 10 and deploy and orchestrate hundreds of agents. Created Agent Factory, an AI enablement platform, with V Agent (Visa super agent) orchestrating agents, tools and workflows across connected Visa systems, a Second Brain for shared business knowledge, and a continuous learning loop for reusable skills. Connected shared compute, self-hosted open models, and local, remote, cloud and Windows VDI execution so teams can reuse model access and delegate without managing the underlying systems.",
       "decisions": [
         "Capture business workflows as skills; learn from recurring patterns and recommend relevant skills at runtime.",
         "Share project context and observations so teams build on collective knowledge instead of repeating discovery.",
@@ -146,15 +146,15 @@
     },
     {
       "id": "mlops",
-      "name": "MLOps modernization",
+      "name": "Data automation",
       "context": "VISA · DATA & ML PLATFORMS",
-      "ownership": "I led data engineering and an AI workstream, built an end-to-end MLOps foundation, and coordinated migration of repositories and pipelines.",
+      "ownership": "Built an end-to-end data automation platform and led a team of 7 data engineers. Standardized pipelines, transformations and recurring processes across petabyte-scale data. Built reusable feature pipelines, model discovery and data-quality controls, then established a shared MLOps and CI/CD foundation.",
       "decisions": [
-        "Make pipelines reproducible and models discoverable.",
+        "Automate pipelines, transformations and data processes end to end.",
         "Bring model registry, feature-store, and data-quality practices together.",
         "Sequence migration around continuity of delivery."
       ],
-      "outcome": "Feature-store creation fell from one week to 12 hours; agent-driven benchmarking from 1–3 days to 1–3 hours. Migrated 1k+ repositories and 500+ pipelines without disrupting delivery. Led seven data engineers and a six-person AI workstream across 20 concurrent cross-market projects.",
+      "outcome": "Reduced repetitive engineering work and accelerated analytics and ML delivery through reusable automation. Migrated 1k+ repositories and 500+ pipelines without disrupting business workflows.",
       "stage": "Career results from candidate-provided professional record.",
       "evidenceUrl": "https://osmarmorales.io/Osmar_Morales_Mastercard_Resume.pdf"
     },
@@ -346,8 +346,8 @@
     "source": "Direct candidate corrections and platform description, September 2026. Current role starts October 2024; latest adoption scope is five regions and multiple teams at Visa. This supersedes earlier role-date and geography wording.",
     "roleStart": "2024-10",
     "previousRoleEnd": "2024-09",
-    "leadership": "Led 15+ people and orchestrated hundreds of agents, both deployed and running concurrently. Candidate-confirmed September 12, 2026; no exact concurrency peak, duration or reporting-line breakdown was supplied. This is separate from the earlier seven-person data engineering team and six-person AI workstream.",
-    "summary": "Created Agent Factory to transform data-science teams into an AI-native organization, standardizing business workflows and enabling 3× delivery pace with the same resources. Built locally and adopted globally by 500+ total users across five regions and multiple teams at Visa.",
+    "leadership": "Leads a team of 10 in the AI Agent Platform Director role and deploys and orchestrates hundreds of agents, including concurrent execution. Team size corrected directly by Osmar on September 12, 2026; this supersedes earlier broader-team wording. The Data Engineering Director role led 7 people. Reporting-line structure and exact agent concurrency peak were not supplied.",
+    "summary": "Created Agent Factory to turn data-science teams into AI-native builders, enabling 3× delivery pace with the same resources through reusable automation, shared knowledge and agents. Built locally and adopted globally by 500+ total users across five regions and multiple teams at Visa.",
     "delivery": {
       "display": "3×",
       "measure": "delivery pace",
@@ -444,6 +444,7 @@
     "Use Second Brain for shared business knowledge. Retain Agent Factory as the AI enablement platform name and use plain-language descriptions for other internal initiatives. Retain V Agent (Visa super agent) as the named orchestration layer across connected Visa systems. Do not imply coverage of every Visa system.",
     "Lead with business value and recognizable capabilities: Agentic Slack and human-agent collaboration, AI orchestration platforms, and AI governance and cybersecurity. Use niche implementation names for technical detail and accurate upstream attribution, not as substitutes for explaining the work.",
     "Elygent is the company Osmar founded in October 2025 and uses as an independent AI lab. Present it as hands-on experimentation and skills development, secondary to his professional career. Do not infer commercial focus, full-time startup commitments, or employment availability.",
+    "Current role team sizes: AI Agent Platform Director leads 10 people; Data Engineering Director led 7. These direct September 12, 2026 corrections supersede earlier broader-team descriptions. Petabyte-scale describes the data environment, not a quantified daily processing rate. No literal 10× productivity or months-to-hours outcome is established.",
     "Career outcomes are candidate-provided, not an independent employer audit.",
     "Role dates corrected directly by Osmar on September 10, 2026: current role October 2024; previous Director role ends September 2024. These supersede the earlier dates.",
     "3× describes reported delivery pace with the same resources; no measurement period or standardized benchmark was provided. continuous learning loop improvement refers to skills and shared knowledge, not model-weight training.",

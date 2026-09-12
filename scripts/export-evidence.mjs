@@ -42,9 +42,9 @@ const records = [
   {
     id: 'business-impact-and-leadership',
     title: 'Business impact and human-agent leadership',
-    text: 'Osmar confirms leading 15+ people at Visa and orchestrating hundreds of agents, both deployed and running concurrently. This is candidate-reported scope, not an audited concurrency benchmark or a statement that all people are direct reports. It is distinct from the earlier seven data engineers and six-person AI workstream. His supplied career evidence also reports feature-store creation reduced from one week to 12 hours and benchmarking from 1–3 days to 1–3 hours in Data Engineering; analytics cubes from three weeks to five hours and core refresh from days to three hours in Data Analytics. These are operational efficiency outcomes; do not convert them into invented dollar savings, revenue or employee reductions. Earlier FedEx reporting covered a $1.5B business and TracFone analytical work covered 25M subscribers; these are business scope, not revenue or customer acquisition attributed to Osmar.',
+    text: 'Osmar leads a team of 10 in the AI Agent Platform Director role and led 7 data engineers in the preceding Director role. These direct September 12, 2026 corrections supersede earlier broader-team and concurrent-project descriptions. He deploys and orchestrates hundreds of agents, both deployed and running concurrently; no exact concurrency benchmark or direct-report structure was supplied. He built end-to-end automation for petabyte-scale data: pipelines, transformations and recurring data processes. Present this as engineering ownership and repeatable business capability, not ownership of all Visa data or an invented daily volume. Prior supplied evidence supports weeks-to-hours analytics preparation and faster model preparation; do not stretch it into months-to-hours or a literal 10× result. Earlier FedEx reporting covered a $1.5B business and TracFone analytical work covered 25M subscribers; these are business scope, not revenue or customer acquisition attributed to Osmar.',
     source:
-      'Direct leadership and concurrent-agent confirmation, September 12, 2026. Operational and earlier-career scope from candidate-supplied career materials, reviewed against the existing source evidence; no new employer audit.',
+      'Direct role-specific team corrections and petabyte-scale automation description, September 12, 2026. Other scope and outcomes from the supplied career record.',
   },
   {
     id: 'agent-interoperability-stack',
@@ -148,12 +148,12 @@ const records = [
   },
   {
     id: 'mlops',
-    title: 'Visa MLOps modernization',
+    title: 'Visa petabyte-scale data automation',
     text:
       cases[1].ownership +
       ' ' +
       cases[1].outcome +
-      ' Benchmarking turnaround moved from 1–3 days to 1–3 hours.',
+      ' Automated petabyte-scale pipelines, transformations and data processes end to end.',
     source:
       'Candidate-provided career record; migration counts updated by Osmar to 1k+ repositories and 500+ pipelines on 2026-09-09.',
   },
@@ -201,7 +201,7 @@ await writeFile(
   new URL('../public/portfolio-evidence.json', import.meta.url),
   JSON.stringify(
     {
-      version: '2026-09-12-self-hosted-models',
+      version: '2026-09-12-engineering-impact',
       records,
       limits: records.at(-1).text,
     },

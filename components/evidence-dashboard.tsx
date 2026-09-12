@@ -127,10 +127,10 @@ export default function EvidenceDashboard({
             <div className="delivery-dashboard">
               <div className="delivery-stat">
                 <GitBranch size={23} />
-                <h3>Modernization without disrupting delivery.</h3>
+                <h3>Petabyte-scale data. Automated end to end.</h3>
                 <p>
-                  Faster model preparation and client insights, with continuity
-                  through platform modernization.
+                  An automation platform for pipelines, transformations and
+                  recurring data processes.
                 </p>
               </div>
               <div
@@ -165,10 +165,6 @@ export default function EvidenceDashboard({
               </div>
             </div>
             <div className="console-note">
-              <span>
-                Separate MLOps modernization initiative · Reported minimum
-                counts.
-              </span>
               <button onClick={() => onInspect('mlops')}>
                 My ownership and decisions <ArrowUpRight size={12} />
               </button>

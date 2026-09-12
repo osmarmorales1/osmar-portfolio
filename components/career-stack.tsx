@@ -17,19 +17,19 @@ const career = [
     '2024 — NOW',
     'Visa',
     'Director, AI Agent Platform',
-    'Built Agent Factory. AI-native teams delivering at 3× the pace with the same resources.',
+    'Created Agent Factory; enabled 3× delivery pace. Lead a team of 10.',
   ],
   [
     '2020 — 2024',
     'Visa',
     'Director, Data Engineering',
-    'Cut benchmarking from days to hours. Preserved delivery through a 1k+ repository migration.',
+    'Built end-to-end automation for petabyte-scale data. Led 7 data engineers.',
   ],
   [
     '2018 — 2020',
     'Visa',
     'Manager, Data Analytics',
-    'Cut analytics preparation from three weeks to five hours. Enabled 40+ colleagues through self-service automation.',
+    'Turned weeks of analytics preparation into hours. Enabled 40+ colleagues through self-service automation.',
   ],
   [
     '2016 — 2018',
