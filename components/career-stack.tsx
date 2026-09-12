@@ -172,10 +172,6 @@ export default function CareerStack() {
               </p>
             </div>
           </div>
-          <p className="milestone-note">
-            AI adoption milestones, as reported by Osmar; distinct from formal
-            role dates below.
-          </p>
           <div className="career-timeline">
             {career
               .slice(0, all ? career.length : 4)
