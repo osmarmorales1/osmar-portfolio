@@ -27,7 +27,7 @@ export const publicCareer = [
     start: '2024-10',
     end: null,
     summary:
-      'Tripled delivery pace with the same resources through an AI enablement platform, serving 500+ total users. Led 15+ people and hundreds of deployed and concurrently running agents.',
+      'Tripled delivery pace with the same resources through Agent Factory, serving 500+ total users. Led 15+ people and hundreds of deployed and concurrently running agents.',
   },
   {
     employer: 'Visa',
@@ -100,7 +100,7 @@ export const publicStack = [
       'Public cloud, private cloud and on-premises delivery',
       'MLOps',
       'API and CLI integration',
-      'Frontier and open-weight model routing',
+      'Self-hosted open-source/open-weight models and shared inference',
       'Governed tools',
       'Data storytelling',
     ],
@@ -142,11 +142,13 @@ export const publicStack = [
       'LLM-agnostic and harness-agnostic architecture',
       'Open-source agent infrastructure',
       'Distributed agent execution',
+      'Self-hosted open models and shared compute',
       'Agentic Slack and human-agent collaboration',
       'AI orchestration platforms',
       'AI governance, secure communication and cybersecurity',
       'Shared knowledge',
       'Model-agnostic integration',
+      'Open model families: Kimi and GLM',
     ],
     technologies: [
       'OpenClaw',
@@ -239,14 +241,14 @@ export const machineProfile = {
   ],
   outcomes: [
     {
-      initiative: 'Visa AI enablement platform',
+      initiative: 'Visa Agent Factory',
       metric: 'delivery pace multiplier',
       display: visaPlatform.delivery.display,
       qualifier: 'Same resources; candidate-reported delivery pace',
       provenance: visaPlatform.delivery.provenance,
     },
     {
-      initiative: 'Visa AI enablement platform',
+      initiative: 'Visa Agent Factory',
       metric: 'total users',
       lowerBound: 500,
       display: '500+',
@@ -287,7 +289,10 @@ export const machineProfile = {
   visaAgentFactory: visaPlatform,
   approach: learningLoop,
   frontierAgenda: [
-    { topic: 'AI factories and shared compute', status: sharedComputeAgenda },
+    {
+      topic: 'Shared compute and self-hosted models',
+      status: sharedComputeAgenda,
+    },
     {
       topic: 'Digital twins and AI ontology',
       status:
@@ -314,14 +319,14 @@ export const machineProfile = {
     },
   ],
   evidenceBoundaries: [
-    'Use Second Brain for shared business knowledge and plain-language names for internal initiatives. Retain V Agent (Visa super agent) as the named orchestration layer across connected Visa systems. Do not imply coverage of every Visa system.',
+    'Use Second Brain for shared business knowledge. Retain Agent Factory as the AI enablement platform name and use plain-language descriptions for other internal initiatives. Retain V Agent (Visa super agent) as the named orchestration layer across connected Visa systems. Do not imply coverage of every Visa system.',
     'Lead with business value and recognizable capabilities: Agentic Slack and human-agent collaboration, AI orchestration platforms, and AI governance and cybersecurity. Use niche implementation names for technical detail and accurate upstream attribution, not as substitutes for explaining the work.',
     'Elygent is the company Osmar founded in October 2025 and uses as an independent AI lab. Present it as hands-on experimentation and skills development, secondary to his professional career. Do not infer commercial focus, full-time startup commitments, or employment availability.',
     'Career outcomes are candidate-provided, not an independent employer audit.',
     'Role dates corrected directly by Osmar on September 10, 2026: current role October 2024; previous Director role ends September 2024. These supersede the earlier dates.',
     '3× describes reported delivery pace with the same resources; no measurement period or standardized benchmark was provided. continuous learning loop improvement refers to skills and shared knowledge, not model-weight training.',
     'Elygent is an independent AI platform company founded by Osmar in October 2025. Revenue, headcount and commercial adoption metrics were not supplied; Visa adoption figures do not apply to it.',
-    'Private-cloud evidence supports service use and application delivery, not ownership of every catalog service. Shared community compute remains exploration.',
+    'Private-cloud evidence supports service use and application delivery, not ownership of every catalog service. Self-hosted model deployment is candidate-confirmed; this does not establish self-hosted inference in the public demo community.',
     'The supplied record does not establish GPU-fleet, facilities, RFP or infrastructure-budget ownership.',
     'Education is Finance with a Mathematics minor; no engineering degree is claimed.',
     'Capacity controls are hypothetical design exercises, not production telemetry.',
@@ -343,7 +348,7 @@ export const machineProfile = {
     communityVisibility:
       'Public demo community; participant posts are visible to all participants',
     communityInference:
-      'Grok 4.6 in xAI cloud; local open-weight shared compute is planned',
+      'Grok 4.6 in xAI cloud; separate self-hosted model work is not this public demo’s inference backend',
     profile: 'https://osmarmorales.io/api/portfolio',
     projects: 'https://osmarmorales.io/api/portfolio/projects',
     experience: 'https://osmarmorales.io/api/portfolio/experience',

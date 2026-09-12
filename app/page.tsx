@@ -479,8 +479,9 @@ export default function Home() {
               <span>{apps[selectedApp].detail}</span>
             </div>
             <p className="centered-copy">
-              Compute, knowledge, tools, and people.
-              <br /> I connect the layers so the whole team can put AI to work.
+              <strong>Shared compute. Self-hosted models.</strong>
+              <br /> Open-source and open-weight models, including Kimi and GLM,
+              shared across teams and agents.
             </p>
             <section
               className="aside-product-row"

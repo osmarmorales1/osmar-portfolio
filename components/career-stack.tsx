@@ -17,7 +17,7 @@ const career = [
     '2024 — NOW',
     'Visa',
     'Director, AI Agent Platform',
-    'Built an AI enablement platform. AI-native teams delivering at 3× the pace with the same resources.',
+    'Built Agent Factory. AI-native teams delivering at 3× the pace with the same resources.',
   ],
   [
     '2020 — 2024',
@@ -65,12 +65,12 @@ const groups = {
     ],
     [
       'Models & context',
-      'LLM-agnostic · Harness-agnostic · Open-weight routing · RAG · Shared memory',
+      'Self-hosted open models · Kimi · GLM · LLM-agnostic routing · RAG',
       Database,
     ],
     [
-      'Distributed computing',
-      'Linux VPS · Docker · Kubernetes · Local, remote & cloud agent execution',
+      'Shared & distributed compute',
+      'Shared inference · Linux VPS · Docker · Kubernetes · Local, remote & cloud execution',
       Server,
     ],
     [

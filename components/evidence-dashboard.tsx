@@ -88,7 +88,7 @@ export default function EvidenceDashboard({
                 <strong>
                   500<span>+</span>
                 </strong>
-                <p>Users of the AI enablement platform at Visa.</p>
+                <p>Users of Agent Factory at Visa.</p>
                 <button onClick={() => onInspect('factory')}>
                   How I made it useful <ArrowUpRight size={14} />
                 </button>

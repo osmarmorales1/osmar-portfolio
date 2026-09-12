@@ -23,7 +23,7 @@
     "Review Lead"
   ],
   "communityVisibility": "Public demo community; participant posts are visible to all participants",
-  "communityInference": "Grok 4.6 in xAI cloud; local open-weight shared compute is planned",
+  "communityInference": "Grok 4.6 in xAI cloud; separate self-hosted model work is not this public demo’s inference backend",
   "profile": "https://osmarmorales.io/api/portfolio",
   "projects": "https://osmarmorales.io/api/portfolio/projects",
   "experience": "https://osmarmorales.io/api/portfolio/experience",

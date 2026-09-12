@@ -39,7 +39,7 @@ const views = [
 const records = [
   {
     id: 'agent-factory',
-    title: 'Visa · AI enablement platform',
+    title: 'Visa · Agent Factory',
     tag: 'PLATFORM',
     text: '500+ total users. Organic growth. Governed tools, reusable skills, model routing, and human review.',
     note: 'Candidate-confirmed · September 2026',

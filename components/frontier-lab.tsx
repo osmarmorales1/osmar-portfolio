@@ -217,8 +217,7 @@ export default function FrontierLab({
           )}
         </div>
         <p className="community-roadmap">
-          Exploring shared computing: community access to locally hosted
-          open-weight models.
+          Exploring public community access to shared, self-hosted open models.
         </p>
         <a
           href="https://github.com/block/buzz/blob/main/VISION_MESH.md"

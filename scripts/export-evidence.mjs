@@ -13,9 +13,16 @@ import {
 } from '../lib/infrastructure-data.ts';
 const records = [
   {
+    id: 'self-hosted-open-models',
+    title: 'Shared compute and self-hosted open models',
+    text: 'Osmar identifies shared compute and self-hosting open models as important to his Visa work and independent Elygent lab, names Kimi and GLM as model-family examples, and confirms having deployed self-hosted models. Present the capability prominently as shared inference and self-hosted open-source/open-weight models. Do not invent specific model versions, per-employer deployments, serving frameworks, hardware topology, cost savings or public availability. The public demo remains distinct from this broader experience. Agent Factory is retained as the preferred platform name.',
+    source:
+      'Direct candidate request and affirmative deployment confirmation, September 12, 2026. Local-deployment terminology supported by official model repositories: https://github.com/MoonshotAI/Kimi-K2 and https://github.com/zai-org/GLM-5 .',
+  },
+  {
     id: 'plain-language-internal-initiatives',
     title: 'Second Brain and V Agent terminology',
-    text: 'Use Second Brain to explain the shared company knowledge system, AI enablement platform for the broader team-transformation platform, and continuous learning loop for skills improvement. Retain V Agent (Visa super agent) as the named orchestration and simplification layer connecting agents, tools, platforms and enterprise systems. Connected Visa environments is the supported scope; do not infer deployment across every Visa system or transfer the platform adoption count to V Agent alone.',
+    text: 'Use Second Brain to explain the shared company knowledge system, Agent Factory for the broader AI enablement platform, and continuous learning loop for skills improvement. Retain V Agent (Visa super agent) as the named orchestration and simplification layer connecting agents, tools, platforms and enterprise systems. Connected Visa environments is the supported scope; do not infer deployment across every Visa system or transfer the platform adoption count to V Agent alone.',
     source: 'Direct candidate naming correction, September 12, 2026.',
   },
   {
@@ -49,7 +56,7 @@ const records = [
   {
     id: 'global-adoption',
     title: 'Built locally, used globally across five regions',
-    text: 'Osmar describes the AI enablement platform as built locally and used globally by 500+ total users across five regions and multiple teams at Visa. This is the current candidate-confirmed adoption scope and supersedes previous geography wording. Built locally describes the origin of the initiative; it does not imply that every deployment, model, data store or user is hosted on Osmar’s personal computer. Total users are distinct from the human leadership and concurrent-agent scope confirmed September 12. No regional user breakdown, concurrent-user or daily-active-user metric was supplied.',
+    text: 'Osmar describes Agent Factory as built locally and used globally by 500+ total users across five regions and multiple teams at Visa. This is the current candidate-confirmed adoption scope and supersedes previous geography wording. Built locally describes the origin of the initiative; it does not imply that every deployment, model, data store or user is hosted on Osmar’s personal computer. Total users are distinct from the human leadership and concurrent-agent scope confirmed September 12. No regional user breakdown, concurrent-user or daily-active-user metric was supplied.',
     source:
       'Direct candidate correction in the website review, September 2026.',
   },
@@ -70,21 +77,21 @@ const records = [
   {
     id: 'systems-builder-career',
     title: 'Systems and process creation across the career',
-    text: 'Osmar positions his career as creating systems and processes that automate complex work and scale delivery. At FedEx as Data Scientist, he led end-to-end BI platform delivery and rebuilt executive financial-close reporting. At TracFone, he rebuilt ETL and revenue-recognition reporting, and created analytical models that reduced analysis time by two-thirds. In his earlier FedEx automation role, he designed a reconciliation application that reduced processing time 70% across Latin America and the Caribbean, and automated and standardized financial reporting. At Davis Quality, he modernized accounting systems and built digital data infrastructure for financial visibility and business planning. These earlier systems complement later self-service analytics, MLOps, AI enablement platform and Elygent work; do not label the earlier roles generative AI or attribute later technology stacks to them.',
+    text: 'Osmar positions his career as creating systems and processes that automate complex work and scale delivery. At FedEx as Data Scientist, he led end-to-end BI platform delivery and rebuilt executive financial-close reporting. At TracFone, he rebuilt ETL and revenue-recognition reporting, and created analytical models that reduced analysis time by two-thirds. In his earlier FedEx automation role, he designed a reconciliation application that reduced processing time 70% across Latin America and the Caribbean, and automated and standardized financial reporting. At Davis Quality, he modernized accounting systems and built digital data infrastructure for financial visibility and business planning. These earlier systems complement later self-service analytics, MLOps, Agent Factory and Elygent work; do not label the earlier roles generative AI or attribute later technology stacks to them.',
     source:
       'Candidate-supplied career photos 3568-3570, visually reviewed; source facts recorded in the private career-evidence review. Systems-and-processes positioning explicitly requested by Osmar on September 10, 2026. Outcomes are candidate-reported, not independently employer-verified.',
   },
   {
     id: 'harness-model-portability',
     title: 'Agent harnesses, API/CLI integration and model portability',
-    text: 'Elygent provides provider-neutral API/MCP tool contracts and CLI/terminal integration across configured Claude Code, Codex, Hermes and other harnesses. Dated onboarding and runtime-acceptance records establish shared tools/knowledge and actual native Codex sandboxed execution. LLM-agnostic and harness-agnostic describe this architecture and adapter approach, not universal zero-configuration switching, equal model quality, or identical state formats across every runtime. The candidate’s Visa materials also describe frontier/open-weight model routing by work class. Open-source agent infrastructure and open-weight models are different layers; no unspecified model license, model-weight training, or deployed local inference pool should be invented.',
+    text: 'Elygent provides provider-neutral API/MCP tool contracts and CLI/terminal integration across configured Claude Code, Codex, Hermes and other harnesses. Dated onboarding and runtime-acceptance records establish shared tools/knowledge and actual native Codex sandboxed execution. LLM-agnostic and harness-agnostic describe this architecture and adapter approach, not universal zero-configuration switching, equal model quality, or identical state formats across every runtime. The candidate’s Visa materials also describe frontier/open-weight model routing by work class. Open-source agent infrastructure and open-weight models are different layers; no unspecified model license, model-weight training, or deployment scale should be invented.',
     source:
       'Reviewed Elygent gateway/onboarding source and September 8 runtime acceptance; candidate career evidence. Terminology cross-checked with creator transcripts and official engineering documentation on September 10, 2026.',
   },
   {
     id: 'compute-delivery-scope',
     title: 'Distributed computing, shared compute and CI/CD scope',
-    text: 'Osmar’s demonstrated distributed computing scope is agent workload execution across local, remote, cloud/VPS and on-premises environments; it does not establish tensor-parallel model inference or distributed GPU training. Shared computing for community access to locally hosted open-weight models remains research/planned; the live Buzz demo uses xAI-hosted Grok. CI/CD experience is supported for GitHub, Jenkins and Azure DevOps. GitHub Actions and GitHub Agentic Workflows are covered in current research, but personal implementation is unconfirmed. No Actions workflows were found in the reviewed owner repositories; upstream Buzz workflow files are not evidence of Osmar’s implementation. Do not present research topics as delivered capabilities.',
+    text: 'Osmar’s demonstrated distributed computing scope is agent workload execution across local, remote, cloud/VPS and on-premises environments; it does not establish tensor-parallel model inference or distributed GPU training. Shared compute and self-hosted model deployment are candidate-confirmed experience; public community access to a local-model pool remains separate from the live xAI-hosted Grok demo. CI/CD experience is supported for GitHub, Jenkins and Azure DevOps. GitHub Actions and GitHub Agentic Workflows are covered in current research, but personal implementation is unconfirmed. No Actions workflows were found in the reviewed owner repositories; upstream Buzz workflow files are not evidence of Osmar’s implementation. Do not present research topics as delivered capabilities.',
     source:
       'Candidate-described workload distribution; verified local/VPS platform source; current shared-compute roadmap; scoped owner-repository workflow audit and creator/GitHub documentation review on September 10, 2026. Direct GitHub Actions experience confirmation is pending.',
   },
@@ -104,7 +111,7 @@ const records = [
   },
   {
     id: 'visa-ai-native-transformation',
-    title: 'AI enablement and corrected role dates',
+    title: 'Agent Factory and corrected role dates',
     text: visaPlatformEvidence,
     source: visaPlatform.source,
   },
@@ -134,7 +141,7 @@ const records = [
   },
   {
     id: 'agent-factory',
-    title: 'Visa AI enablement platform',
+    title: 'Visa Agent Factory',
     text: cases[0].ownership + ' ' + cases[0].outcome + ' ' + cases[0].note,
     source:
       'Candidate confirmed adoption on 2026-09-09 and described AI-native transformation, 3× delivery pace, continuous learning loop, V Agent and Second Brain on 2026-09-10.',
@@ -194,7 +201,7 @@ await writeFile(
   new URL('../public/portfolio-evidence.json', import.meta.url),
   JSON.stringify(
     {
-      version: '2026-09-12-plain-language',
+      version: '2026-09-12-self-hosted-models',
       records,
       limits: records.at(-1).text,
     },

@@ -33,7 +33,7 @@
       "title": "Director, AI Agent Platform",
       "start": "2024-10",
       "end": null,
-      "summary": "Tripled delivery pace with the same resources through an AI enablement platform, serving 500+ total users. Led 15+ people and hundreds of deployed and concurrently running agents."
+      "summary": "Tripled delivery pace with the same resources through Agent Factory, serving 500+ total users. Led 15+ people and hundreds of deployed and concurrently running agents."
     },
     {
       "employer": "Visa",
@@ -99,14 +99,14 @@
   ],
   "outcomes": [
     {
-      "initiative": "Visa AI enablement platform",
+      "initiative": "Visa Agent Factory",
       "metric": "delivery pace multiplier",
       "display": "3×",
       "qualifier": "Same resources; candidate-reported delivery pace",
       "provenance": "Candidate-reported September 10, 2026; baseline, measurement period and workload mix not supplied. Do not convert this into a revenue, cost-saving, throughput or benchmark claim."
     },
     {
-      "initiative": "Visa AI enablement platform",
+      "initiative": "Visa Agent Factory",
       "metric": "total users",
       "lowerBound": 500,
       "display": "500+",
@@ -131,9 +131,9 @@
   "projects": [
     {
       "id": "factory",
-      "name": "AI enablement",
+      "name": "Agent Factory",
       "context": "VISA · ENTERPRISE AI",
-      "ownership": "Led 15+ people and orchestrated hundreds of agents, including concurrent execution. Created an AI enablement platform with V Agent (Visa super agent) orchestrating agents, tools and workflows across connected Visa systems, a Second Brain for shared business knowledge, and a continuous learning loop for reusable skills. Connected local, remote, cloud and Windows VDI execution so teams can delegate without managing the underlying systems.",
+      "ownership": "Led 15+ people and orchestrated hundreds of agents, including concurrent execution. Created Agent Factory, an AI enablement platform, with V Agent (Visa super agent) orchestrating agents, tools and workflows across connected Visa systems, a Second Brain for shared business knowledge, and a continuous learning loop for reusable skills. Connected shared compute, self-hosted open models, and local, remote, cloud and Windows VDI execution so teams can reuse model access and delegate without managing the underlying systems.",
       "decisions": [
         "Capture business workflows as skills; learn from recurring patterns and recommend relevant skills at runtime.",
         "Share project context and observations so teams build on collective knowledge instead of repeating discovery.",
@@ -162,7 +162,7 @@
       "id": "elygent",
       "name": "Independent AI lab",
       "context": "INDEPENDENT AI RESEARCH · ELYGENT",
-      "ownership": "Use Elygent, the company I founded, as an independent AI lab to test emerging ideas and deepen hands-on expertise. Built a human–agent communication system and AI orchestration platform on open-source foundations, connecting conversations to accountable work. LLM-agnostic and harness-agnostic integrations through APIs, CLIs and MCP let teams reuse tools, skills and knowledge across workflows. AI governance and cybersecurity include scoped access, security monitoring, isolated execution and human review.",
+      "ownership": "Use Elygent, the company I founded, as an independent AI lab to test emerging ideas and deepen hands-on expertise. Built a human–agent communication system and AI orchestration platform on open-source foundations, connecting conversations to accountable work. LLM-agnostic and harness-agnostic integrations through APIs, CLIs and MCP let teams reuse tools, skills and knowledge across workflows. Hands-on model work includes self-hosted open models on shared compute. AI governance and cybersecurity include scoped access, security monitoring, isolated execution and human review.",
       "decisions": [
         "Make delegation simple while connecting the right agents, tools and knowledge behind it.",
         "Carry useful context across workflows while preserving personal and business boundaries.",
@@ -186,7 +186,7 @@
         "Public cloud, private cloud and on-premises delivery",
         "MLOps",
         "API and CLI integration",
-        "Frontier and open-weight model routing",
+        "Self-hosted open-source/open-weight models and shared inference",
         "Governed tools",
         "Data storytelling"
       ],
@@ -227,11 +227,13 @@
         "LLM-agnostic and harness-agnostic architecture",
         "Open-source agent infrastructure",
         "Distributed agent execution",
+        "Self-hosted open models and shared compute",
         "Agentic Slack and human-agent collaboration",
         "AI orchestration platforms",
         "AI governance, secure communication and cybersecurity",
         "Shared knowledge",
-        "Model-agnostic integration"
+        "Model-agnostic integration",
+        "Open model families: Kimi and GLM"
       ],
       "technologies": [
         "OpenClaw",
@@ -345,7 +347,7 @@
     "roleStart": "2024-10",
     "previousRoleEnd": "2024-09",
     "leadership": "Led 15+ people and orchestrated hundreds of agents, both deployed and running concurrently. Candidate-confirmed September 12, 2026; no exact concurrency peak, duration or reporting-line breakdown was supplied. This is separate from the earlier seven-person data engineering team and six-person AI workstream.",
-    "summary": "Created an AI enablement platform to transform data-science teams into an AI-native organization, standardizing business workflows and enabling 3× delivery pace with the same resources. Built locally and adopted globally by 500+ total users across five regions and multiple teams at Visa.",
+    "summary": "Created Agent Factory to transform data-science teams into an AI-native organization, standardizing business workflows and enabling 3× delivery pace with the same resources. Built locally and adopted globally by 500+ total users across five regions and multiple teams at Visa.",
     "delivery": {
       "display": "3×",
       "measure": "delivery pace",
@@ -370,8 +372,8 @@
       },
       {
         "id": "distributed-compute",
-        "title": "Local, remote and cloud execution",
-        "text": "Centralized orchestration on premises while connecting local, remote and cloud compute. Users can delegate agentic work to Windows VDIs, local or remote machines, and cloud agents. This is orchestration and application-delivery work across enterprise compute, not evidence of owning GPU fleets, datacenter facilities or hardware procurement."
+        "title": "Shared compute and self-hosted open models",
+        "text": "Enabled shared access to self-hosted open models and compute through on-premises orchestration, connecting local, remote and cloud environments. Teams and agents can reuse model access and delegate execution without managing the underlying complexity. The candidate confirms self-hosted model deployment and names Kimi and GLM as model-family examples across the broader work discussed. Users can also delegate agentic work to Windows VDIs, local or remote machines, and cloud agents. This is orchestration and application-delivery work across enterprise compute, not evidence of owning GPU fleets, datacenter facilities or hardware procurement."
       },
       {
         "id": "buzz-collaboration",
@@ -414,8 +416,8 @@
   ],
   "frontierAgenda": [
     {
-      "topic": "AI factories and shared compute",
-      "status": "Community-shared compute means hosting an open-weight model on contributed hardware and making inference available to authorized community members through Buzz. This is Osmar’s target for his community. Open-source agent software and locally hosted model weights are separate layers. A Grok-backed cloud demo must be labeled Grok; it is not evidence of self-hosted GLM, Kimi or another local model. A deployed Elygent local compute pool has not been established."
+      "topic": "Shared compute and self-hosted models",
+      "status": "Shared compute and self-hosted open models are part of Osmar’s described work at Visa and in his independent Elygent lab. He confirmed having deployed self-hosted models on September 12, 2026, after naming Kimi and GLM as examples. Shared inference gives teams and agents reusable access to hosted models and control over deployment. Exact model versions, deployment-by-employer details, serving frameworks, GPU topology, concurrency and measured cost savings were not supplied. The public community currently uses xAI-hosted Grok; separate self-hosted deployment experience does not establish a public local-model pool. This confirmation supersedes earlier evaluation-only wording for the broader self-hosting experience. Digital twins and AI ontology remain exploratory."
     },
     {
       "topic": "Digital twins and AI ontology",
@@ -439,14 +441,14 @@
     }
   ],
   "evidenceBoundaries": [
-    "Use Second Brain for shared business knowledge and plain-language names for internal initiatives. Retain V Agent (Visa super agent) as the named orchestration layer across connected Visa systems. Do not imply coverage of every Visa system.",
+    "Use Second Brain for shared business knowledge. Retain Agent Factory as the AI enablement platform name and use plain-language descriptions for other internal initiatives. Retain V Agent (Visa super agent) as the named orchestration layer across connected Visa systems. Do not imply coverage of every Visa system.",
     "Lead with business value and recognizable capabilities: Agentic Slack and human-agent collaboration, AI orchestration platforms, and AI governance and cybersecurity. Use niche implementation names for technical detail and accurate upstream attribution, not as substitutes for explaining the work.",
     "Elygent is the company Osmar founded in October 2025 and uses as an independent AI lab. Present it as hands-on experimentation and skills development, secondary to his professional career. Do not infer commercial focus, full-time startup commitments, or employment availability.",
     "Career outcomes are candidate-provided, not an independent employer audit.",
     "Role dates corrected directly by Osmar on September 10, 2026: current role October 2024; previous Director role ends September 2024. These supersede the earlier dates.",
     "3× describes reported delivery pace with the same resources; no measurement period or standardized benchmark was provided. continuous learning loop improvement refers to skills and shared knowledge, not model-weight training.",
     "Elygent is an independent AI platform company founded by Osmar in October 2025. Revenue, headcount and commercial adoption metrics were not supplied; Visa adoption figures do not apply to it.",
-    "Private-cloud evidence supports service use and application delivery, not ownership of every catalog service. Shared community compute remains exploration.",
+    "Private-cloud evidence supports service use and application delivery, not ownership of every catalog service. Self-hosted model deployment is candidate-confirmed; this does not establish self-hosted inference in the public demo community.",
     "The supplied record does not establish GPU-fleet, facilities, RFP or infrastructure-budget ownership.",
     "Education is Finance with a Mathematics minor; no engineering degree is claimed.",
     "Capacity controls are hypothetical design exercises, not production telemetry.",
@@ -473,7 +475,7 @@
       "Review Lead"
     ],
     "communityVisibility": "Public demo community; participant posts are visible to all participants",
-    "communityInference": "Grok 4.6 in xAI cloud; local open-weight shared compute is planned",
+    "communityInference": "Grok 4.6 in xAI cloud; separate self-hosted model work is not this public demo’s inference backend",
     "profile": "https://osmarmorales.io/api/portfolio",
     "projects": "https://osmarmorales.io/api/portfolio/projects",
     "experience": "https://osmarmorales.io/api/portfolio/experience",

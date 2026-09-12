@@ -8,7 +8,7 @@ export const visaPlatform = {
   leadership:
     'Led 15+ people and orchestrated hundreds of agents, both deployed and running concurrently. Candidate-confirmed September 12, 2026; no exact concurrency peak, duration or reporting-line breakdown was supplied. This is separate from the earlier seven-person data engineering team and six-person AI workstream.',
   summary:
-    'Created an AI enablement platform to transform data-science teams into an AI-native organization, standardizing business workflows and enabling 3× delivery pace with the same resources. Built locally and adopted globally by 500+ total users across five regions and multiple teams at Visa.',
+    'Created Agent Factory to transform data-science teams into an AI-native organization, standardizing business workflows and enabling 3× delivery pace with the same resources. Built locally and adopted globally by 500+ total users across five regions and multiple teams at Visa.',
   delivery: {
     display: '3×',
     measure: 'delivery pace',
@@ -34,8 +34,8 @@ export const visaPlatform = {
     },
     {
       id: 'distributed-compute',
-      title: 'Local, remote and cloud execution',
-      text: 'Centralized orchestration on premises while connecting local, remote and cloud compute. Users can delegate agentic work to Windows VDIs, local or remote machines, and cloud agents. This is orchestration and application-delivery work across enterprise compute, not evidence of owning GPU fleets, datacenter facilities or hardware procurement.',
+      title: 'Shared compute and self-hosted open models',
+      text: 'Enabled shared access to self-hosted open models and compute through on-premises orchestration, connecting local, remote and cloud environments. Teams and agents can reuse model access and delegate execution without managing the underlying complexity. The candidate confirms self-hosted model deployment and names Kimi and GLM as model-family examples across the broader work discussed. Users can also delegate agentic work to Windows VDIs, local or remote machines, and cloud agents. This is orchestration and application-delivery work across enterprise compute, not evidence of owning GPU fleets, datacenter facilities or hardware procurement.',
     },
     {
       id: 'buzz-collaboration',
