@@ -118,10 +118,6 @@ export default function EvidenceDashboard({
               </div>
             </div>
             <div className="console-note">
-              <span>
-                Candidate-confirmed total users · September 2026 · Not a
-                daily-active or concurrency measure.
-              </span>
               <a href="/portfolio-evidence.txt">
                 Read the evidence <ArrowUpRight size={12} />
               </a>
