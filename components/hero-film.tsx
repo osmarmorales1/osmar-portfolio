@@ -260,17 +260,6 @@ export default function HeroFilm({
           </button>
         )}
       </div>
-      <figcaption className="hero-film-caption">
-        <div className="hero-film-caption-copy">
-          <span className="hero-film-chapter">
-            {reduced ? 'Platform observatory' : frame.chapter}
-          </span>
-          <span>Example dashboard</span>
-        </div>
-      </figcaption>
-      <div className="hero-film-progress" aria-hidden="true">
-        <span />
-      </div>
       <p id={descriptionId} className="hero-film-description">
         A short illustrative app film shows a typed request, then a light
         software delivery dashboard. Desktop playback keeps the complete window

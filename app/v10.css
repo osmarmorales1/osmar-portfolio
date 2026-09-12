@@ -135,7 +135,7 @@
   max-width: 1280px;
   min-width: 0;
   height: auto;
-  margin: 58px auto -24px;
+  margin: 58px auto 0;
   padding: 0;
   overflow: visible;
   transform: none;
@@ -854,19 +854,10 @@
   .aside-portfolio .hero-app-stage {
     width: clamp(440px, 125vw, 600px);
     min-width: 0;
-    margin: 42px 0 -10px 31px;
+    margin: 42px 0 0 31px;
     padding: 0;
     overflow: visible;
     transform: none;
-  }
-  .aside-portfolio .hero-film-caption {
-    width: calc(100vw - 72px);
-    padding-inline: 0;
-    margin-inline: 0;
-  }
-  .aside-portfolio .hero-film-progress {
-    width: calc(100vw - 72px);
-    margin-inline: 0;
   }
   .aside-portfolio .aside-capabilities {
     padding-inline: 32px;
@@ -943,7 +934,9 @@
   align-items: stretch;
   padding: 24px;
 }
-.aside-portfolio .lab-experiences :is(.lab-browser-frame, .computer-preview-window) {
+.aside-portfolio
+  .lab-experiences
+  :is(.lab-browser-frame, .computer-preview-window) {
   display: flex;
   flex-direction: column;
   flex: 1;

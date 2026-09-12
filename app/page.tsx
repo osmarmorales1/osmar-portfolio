@@ -382,7 +382,7 @@ export default function Home() {
         <section className="aside-hero">
           <img
             className="aside-sky"
-            src="/v13/hero-sparse-clouds.webp"
+            src="/v14/hero-small-clouds.webp"
             alt=""
             width="1672"
             height="941"

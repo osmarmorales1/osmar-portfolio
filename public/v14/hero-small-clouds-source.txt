@@ -1,0 +1,7 @@
+Original hero sky edited with built-in ImageGen, September 12, 2026.
+
+Use case: lighting-weather
+Asset type: wide portfolio hero sky background.
+Input image: Image 1 is the edit target. Preserve its wide aspect ratio, exact bright cyan-to-light-cyan sky direction, airy photographic cloud style, lighting, and clean open mood.
+Primary request: Add FOUR small, isolated, soft white cloud puffs to the existing two-cloud composition, for SIX clouds total. The added puffs must be SMALL: each approximately 5–9 percent of the canvas width, with delicate feathery edges. Keep the two existing clouds approximately their current size and position. Add puffs around (x=20%, y=25%), (x=44%, y=13%), (x=57%, y=37%), and (x=83%, y=46%). This ensures little clouds remain visible in a centered mobile crop while leaving the main central headline area at y=48–70% clear.
+Constraints: Clear bright cyan sky must occupy the vast majority of the canvas. All clouds airy, isolated, separated by substantial empty blue sky. Preserve spaciousness and original color palette. No giant clouds, no dense cloud banks, no storm clouds, no horizon, no objects, no text, no logos, no UI, no watermark. Only add these small white puffs.

@@ -17,13 +17,13 @@ const career = [
     '2024 — NOW',
     'Visa',
     'Director, AI Agent Platform',
-    'Created Agent Factory; enabled 3× delivery pace. Lead a team of 10.',
+    'Created Agent Factory; enabled 3× delivery pace. Led 9 people.',
   ],
   [
     '2020 — 2024',
     'Visa',
     'Director, Data Engineering',
-    'Built end-to-end automation for petabyte-scale data. Led 7 data engineers.',
+    'Built petabyte-scale data automation. Led 7 engineers, including remote colleagues in Mexico and India.',
   ],
   [
     '2018 — 2020',

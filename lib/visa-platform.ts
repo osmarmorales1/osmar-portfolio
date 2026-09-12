@@ -6,7 +6,7 @@ export const visaPlatform = {
   roleStart: '2024-10',
   previousRoleEnd: '2024-09',
   leadership:
-    'Leads a team of 10 in the AI Agent Platform Director role and deploys and orchestrates hundreds of agents, including concurrent execution. Team size corrected directly by Osmar on September 12, 2026; this supersedes earlier broader-team wording. The Data Engineering Director role led 7 people. Reporting-line structure and exact agent concurrency peak were not supplied.',
+    'Led 9 people; hundreds of agents deployed and running concurrently. This is the latest candidate-requested leadership wording, September 12, 2026. Data Engineering leadership covered 7 engineers, with remote colleagues in Mexico and India. Preserve the past-tense leadership claim; do not infer a current direct-report count, an exact concurrency peak or country-by-country headcounts.',
   summary:
     'Created Agent Factory to turn data-science teams into AI-native builders, enabling 3× delivery pace with the same resources through reusable automation, shared knowledge and agents. Built locally and adopted globally by 500+ total users across five regions and multiple teams at Visa.',
   delivery: {

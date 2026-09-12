@@ -50,7 +50,7 @@ const records = [
   {
     id: 'business-impact-and-leadership',
     title: 'Business impact and human-agent leadership',
-    text: 'Osmar leads a team of 10 in the AI Agent Platform Director role and led 7 data engineers in the preceding Director role. These direct September 12, 2026 corrections supersede earlier broader-team and concurrent-project descriptions. He deploys and orchestrates hundreds of agents, both deployed and running concurrently; no exact concurrency benchmark or direct-report structure was supplied. He built end-to-end automation for petabyte-scale data: pipelines, transformations and recurring data processes. Present this as engineering ownership and repeatable business capability, not ownership of all Visa data or an invented daily volume. Prior supplied evidence supports weeks-to-hours analytics preparation and faster model preparation; do not stretch it into months-to-hours or a literal 10× result. Earlier FedEx reporting covered a $1.5B business and TracFone analytical work covered 25M subscribers; these are business scope, not revenue or customer acquisition attributed to Osmar.',
+    text: 'Osmar’s latest requested AI Agent Platform scope is Led 9 people; hundreds of agents deployed and running concurrently. The preceding Data Engineering Director role led 7 data engineers, with remote colleagues in Mexico and India. These September 12, 2026 wording corrections supersede earlier recruiter-copy team descriptions. He deploys and orchestrates hundreds of agents, both deployed and running concurrently; no exact concurrency benchmark or direct-report structure was supplied. He built end-to-end automation for petabyte-scale data: pipelines, transformations and recurring data processes. Present this as engineering ownership and repeatable business capability, not ownership of all Visa data or an invented daily volume. Prior supplied evidence supports weeks-to-hours analytics preparation and faster model preparation; do not stretch it into months-to-hours or a literal 10× result. Earlier FedEx reporting covered a $1.5B business and TracFone analytical work covered 25M subscribers; these are business scope, not revenue or customer acquisition attributed to Osmar.',
     source:
       'Direct role-specific team corrections and petabyte-scale automation description, September 12, 2026. Other scope and outcomes from the supplied career record.',
   },
@@ -209,7 +209,7 @@ await writeFile(
   new URL('../public/portfolio-evidence.json', import.meta.url),
   JSON.stringify(
     {
-      version: '2026-09-12-operating-model',
+      version: '2026-09-12-distributed-leadership',
       records,
       limits: records.at(-1).text,
     },
