@@ -62,9 +62,9 @@ const apps = [
     name: 'Paperclip',
     icon: Workflow,
     color: '#677cc2',
-    role: 'Agent orchestrator',
+    role: 'AI orchestration platform',
     detail:
-      'The orchestration backend: ownership, delegation, and accountable execution.',
+      'Delegate work across agents with clear ownership, tracking and review.',
   },
   {
     name: 'Hermes',
@@ -150,7 +150,7 @@ const apps = [
     color: '#397d9f',
     role: 'Application infrastructure',
     detail:
-      'Redis and PostgreSQL support the independent Buzz deployment in Elygent.',
+      'Redis and PostgreSQL support Elygent’s human–agent communication system.',
   },
   {
     name: 'OpenClaw',
@@ -208,7 +208,7 @@ const productScreens = [
   },
   {
     id: 'buzz',
-    name: 'Agentic Slack · Buzz',
+    name: 'Agentic Slack',
     task: 'Work together, in the same conversation.',
     title: 'Agentic Slack.',
     description:
@@ -218,9 +218,9 @@ const productScreens = [
   },
   {
     id: 'paperclip',
-    name: 'Agent orchestrator · Paperclip',
+    name: 'AI orchestration platform',
     task: 'Turn the goal into accountable work.',
-    title: 'Agent orchestration.',
+    title: 'AI orchestration.',
     description:
       'Turn goals into delegated tasks with clear ownership and review.',
     image: '/v5/paperclip-light-app.png',
@@ -474,7 +474,7 @@ export default function Home() {
               </fieldset>
             </div>
             <div className="app-selection" aria-live="polite">
-              <strong>{apps[selectedApp].name}</strong>
+              <strong>{apps[selectedApp].role}</strong>
               <span>{apps[selectedApp].detail}</span>
             </div>
             <p className="centered-copy">

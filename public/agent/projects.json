@@ -6,12 +6,12 @@
       "id": "factory",
       "name": "Agent Factory",
       "context": "VISA · ENTERPRISE AI",
-      "ownership": "Led 15+ people and orchestrated hundreds of agents, including concurrent execution. Created and operate Agent Factory: V Agent simplifies business-user adoption across platforms and tools; VCA Brain lets teams build on shared project knowledge; the AI Loop standardizes recurring work through reusable skills. Connected local, remote, cloud and Windows VDI execution through on-premises orchestration.",
+      "ownership": "Led 15+ people and orchestrated hundreds of agents, including concurrent execution. Created an AI enablement platform (Agent Factory) with a unified interface (V Agent), shared business memory (VCA Brain) and a continuous learning loop for reusable skills. Connected local, remote, cloud and Windows VDI execution so teams can delegate without managing the underlying systems.",
       "decisions": [
         "Capture business workflows as skills; learn from recurring patterns and recommend relevant skills at runtime.",
-        "Use VCA Brain to share project context and observations so teams build on collective knowledge.",
-        "Make V Agent the simple entry to distributed execution, including agents working for hours and days.",
-        "Build Agentic Slack on Buzz for human–agent communication; retain scoped access, Numbat monitoring and human review."
+        "Share project context and observations so teams build on collective knowledge instead of repeating discovery.",
+        "Give business users one simple way to delegate across platforms, including agents working for hours and days.",
+        "Connect people and agents through Agentic Slack; support long-running work with security monitoring, scoped access and human review."
       ],
       "outcome": "Transformed data-science teams into an AI-native organization; enabled 3× delivery pace with the same resources. Built locally and adopted globally by 500+ total users across five regions and multiple teams at Visa.",
       "stage": "Candidate-confirmed September 2026. 3× refers to delivery pace with the same resources; its measurement period was not supplied. 500+ means total users.",
@@ -35,23 +35,24 @@
       "id": "elygent",
       "name": "Elygent",
       "context": "FOUNDED COMPANY · AI PLATFORM",
-      "ownership": "Founded Elygent and lead its product and platform architecture on open-source foundations. Built Agentic Slack on Buzz for human-agent communication and collaboration, with Paperclip as the agent orchestration backend. Built LLM-agnostic and harness-agnostic integrations through APIs, CLIs and MCP so tools, skills and knowledge can be reused across coding agents and business workflows. Cybersecurity work includes scoped access, isolated execution and candidate-confirmed Numbat deployment. Configured integrations include Claude Code, Codex and other harnesses; this is interoperability, not a guarantee of identical behavior across every runtime.",
+      "ownership": "Founded Elygent to make complex work easier to delegate. Built a human–agent communication system and AI orchestration platform on open-source foundations, connecting conversations to accountable work. LLM-agnostic and harness-agnostic integrations through APIs, CLIs and MCP let teams reuse tools, skills and knowledge across workflows. AI governance and cybersecurity include scoped access, security monitoring, isolated execution and human review.",
       "decisions": [
         "Make delegation simple while connecting the right agents, tools and knowledge behind it.",
         "Carry useful context across workflows while preserving personal and business boundaries.",
         "Ship working experiences and validate the real model-to-tool path before expanding capabilities."
       ],
-      "outcome": "Launched a public cloud-agent lab on Linux VPS and an Agentic Slack community powered by native Buzz. Visitors can experience human-agent collaboration, shared communication, computer use through browser automation and human review; the company’s broader platform connects conversations to governed, accountable work.",
-      "stage": "Elygent is an independent company founded by Osmar in October 2025, confirmed September 2026. Its public lab and native community are live; Visa adoption metrics do not describe Elygent.",
+      "outcome": "Launched a public cloud-agent lab on Linux VPS and an Agentic Slack community. Visitors can delegate research, follow specialist handoffs and review browser execution; the broader platform connects human–agent collaboration to governed, accountable work.",
+      "stage": "Elygent is an independent company founded by Osmar in October 2025, confirmed September 2026. Implementation: Buzz for communication, Paperclip for orchestration and Numbat for security monitoring. Its public lab and native community are live; Visa adoption metrics do not describe Elygent.",
       "evidenceUrl": "https://osmarmorales.io/Osmar_Morales_Elygent_Technical_Brief.pdf"
     }
   ],
   "evidenceBoundaries": [
+    "Lead with business value and recognizable capabilities: Agentic Slack and human-agent collaboration, AI orchestration platforms, and AI governance and cybersecurity. Use niche implementation names for technical detail and accurate upstream attribution, not as substitutes for explaining the work.",
     "Career outcomes are candidate-provided, not an independent employer audit.",
     "Role dates corrected directly by Osmar on September 10, 2026: current role October 2024; previous Director role ends September 2024. These supersede the earlier dates.",
     "3× describes reported delivery pace with the same resources; no measurement period or standardized benchmark was provided. AI Loop improvement refers to skills and shared knowledge, not model-weight training.",
     "Elygent is an independent AI platform company founded by Osmar in October 2025. Revenue, headcount and commercial adoption metrics were not supplied; Visa adoption figures do not apply to it.",
-    "Private-cloud evidence supports service use and application delivery, not ownership of every catalog service. Shared Buzz compute remains exploration.",
+    "Private-cloud evidence supports service use and application delivery, not ownership of every catalog service. Shared community compute remains exploration.",
     "The supplied record does not establish GPU-fleet, facilities, RFP or infrastructure-budget ownership.",
     "Education is Finance with a Mathematics minor; no engineering degree is claimed.",
     "Capacity controls are hypothetical design exercises, not production telemetry.",

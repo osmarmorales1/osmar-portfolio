@@ -80,24 +80,24 @@ const groups = {
     ],
     [
       'CI/CD & cybersecurity',
-      'GitHub · Jenkins · Azure DevOps · Numbat monitoring · Scoped access',
+      'GitHub · Jenkins · Azure DevOps · Security monitoring · Scoped access',
       Code2,
     ],
   ],
   elygent: [
     [
       'Human–agent collaboration',
-      'Agentic Slack on Buzz · Paperclip orchestration · OpenClaw · Hermes',
+      'Agentic Slack · AI orchestration · Long-running agents · Human review',
       Network,
     ],
     [
       'Knowledge & methods',
-      'GBrain · Agentic retrieval · Relationships · GStack',
+      'Shared memory · Agentic retrieval · Reusable skills · Knowledge provenance',
       Database,
     ],
     [
       'Connected capabilities',
-      'Node.js · Python · MCP · Composio · OAuth',
+      'Node.js · Python · APIs · CLIs · MCP · OAuth',
       Workflow,
     ],
     [
@@ -111,7 +111,7 @@ const groups = {
     ['Edge & hosting', 'Vercel · Custom domain · HTTPS', Network],
     [
       'Agent execution',
-      'OpenClaw · Chromium · Linux containers · Node.js',
+      'Agent runtimes · Browser automation · Linux containers · Node.js',
       Server,
     ],
     [

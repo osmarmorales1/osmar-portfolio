@@ -13,16 +13,25 @@ import {
 } from '../lib/infrastructure-data.ts';
 const records = [
   {
+    id: 'capability-first-positioning',
+    title: 'Business value and capabilities before implementation names',
+    text: 'Describe Osmar’s work first through recognizable capabilities and business value: Agentic Slack for human-agent communication and collaboration, AI orchestration platforms for delegated execution, and AI governance and cybersecurity for controlled agent operation. Use Buzz, Paperclip and Numbat in implementation details or attribution when relevant. These names should not replace an explanation of the systems he designed, integrated and deployed; do not imply authorship of upstream open-source products or unverified security guarantees.',
+    source:
+      'Direct candidate positioning correction, September 12, 2026; preserves existing implementation provenance and evidence boundaries.',
+  },
+  {
     id: 'business-impact-and-leadership',
     title: 'Business impact and human-agent leadership',
     text: 'Osmar confirms leading 15+ people at Visa and orchestrating hundreds of agents, both deployed and running concurrently. This is candidate-reported scope, not an audited concurrency benchmark or a statement that all people are direct reports. It is distinct from the earlier seven data engineers and six-person AI workstream. His supplied career evidence also reports feature-store creation reduced from one week to 12 hours and benchmarking from 1–3 days to 1–3 hours in Data Engineering; analytics cubes from three weeks to five hours and core refresh from days to three hours in Data Analytics. These are operational efficiency outcomes; do not convert them into invented dollar savings, revenue or employee reductions. Earlier FedEx reporting covered a $1.5B business and TracFone analytical work covered 25M subscribers; these are business scope, not revenue or customer acquisition attributed to Osmar.',
-    source: 'Direct leadership and concurrent-agent confirmation, September 12, 2026. Operational and earlier-career scope from candidate-supplied career materials, reviewed against the existing source evidence; no new employer audit.',
+    source:
+      'Direct leadership and concurrent-agent confirmation, September 12, 2026. Operational and earlier-career scope from candidate-supplied career materials, reviewed against the existing source evidence; no new employer audit.',
   },
   {
     id: 'agent-interoperability-stack',
     title: 'A2A and the LangChain ecosystem',
     text: 'Osmar includes A2A and the LangChain ecosystem in his AI engineering stack. A2A denotes the Agent2Agent interoperability protocol; LangChain denotes the agent-development ecosystem. This is candidate-listed technical scope. No specific A2A deployment, LangGraph architecture, LangSmith evaluation result or production-performance claim was supplied. The site uses the requested ChatGPT app icon; references to Codex coding harnesses remain valid distinct tooling references.',
-    source: 'Direct candidate addition, September 12, 2026; terminology checked against https://a2a-protocol.org/latest/ and https://www.langchain.com/langchain .',
+    source:
+      'Direct candidate addition, September 12, 2026; terminology checked against https://a2a-protocol.org/latest/ and https://www.langchain.com/langchain .',
   },
   {
     id: 'global-adoption',
@@ -33,8 +42,8 @@ const records = [
   },
   {
     id: 'agentic-slack-cybersecurity',
-    title: 'Agentic Slack, human-agent communication and cybersecurity',
-    text: 'Osmar built the integration and communication experience described as Agentic Slack on Buzz: people and agents share channels, context and delegated work. Paperclip is the agent orchestration backend. This credits his system design, integration and deployment, not authorship of upstream Buzz, Paperclip or Slack. Cybersecurity scope includes identity-scoped access, isolated agent execution, approval boundaries and auditability. Osmar directly confirms Numbat deployment at both Visa and Elygent. Numbat provides agent-activity visibility and local detection; upstream blocking is opt-in on supported synchronous hooks and shipped rules are monitor-only. No specific enforcement mode, complete harness coverage, certification, penetration-test result or guarantee of safe uninterrupted autonomy was supplied. The public demo community remains visible to its participants; do not describe public posts as confidential.',
+    title: 'Agentic Slack, AI orchestration and agent cybersecurity',
+    text: 'Osmar built an Agentic Slack communication layer where people and agents share channels, context and delegated work, connected to an AI orchestration backend for accountable execution. The implementation uses Buzz for collaboration and Paperclip for orchestration. This credits his system design, integration and deployment, not authorship of upstream Buzz, Paperclip or Slack. AI governance and cybersecurity scope includes identity-scoped access, isolated agent execution, approval boundaries, auditability and security monitoring. Osmar directly confirms deploying Perplexity Numbat at both Visa and Elygent. It provides agent-activity visibility and local detection; upstream blocking is opt-in on supported synchronous hooks and shipped rules are monitor-only. No specific enforcement mode, complete harness coverage, certification, penetration-test result or guarantee of safe uninterrupted autonomy was supplied. The public demo community remains visible to its participants; do not describe public posts as confidential.',
     source:
       'Direct candidate confirmation in the current portfolio revision, September 2026; reviewed Elygent security/integration evidence and portfolio runtime controls. Numbat scope checked against https://github.com/perplexityai/numbat . Earlier evaluation-only references are superseded by the candidate’s deployment confirmation, not by a new operational audit.',
   },
@@ -135,7 +144,7 @@ const records = [
       cases[2].ownership +
       ' ' +
       cases[2].outcome +
-      ' The platform combines OpenClaw for conversation/runtime UX, Paperclip for accountable work, Hermes for selected persistent workers, GBrain for curated knowledge, GStack for the separate Software Factory delivery method, and Buzz for collaboration. Elygent owns identity, policy, capability routing and evidence. It uses model-agnostic integration, choosing existing components for their strengths.',
+      ' The platform connects assistant interfaces, AI orchestration, long-running agents, shared knowledge and human-agent collaboration. Implementation includes OpenClaw for conversation/runtime UX, Paperclip for accountable work, Hermes for selected persistent workers, GBrain for curated knowledge, GStack for the separate Software Factory delivery method, and Buzz for collaboration. Elygent owns identity, policy, capability routing and evidence. It uses model-agnostic integration, choosing existing components for their strengths.',
     source:
       'Osmar confirmed in September 2026 that Elygent is a company he founded in October 2025. Product capabilities are supported by the reviewed platform and public deployments; no commercial traction metrics were supplied.',
   },
@@ -171,7 +180,11 @@ await writeFile(
 await writeFile(
   new URL('../public/portfolio-evidence.json', import.meta.url),
   JSON.stringify(
-    { version: '2026-09-12-business-value', records, limits: records.at(-1).text },
+    {
+      version: '2026-09-12-capability-first',
+      records,
+      limits: records.at(-1).text,
+    },
     null,
     2,
   ) + '\n',

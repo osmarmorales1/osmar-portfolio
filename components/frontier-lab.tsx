@@ -135,12 +135,12 @@ export default function FrontierLab({
         <span>HUMAN–AGENT COLLABORATION</span>
         <h3>Agentic Slack.</h3>
         <p>
-          I built a communication layer on Buzz where people and agents share
-          channels, context and delegated work.
+          I built a human–agent communication system that connects shared
+          conversations to delegated work.
         </p>
         <p className="community-security">
-          Cybersecurity: Numbat monitoring, scoped access and isolated
-          execution.
+          AI governance &amp; cybersecurity: security monitoring, scoped access
+          and isolated execution for long-running agents.
         </p>
         <div className="native-community-preview">
           <div className="native-community-mark">
@@ -227,8 +227,8 @@ export default function FrontierLab({
       </div>
       <p className="lab-scope">
         The cloud agent uses an isolated guest session. The computer prepares
-        work for review and stops before checkout. Buzz participation happens in
-        the native app.
+        work for review and stops before checkout. Community participation
+        happens in the native app.
       </p>
       <div className="agent-readable">
         <Braces size={29} />

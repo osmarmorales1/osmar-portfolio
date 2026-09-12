@@ -35,19 +35,19 @@ export const cases = [
     problem:
       'Individual AI experiments fragment workflows and knowledge. Business users need the capability without having to operate multiple tools, models and compute environments.',
     ownership:
-      'Led 15+ people and orchestrated hundreds of agents, including concurrent execution. Created and operate Agent Factory: V Agent simplifies business-user adoption across platforms and tools; VCA Brain lets teams build on shared project knowledge; the AI Loop standardizes recurring work through reusable skills. Connected local, remote, cloud and Windows VDI execution through on-premises orchestration.',
+      'Led 15+ people and orchestrated hundreds of agents, including concurrent execution. Created an AI enablement platform (Agent Factory) with a unified interface (V Agent), shared business memory (VCA Brain) and a continuous learning loop for reusable skills. Connected local, remote, cloud and Windows VDI execution so teams can delegate without managing the underlying systems.',
     decisions: [
       'Capture business workflows as skills; learn from recurring patterns and recommend relevant skills at runtime.',
-      'Use VCA Brain to share project context and observations so teams build on collective knowledge.',
-      'Make V Agent the simple entry to distributed execution, including agents working for hours and days.',
-      'Build Agentic Slack on Buzz for human–agent communication; retain scoped access, Numbat monitoring and human review.',
+      'Share project context and observations so teams build on collective knowledge instead of repeating discovery.',
+      'Give business users one simple way to delegate across platforms, including agents working for hours and days.',
+      'Connect people and agents through Agentic Slack; support long-running work with security monitoring, scoped access and human review.',
     ],
     outcome:
       'Transformed data-science teams into an AI-native organization; enabled 3× delivery pace with the same resources. Built locally and adopted globally by 500+ total users across five regions and multiple teams at Visa.',
     tags: [
       'AI-native transformation',
       'Reusable skills / AI Loop',
-      'VCA Brain / V Agent',
+      'Shared memory / orchestration',
       'Distributed agents',
     ],
     note: 'Candidate-confirmed September 2026. 3× refers to delivery pace with the same resources; its measurement period was not supplied. 500+ means total users.',
@@ -60,7 +60,8 @@ export const cases = [
     title: 'Make delivery\nrepeatable.',
     metric: '1k+',
     unit: 'repositories migrated',
-    summary: 'Faster model preparation and client insights, with continuity through modernization.',
+    summary:
+      'Faster model preparation and client insights, with continuity through modernization.',
     problem:
       'Fragmented delivery creates repeated work and makes platform changes harder to coordinate across teams.',
     ownership:
@@ -88,21 +89,21 @@ export const cases = [
     problem:
       'Using more AI tools can fragment knowledge, permissions, and execution. People should not need to manage that complexity themselves.',
     ownership:
-      'Founded Elygent and lead its product and platform architecture on open-source foundations. Built Agentic Slack on Buzz for human-agent communication and collaboration, with Paperclip as the agent orchestration backend. Built LLM-agnostic and harness-agnostic integrations through APIs, CLIs and MCP so tools, skills and knowledge can be reused across coding agents and business workflows. Cybersecurity work includes scoped access, isolated execution and candidate-confirmed Numbat deployment. Configured integrations include Claude Code, Codex and other harnesses; this is interoperability, not a guarantee of identical behavior across every runtime.',
+      'Founded Elygent to make complex work easier to delegate. Built a human–agent communication system and AI orchestration platform on open-source foundations, connecting conversations to accountable work. LLM-agnostic and harness-agnostic integrations through APIs, CLIs and MCP let teams reuse tools, skills and knowledge across workflows. AI governance and cybersecurity include scoped access, security monitoring, isolated execution and human review.',
     decisions: [
       'Make delegation simple while connecting the right agents, tools and knowledge behind it.',
       'Carry useful context across workflows while preserving personal and business boundaries.',
       'Ship working experiences and validate the real model-to-tool path before expanding capabilities.',
     ],
     outcome:
-      'Launched a public cloud-agent lab on Linux VPS and an Agentic Slack community powered by native Buzz. Visitors can experience human-agent collaboration, shared communication, computer use through browser automation and human review; the company’s broader platform connects conversations to governed, accountable work.',
+      'Launched a public cloud-agent lab on Linux VPS and an Agentic Slack community. Visitors can delegate research, follow specialist handoffs and review browser execution; the broader platform connects human–agent collaboration to governed, accountable work.',
     tags: [
       'MCP / APIs',
       'Linux / Docker',
       'Agentic Slack / orchestration',
-      'Cybersecurity / Numbat',
+      'AI governance / cybersecurity',
     ],
-    note: 'Elygent is an independent company founded by Osmar in October 2025, confirmed September 2026. Its public lab and native community are live; Visa adoption metrics do not describe Elygent.',
+    note: 'Elygent is an independent company founded by Osmar in October 2025, confirmed September 2026. Implementation: Buzz for communication, Paperclip for orchestration and Numbat for security monitoring. Its public lab and native community are live; Visa adoption metrics do not describe Elygent.',
     file: '/Osmar_Morales_Elygent_Technical_Brief.pdf',
   },
 ];

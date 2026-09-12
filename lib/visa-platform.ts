@@ -24,12 +24,12 @@ export const visaPlatform = {
     },
     {
       id: 'v-agent',
-      title: 'V Agent: one way to delegate',
-      text: 'Built V Agent, Visa’s super agent; V stands for Visa. It packages agents and connects deployed platforms, surfaces and tools through one simplification layer. It orchestrates across Buzz, Paperclip, cloud agents and OpenClaw assistant instances, giving business users one simple way to delegate without managing the underlying systems. This definition was explicitly corrected by Osmar on September 10, 2026.',
+      title: 'AI orchestration: one way to delegate',
+      text: 'Built a super-agent simplification layer that gives business users one way to delegate across platforms, surfaces and tools without managing the underlying systems. Named V Agent, Visa’s super agent; V stands for Visa. It connects human-agent collaboration, the AI orchestration backend, cloud agents and assistant instances, implemented across Buzz, Paperclip and OpenClaw. This definition was explicitly corrected by Osmar on September 10, 2026.',
     },
     {
       id: 'vca-brain',
-      title: 'VCA Brain: shared business memory',
+      title: 'Shared business memory and knowledge reuse',
       text: 'Created VCA Brain to share project context, observations and collective knowledge across people using Agent Factory. Teams and agents can discover prior work, understand what colleagues are working on and reuse learning instead of starting from zero. VCA Brain is Visa work; do not equate it with the independent Elygent GBrain deployment or imply public access to Visa knowledge.',
     },
     {
@@ -40,12 +40,12 @@ export const visaPlatform = {
     {
       id: 'buzz-collaboration',
       title: 'Agentic Slack: human–agent communication',
-      text: 'Built and deployed an Agentic Slack experience on Buzz for human-agent communication and collaboration, connecting shared channels to delegated desktop and cloud work. Paperclip serves as an agent orchestration backend. Agentic Slack is a descriptive analogy; the integration is Osmar’s work, while Buzz, Paperclip and Slack retain their own authorship and ownership. The Visa deployment is distinct from the native Buzz public demonstration.',
+      text: 'Built and deployed an Agentic Slack communication layer where people and agents share context and delegate desktop and cloud work. An AI orchestration backend turns shared-channel conversations into accountable execution. Implementation uses Buzz for collaboration and Paperclip for orchestration. Agentic Slack is a descriptive analogy; the system design, integration and deployment are Osmar’s work, while Buzz, Paperclip and Slack retain their own authorship and ownership. The Visa deployment is distinct from the public demonstration.',
     },
     {
       id: 'long-running',
-      title: 'Agents that work for hours and days',
-      text: 'Set up and operationalized long-running agents that execute for hours and days toward business objectives, with checkpointed state, isolated contexts, scoped access, independent validation and human review. Osmar confirms deploying Perplexity Numbat at Visa and Elygent for agent cybersecurity visibility. Numbat monitoring is an additional control, not a guarantee of complete threat prevention or uninterrupted execution. Specific enforcement configuration, detection coverage and performance metrics were not supplied.',
+      title: 'AI governance and cybersecurity for long-running agents',
+      text: 'Operationalized agents that work for hours and days toward business objectives, with AI governance and cybersecurity controls: checkpointed state, isolated contexts, scoped access, independent validation, human review and security monitoring. Osmar confirms deploying Perplexity Numbat at Visa and Elygent for agent-activity visibility. Monitoring is an additional control, not a guarantee of complete threat prevention or uninterrupted execution. Specific enforcement configuration, detection coverage and performance metrics were not supplied.',
     },
   ],
 };
