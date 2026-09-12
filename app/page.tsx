@@ -198,7 +198,7 @@ const brandIcons: Record<string, string> = {
 const productScreens = [
   {
     id: 'elygent',
-    name: 'Elygent',
+    name: 'AI lab',
     task: 'Bring in specialists. Show me the result.',
     title: 'Collaborative agents.',
     description:
@@ -420,8 +420,9 @@ export default function Home() {
                 work.
               </p>
               <p>
-                <strong>Built for people to use.</strong> One simple way to
-                delegate work. Elygent is the AI platform company I founded.
+                <strong>Built for humans.</strong> One simple way to delegate
+                work, with the complexity handled behind the scenes so people
+                can focus on what matters.
               </p>
               <button
                 className="black-pill intro-cloud-action"

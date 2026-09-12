@@ -42,7 +42,10 @@ export default function FrontierLab({
           <br />
           <em>Work with it.</em>
         </MotionHeading>
-        <p>A small, working window into the platforms I build.</p>
+        <p>
+          Hands-on AI experiments that deepen my skills. Built through Elygent,
+          the company I founded.
+        </p>
       </div>
       <div className="lab-experiences">
         <article>

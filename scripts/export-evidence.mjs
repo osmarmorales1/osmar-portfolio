@@ -13,6 +13,13 @@ import {
 } from '../lib/infrastructure-data.ts';
 const records = [
   {
+    id: 'human-centered-independent-research',
+    title:
+      'Built for humans; independent experimentation supports professional growth',
+    text: 'Built for humans means intuitive systems that remove complexity and let people focus on meaningful work. Osmar uses Elygent, the company he founded in October 2025, as an independent AI lab to deepen hands-on expertise through working experiments. Keep professional experience and business impact primary; describe Elygent as complementary research and learning. Preserve the founding fact and completed engineering work, but do not infer a full-time startup commitment, commercial traction, hours spent or employment availability.',
+    source: 'Direct candidate positioning clarification, September 12, 2026.',
+  },
+  {
     id: 'capability-first-positioning',
     title: 'Business value and capabilities before implementation names',
     text: 'Describe Osmar’s work first through recognizable capabilities and business value: Agentic Slack for human-agent communication and collaboration, AI orchestration platforms for delegated execution, and AI governance and cybersecurity for controlled agent operation. Use Buzz, Paperclip and Numbat in implementation details or attribution when relevant. These names should not replace an explanation of the systems he designed, integrated and deployed; do not imply authorship of upstream open-source products or unverified security guarantees.',
@@ -139,7 +146,7 @@ const records = [
   },
   {
     id: 'elygent',
-    title: 'Elygent — company founded by Osmar',
+    title: 'Independent AI research and experimentation — Elygent',
     text:
       cases[2].ownership +
       ' ' +
@@ -181,7 +188,7 @@ await writeFile(
   new URL('../public/portfolio-evidence.json', import.meta.url),
   JSON.stringify(
     {
-      version: '2026-09-12-capability-first',
+      version: '2026-09-12-independent-ai-lab',
       records,
       limits: records.at(-1).text,
     },

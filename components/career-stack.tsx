@@ -166,7 +166,10 @@ export default function CareerStack() {
             <div>
               <span>Today</span>
               <strong>Shared capability</strong>
-              <p>Agent platforms, team enablement, and Elygent.</p>
+              <p>
+                Agent platforms, team enablement, and continuous
+                experimentation.
+              </p>
             </div>
           </div>
           <p className="milestone-note">
@@ -209,7 +212,7 @@ export default function CareerStack() {
               </p>
               <TabsList aria-label="Technology context">
                 <TabsTrigger value="visa">AI engineering</TabsTrigger>
-                <TabsTrigger value="elygent">Elygent</TabsTrigger>
+                <TabsTrigger value="elygent">Independent AI lab</TabsTrigger>
                 <TabsTrigger value="sandbox">This sandbox</TabsTrigger>
               </TabsList>
             </div>
@@ -228,9 +231,9 @@ export default function CareerStack() {
                 </div>
                 <p className="stack-context">
                   {name === 'visa'
-                    ? 'Capabilities used across enterprise and founder-led AI platform work.'
+                    ? 'Capabilities used across enterprise platforms and independent AI research.'
                     : name === 'elygent'
-                      ? 'Independent Elygent integration work. Exploring digital twins and AI ontology for business workflows.'
+                      ? 'Hands-on experiments through Elygent, the company I founded to deepen my AI skills. Exploring digital twins and AI ontology for business workflows.'
                       : 'The portfolio you are using: a Vercel interface connected to a bounded agent service on a Linux VPS.'}
                 </p>
               </TabsContent>
