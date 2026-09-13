@@ -51,7 +51,7 @@ export const cases = [
       'Distributed agents',
     ],
     note: 'Candidate-confirmed September 2026. 3× refers to delivery pace with the same resources; its measurement period was not supplied. 500+ means total users.',
-    file: '/Osmar_Morales_Mastercard_Resume.pdf',
+    file: '/Osmar_Morales_Resume.pdf',
   },
   {
     id: 'mlops',
@@ -80,7 +80,7 @@ export const cases = [
       'Python / SQL',
     ],
     note: 'Career results from candidate-provided professional record.',
-    file: '/Osmar_Morales_Mastercard_Resume.pdf',
+    file: '/Osmar_Morales_Resume.pdf',
   },
   {
     id: 'elygent',

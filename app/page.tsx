@@ -303,7 +303,7 @@ export default function Home() {
         <a
           className="nav-download"
           aria-label="Download resume"
-          href="/Osmar_Morales_Mastercard_Resume.pdf"
+          href="/Osmar_Morales_Resume.pdf"
           download
         >
           Download
@@ -370,7 +370,7 @@ export default function Home() {
           </nav>
           <a
             className="black-pill"
-            href="/Osmar_Morales_Mastercard_Resume.pdf"
+            href="/Osmar_Morales_Resume.pdf"
             download
           >
             <Download size={16} />
@@ -404,7 +404,7 @@ export default function Home() {
             <div className="hero-actions">
               <a
                 className="black-pill"
-                href="/Osmar_Morales_Mastercard_Resume.pdf"
+                href="/Osmar_Morales_Resume.pdf"
                 download
               >
                 <Download size={17} />
@@ -541,7 +541,7 @@ export default function Home() {
             </MotionHeading>
             <a
               className="black-pill"
-              href="/Osmar_Morales_Mastercard_Resume.pdf"
+              href="/Osmar_Morales_Resume.pdf"
               download
             >
               Download resume <Download size={15} />
@@ -592,7 +592,7 @@ export default function Home() {
         </div>
         <div>
           <strong>Resources</strong>
-          <a href="/Osmar_Morales_Mastercard_Resume.pdf">Resume</a>
+          <a href="/Osmar_Morales_Resume.pdf">Resume</a>
           <a href="/portfolio-evidence.txt">Public evidence</a>
           <a href="/agents.html">Agent API</a>
           <a href="/llms.txt">llms.txt</a>

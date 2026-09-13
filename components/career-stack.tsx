@@ -136,7 +136,7 @@ export default function CareerStack() {
         </div>
         <a
           className="text-link"
-          href="/Osmar_Morales_Mastercard_Resume.pdf"
+          href="/Osmar_Morales_Resume.pdf"
           target="_blank"
           rel="noreferrer"
         >
