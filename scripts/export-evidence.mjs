@@ -13,6 +13,13 @@ import {
 } from '../lib/infrastructure-data.ts';
 const records = [
   {
+    id: 'shared-data-and-ai-foundations',
+    title: 'Foundations teams build on',
+    text: 'Osmar describes a consistent progression across his Visa roles. In Data Engineering, he built the shared data foundation the full data-science team used to create solutions, including end-to-end automation for global payments data at VisaNet scale. In AI Agent Platform, he built Agent Factory as the shared AI foundation that put agents beside data-science teams. Present these as enabling foundations that made other builders more capable; preserve the separately supported delivery, adoption, migration and leadership outcomes.',
+    source:
+      'Direct candidate clarification, September 14, 2026; aligned with the existing career evidence and outcome boundaries.',
+  },
+  {
     id: 'payments-scale-client-performance',
     title: 'Global payments data and client-performance enablement',
     text: 'Preferred recruiter wording is global payments data at VisaNet scale, with global-scale data automation in the general introduction. This expresses the candidate-described data context and engineering scale, not ownership of the entire VisaNet processing network or a measured transaction rate. The Data Analytics Manager role enabled faster analytics through self-service automation; connect that to VCA’s purpose of providing insights that help clients improve performance. Do not attribute Visa’s published client case-study revenue or performance percentages to Osmar.',
@@ -216,7 +223,7 @@ await writeFile(
   new URL('../public/portfolio-evidence.json', import.meta.url),
   JSON.stringify(
     {
-      version: '2026-09-12-client-performance',
+      version: '2026-09-14-foundations',
       records,
       limits: records.at(-1).text,
     },

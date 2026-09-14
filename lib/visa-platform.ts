@@ -8,7 +8,7 @@ export const visaPlatform = {
   leadership:
     'Led 9 people; hundreds of agents deployed and running concurrently. This is the latest candidate-requested leadership wording, September 12, 2026. Data Engineering leadership covered 7 engineers, with remote colleagues in Mexico and India. Preserve the past-tense leadership claim; do not infer a current direct-report count, an exact concurrency peak or country-by-country headcounts.',
   summary:
-    'Created Agent Factory to turn data-science teams into AI-native builders, enabling 3× delivery pace with the same resources through reusable automation, shared knowledge and agents. Built locally and adopted globally by 500+ total users across five regions and multiple teams at Visa.',
+    'Built Agent Factory as the shared AI foundation that put agents beside data-science teams, enabling 3× delivery pace with the same resources through reusable automation and shared knowledge. Built locally and adopted globally by 500+ total users across five regions and multiple teams at Visa.',
   delivery: {
     display: '3×',
     measure: 'delivery pace',

@@ -6,7 +6,7 @@
       "id": "factory",
       "name": "Agent Factory",
       "context": "VISA · ENTERPRISE AI",
-      "ownership": "Led 9 people; hundreds of agents deployed and running concurrently. Created Agent Factory, an AI enablement platform, with V Agent (Visa super agent) orchestrating agents, tools and workflows across connected Visa systems, a Second Brain for shared business knowledge, and a continuous learning loop for reusable skills. Connected shared compute, self-hosted open models, and local, remote, cloud and Windows VDI execution so teams can reuse model access and delegate without managing the underlying systems.",
+      "ownership": "Led 9 people; hundreds of agents deployed and running concurrently. Built Agent Factory as the shared AI foundation that put agents beside data-science teams, with V Agent (Visa super agent) orchestrating agents, tools and workflows across connected Visa systems, a Second Brain for shared business knowledge, and a continuous learning loop for reusable skills. Connected shared compute, self-hosted open models, and local, remote, cloud and Windows VDI execution so teams can reuse model access and delegate without managing the underlying systems.",
       "decisions": [
         "Capture reusable know-how from completed work and team contributions; recommend relevant skills at runtime.",
         "Assign skills to agent owners with clear triggers, inputs, measurable outcomes and handoffs.",
@@ -21,7 +21,7 @@
       "id": "mlops",
       "name": "Data automation",
       "context": "VISA · DATA & ML PLATFORMS",
-      "ownership": "Built an end-to-end data automation platform and led a team of 7 data engineers, with remote colleagues in Mexico and India. Standardized pipelines, transformations and recurring processes across global-scale payments data. Built reusable feature pipelines, model discovery and data-quality controls, then established a shared MLOps and CI/CD foundation.",
+      "ownership": "Built the shared data foundation the full data-science team used to create solutions and led a team of 7 data engineers, with remote colleagues in Mexico and India. Automated pipelines, transformations and recurring processes across global-scale payments data. Built reusable feature pipelines, model discovery and data-quality controls, then established a shared MLOps and CI/CD foundation.",
       "decisions": [
         "Automate pipelines, transformations and data processes end to end.",
         "Bring model registry, feature-store, and data-quality practices together.",

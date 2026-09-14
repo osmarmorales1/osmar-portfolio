@@ -35,7 +35,7 @@ export const cases = [
     problem:
       'Individual AI experiments fragment workflows and knowledge. Business users need the capability without having to operate multiple tools, models and compute environments.',
     ownership:
-      'Led 9 people; hundreds of agents deployed and running concurrently. Created Agent Factory, an AI enablement platform, with V Agent (Visa super agent) orchestrating agents, tools and workflows across connected Visa systems, a Second Brain for shared business knowledge, and a continuous learning loop for reusable skills. Connected shared compute, self-hosted open models, and local, remote, cloud and Windows VDI execution so teams can reuse model access and delegate without managing the underlying systems.',
+      'Led 9 people; hundreds of agents deployed and running concurrently. Built Agent Factory as the shared AI foundation that put agents beside data-science teams, with V Agent (Visa super agent) orchestrating agents, tools and workflows across connected Visa systems, a Second Brain for shared business knowledge, and a continuous learning loop for reusable skills. Connected shared compute, self-hosted open models, and local, remote, cloud and Windows VDI execution so teams can reuse model access and delegate without managing the underlying systems.',
     decisions: [
       'Capture reusable know-how from completed work and team contributions; recommend relevant skills at runtime.',
       'Assign skills to agent owners with clear triggers, inputs, measurable outcomes and handoffs.',
@@ -57,15 +57,15 @@ export const cases = [
     id: 'mlops',
     label: 'Data automation',
     kind: 'VISA · DATA & ML PLATFORMS',
-    title: 'Global payments data.\nAutomated end to end.',
+    title: 'The data foundation\nteams build on.',
     metric: 'Global',
     unit: 'payments data',
     summary:
-      'End-to-end automation for payments data at VisaNet scale: pipelines, transformations and recurring data processes.',
+      'A shared data foundation for the full data-science team, automating payments data at VisaNet scale across pipelines, transformations and recurring processes.',
     problem:
       'Across global payments data, manual data processes and fragmented pipelines slow analytics and ML delivery.',
     ownership:
-      'Built an end-to-end data automation platform and led a team of 7 data engineers, with remote colleagues in Mexico and India. Standardized pipelines, transformations and recurring processes across global-scale payments data. Built reusable feature pipelines, model discovery and data-quality controls, then established a shared MLOps and CI/CD foundation.',
+      'Built the shared data foundation the full data-science team used to create solutions and led a team of 7 data engineers, with remote colleagues in Mexico and India. Automated pipelines, transformations and recurring processes across global-scale payments data. Built reusable feature pipelines, model discovery and data-quality controls, then established a shared MLOps and CI/CD foundation.',
     decisions: [
       'Automate pipelines, transformations and data processes end to end.',
       'Bring model registry, feature-store, and data-quality practices together.',

@@ -368,11 +368,7 @@ export default function Home() {
               GitHub <ArrowUpRight size={20} />
             </a>
           </nav>
-          <a
-            className="black-pill"
-            href="/Osmar_Morales_Resume.pdf"
-            download
-          >
+          <a className="black-pill" href="/Osmar_Morales_Resume.pdf" download>
             <Download size={16} />
             Download resume
           </a>
@@ -423,9 +419,9 @@ export default function Home() {
             </a>
             <div>
               <p>
-                <strong>I build systems that multiply output.</strong> From
-                global-scale data automation to agents that work for days, I
-                turn complex work into shared capability.
+                <strong>I build the foundations teams build on.</strong> Data
+                foundations for global-scale solutions. AI foundations that put
+                agents beside the team.
               </p>
               <p>
                 <strong>Built for humans.</strong> One simple way to delegate
@@ -539,11 +535,7 @@ export default function Home() {
               <br />
               <em>team forward.</em>
             </MotionHeading>
-            <a
-              className="black-pill"
-              href="/Osmar_Morales_Resume.pdf"
-              download
-            >
+            <a className="black-pill" href="/Osmar_Morales_Resume.pdf" download>
               Download resume <Download size={15} />
             </a>
             <a className="closing-resume" href="mailto:osmarmorales1@gmail.com">

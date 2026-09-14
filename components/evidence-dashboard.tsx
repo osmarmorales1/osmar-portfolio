@@ -127,10 +127,10 @@ export default function EvidenceDashboard({
             <div className="delivery-dashboard">
               <div className="delivery-stat">
                 <GitBranch size={23} />
-                <h3>Global payments data. Automated end to end.</h3>
+                <h3>The data foundation teams build on.</h3>
                 <p>
-                  Automation at VisaNet scale for pipelines, transformations and
-                  recurring data processes.
+                  Global payments data at VisaNet scale, automated across
+                  pipelines, transformations and recurring processes.
                 </p>
               </div>
               <div

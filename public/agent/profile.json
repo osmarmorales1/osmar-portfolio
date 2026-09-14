@@ -21,7 +21,7 @@
       "Portuguese (beginner)"
     ]
   },
-  "story": "Osmar builds systems that multiply team output: global-scale data automation, Agent Factory and shared AI infrastructure. He combines hands-on engineering with leadership of AI-native teams. Elygent, the company he founded, is his independent lab for deepening AI expertise through working experiments.",
+  "story": "Osmar builds the foundations teams build on: a shared data foundation for global-scale solutions and Agent Factory as the AI foundation that puts agents beside the team. He combines hands-on engineering with leadership of AI-native teams. Elygent, the company he founded, is his independent lab for deepening AI expertise through working experiments.",
   "aspirations": [
     "Principal AI Platform Engineer",
     "Senior Director",
@@ -33,14 +33,14 @@
       "title": "Director, AI Agent Platform",
       "start": "2024-10",
       "end": null,
-      "summary": "Created Agent Factory and tripled delivery pace with the same resources for 500+ users. Led 9 people; hundreds of agents deployed and running concurrently."
+      "summary": "Built Agent Factory as the shared AI foundation that put agents beside data-science teams and tripled delivery pace with the same resources for 500+ users. Led 9 people; hundreds of agents deployed and running concurrently."
     },
     {
       "employer": "Visa",
       "title": "Director, Data Engineering",
       "start": "2020-11",
       "end": "2024-09",
-      "summary": "Built an end-to-end automation platform for global payments data at VisaNet scale and led 7 data engineers, with remote colleagues in Mexico and India. Standardized pipelines, transformations and data processes; migrated 1k+ repositories and 500+ pipelines without disrupting business workflows."
+      "summary": "Built the shared data foundation the full data-science team used to create solutions, automating global payments data at VisaNet scale across pipelines, transformations and recurring processes. Led 7 data engineers, with remote colleagues in Mexico and India; migrated 1k+ repositories and 500+ pipelines without disrupting business workflows."
     },
     {
       "employer": "Visa",
@@ -133,7 +133,7 @@
       "id": "factory",
       "name": "Agent Factory",
       "context": "VISA · ENTERPRISE AI",
-      "ownership": "Led 9 people; hundreds of agents deployed and running concurrently. Created Agent Factory, an AI enablement platform, with V Agent (Visa super agent) orchestrating agents, tools and workflows across connected Visa systems, a Second Brain for shared business knowledge, and a continuous learning loop for reusable skills. Connected shared compute, self-hosted open models, and local, remote, cloud and Windows VDI execution so teams can reuse model access and delegate without managing the underlying systems.",
+      "ownership": "Led 9 people; hundreds of agents deployed and running concurrently. Built Agent Factory as the shared AI foundation that put agents beside data-science teams, with V Agent (Visa super agent) orchestrating agents, tools and workflows across connected Visa systems, a Second Brain for shared business knowledge, and a continuous learning loop for reusable skills. Connected shared compute, self-hosted open models, and local, remote, cloud and Windows VDI execution so teams can reuse model access and delegate without managing the underlying systems.",
       "decisions": [
         "Capture reusable know-how from completed work and team contributions; recommend relevant skills at runtime.",
         "Assign skills to agent owners with clear triggers, inputs, measurable outcomes and handoffs.",
@@ -148,7 +148,7 @@
       "id": "mlops",
       "name": "Data automation",
       "context": "VISA · DATA & ML PLATFORMS",
-      "ownership": "Built an end-to-end data automation platform and led a team of 7 data engineers, with remote colleagues in Mexico and India. Standardized pipelines, transformations and recurring processes across global-scale payments data. Built reusable feature pipelines, model discovery and data-quality controls, then established a shared MLOps and CI/CD foundation.",
+      "ownership": "Built the shared data foundation the full data-science team used to create solutions and led a team of 7 data engineers, with remote colleagues in Mexico and India. Automated pipelines, transformations and recurring processes across global-scale payments data. Built reusable feature pipelines, model discovery and data-quality controls, then established a shared MLOps and CI/CD foundation.",
       "decisions": [
         "Automate pipelines, transformations and data processes end to end.",
         "Bring model registry, feature-store, and data-quality practices together.",
@@ -347,7 +347,7 @@
     "roleStart": "2024-10",
     "previousRoleEnd": "2024-09",
     "leadership": "Led 9 people; hundreds of agents deployed and running concurrently. This is the latest candidate-requested leadership wording, September 12, 2026. Data Engineering leadership covered 7 engineers, with remote colleagues in Mexico and India. Preserve the past-tense leadership claim; do not infer a current direct-report count, an exact concurrency peak or country-by-country headcounts.",
-    "summary": "Created Agent Factory to turn data-science teams into AI-native builders, enabling 3× delivery pace with the same resources through reusable automation, shared knowledge and agents. Built locally and adopted globally by 500+ total users across five regions and multiple teams at Visa.",
+    "summary": "Built Agent Factory as the shared AI foundation that put agents beside data-science teams, enabling 3× delivery pace with the same resources through reusable automation and shared knowledge. Built locally and adopted globally by 500+ total users across five regions and multiple teams at Visa.",
     "delivery": {
       "display": "3×",
       "measure": "delivery pace",

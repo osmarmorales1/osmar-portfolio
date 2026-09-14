@@ -27,7 +27,7 @@ export const publicCareer = [
     start: '2024-10',
     end: null,
     summary:
-      'Created Agent Factory and tripled delivery pace with the same resources for 500+ users. Led 9 people; hundreds of agents deployed and running concurrently.',
+      'Built Agent Factory as the shared AI foundation that put agents beside data-science teams and tripled delivery pace with the same resources for 500+ users. Led 9 people; hundreds of agents deployed and running concurrently.',
   },
   {
     employer: 'Visa',
@@ -35,7 +35,7 @@ export const publicCareer = [
     start: '2020-11',
     end: '2024-09',
     summary:
-      'Built an end-to-end automation platform for global payments data at VisaNet scale and led 7 data engineers, with remote colleagues in Mexico and India. Standardized pipelines, transformations and data processes; migrated 1k+ repositories and 500+ pipelines without disrupting business workflows.',
+      'Built the shared data foundation the full data-science team used to create solutions, automating global payments data at VisaNet scale across pipelines, transformations and recurring processes. Led 7 data engineers, with remote colleagues in Mexico and India; migrated 1k+ repositories and 500+ pipelines without disrupting business workflows.',
   },
   {
     employer: 'Visa',
@@ -222,7 +222,7 @@ export const machineProfile = {
     languages: profile.languages,
   },
   story:
-    'Osmar builds systems that multiply team output: global-scale data automation, Agent Factory and shared AI infrastructure. He combines hands-on engineering with leadership of AI-native teams. Elygent, the company he founded, is his independent lab for deepening AI expertise through working experiments.',
+    'Osmar builds the foundations teams build on: a shared data foundation for global-scale solutions and Agent Factory as the AI foundation that puts agents beside the team. He combines hands-on engineering with leadership of AI-native teams. Elygent, the company he founded, is his independent lab for deepening AI expertise through working experiments.',
   aspirations: ['Principal AI Platform Engineer', 'Senior Director', 'VP'],
   experience: publicCareer,
   milestones: [
